@@ -274,46 +274,107 @@ slide('tech-05-wvi', 'light', `
 `);
 
 // ─── 06. LOGISTIC REGRESSION & MULTI-BRANCH GBP AUDIT ───────────────────────
-slide('tech-06-econometrics', 'white', `
-  <header class="hd"><p class="eyebrow">5.0 Econometric Causal Attribution &amp; GBP Telemetry</p><h2 class="h1">Multivariate Logit Model &amp; Multi-Branch Google Maps Audit</h2></header>
-  <div class="cols-2">
-    <div>
-      <h3 class="h3">Econometric Specification</h3>
-      <p class="body-p">We model the conditional probability of a solar installer being recommended by an LLM via logistic regression across $N=280$ observations:</p>
-      <div class="math-box">
-        $$\\text{logit}\\left(P(E \\in \\text{Rec})\\right) = \\beta_0 + \\beta_1 X_{\\text{SQPlatinum}} + \\beta_2 X_{\\text{Top10SERP}} + \\beta_3 \\ln(X_{\\text{GBPReviews}} + 1)$$
+{
+  // Live Iteratively Reweighted Least Squares (IRLS / Newton-Raphson) Logistic Regression over ans_full.json (N = 280)
+  const gbpRevByMarket = { canberra: 82, national: 262, sydney: 12, melbourne: 0, brisbane: 0, adelaide: 0, perth: 0, goldcoast: 0 };
+  const X = ansFull.map(a => [
+    1,
+    a.prompt === 'platinum_reviews' ? 1 : 0,
+    (a.sources || []).some(s => /stagelectrical\.com\.au/i.test(s.domain || s.url || '')) ? 1 : 0,
+    Math.log((gbpRevByMarket[a.city] || 0) + 1)
+  ]);
+  const y = ansFull.map(a => a.firms.some(f => f.name.toLowerCase() === TARGET.toLowerCase()) ? 1 : 0);
+  const pDim = 4, nObs = X.length;
+  function invertMatrix(A) {
+    const M = A.map((r, i) => [...r, ...Array.from({ length: pDim }, (_, j) => (i === j ? 1 : 0))]);
+    for (let i = 0; i < pDim; i++) {
+      let maxRow = i;
+      for (let k = i + 1; k < pDim; k++) if (Math.abs(M[k][i]) > Math.abs(M[maxRow][i])) maxRow = k;
+      [M[i], M[maxRow]] = [M[maxRow], M[i]];
+      const piv = M[i][i];
+      for (let j = 0; j < 2 * pDim; j++) M[i][j] /= piv;
+      for (let k = 0; k < pDim; k++) if (k !== i) {
+        const f = M[k][i];
+        for (let j = 0; j < 2 * pDim; j++) M[k][j] -= f * M[i][j];
+      }
+    }
+    return M.map(r => r.slice(pDim));
+  }
+  let beta = [0, 0, 0, 0];
+  for (let iter = 0; iter < 30; iter++) {
+    const mu = X.map(row => 1 / (1 + Math.exp(-row.reduce((s, v, j) => s + v * beta[j], 0))));
+    const grad = Array(pDim).fill(0);
+    const Hmat = Array.from({ length: pDim }, () => Array(pDim).fill(0));
+    for (let i = 0; i < nObs; i++) {
+      const w = mu[i] * (1 - mu[i]);
+      for (let j = 0; j < pDim; j++) {
+        grad[j] += X[i][j] * (y[i] - mu[i]);
+        for (let k = 0; k < pDim; k++) Hmat[j][k] += w * X[i][j] * X[i][k];
+      }
+    }
+    const Hinv = invertMatrix(Hmat);
+    const step = Hinv.map(row => row.reduce((s, v, j) => s + v * grad[j], 0));
+    beta = beta.map((b, j) => b + step[j]);
+  }
+  const muFinal = X.map(row => 1 / (1 + Math.exp(-row.reduce((s, v, j) => s + v * beta[j], 0))));
+  const Hfinal = Array.from({ length: pDim }, () => Array(pDim).fill(0));
+  for (let i = 0; i < nObs; i++) {
+    const w = muFinal[i] * (1 - muFinal[i]);
+    for (let j = 0; j < pDim; j++) for (let k = 0; k < pDim; k++) Hfinal[j][k] += w * X[i][j] * X[i][k];
+  }
+  const covMat = invertMatrix(Hfinal);
+  const seVec = covMat.map((r, j) => Math.sqrt(r[j]));
+  function fmtPval(b, s) {
+    const absZ = Math.abs(b / s);
+    const t = 1 / (1 + 0.2316419 * absZ);
+    const d = 0.3989423 * Math.exp(-absZ * absZ / 2);
+    const p = 2 * d * t * (0.3193815 + t * (-0.3565638 + t * (1.781478 + t * (-1.821256 + t * 1.330274))));
+    return p < 0.0001 ? '&lt; 0.0001' : p.toFixed(4);
+  }
+  const fmtBeta = b => (b >= 0 ? `+${b.toFixed(2)}` : b.toFixed(2));
+
+  slide('tech-06-econometrics', 'white', `
+    <header class="hd"><p class="eyebrow">5.0 Econometric Causal Attribution &amp; GBP Telemetry</p><h2 class="h1">Multivariate Logit Model &amp; Multi-Branch Google Maps Audit</h2></header>
+    <div class="cols-2">
+      <div>
+        <h3 class="h3">Econometric Specification (IRLS MLE over $N=280$)</h3>
+        <p class="body-p">We estimate the conditional probability of STAG Electrical being recommended ($Y_i \\in \\{0,1\\}$) via Newton-Raphson Iteratively Reweighted Least Squares across all $N=280$ empirical cells:</p>
+        <div class="math-box">
+          $$\\text{logit}\\left(P(\\text{STAG} \\in \\text{Rec}_i)\\right) = \\beta_0 + \\beta_1 X_{\\text{SQPlatinum},i} + \\beta_2 X_{\\text{DomainCited},i} + \\beta_3 \\ln(\\text{GBPReviews}_{l(i)} + 1)$$
+        </div>
+        <h3 class="h3">Maximum Likelihood Estimates (Computed from <code>ans_full.json</code>)</h3>
+        <table class="tech-table">
+          <thead><tr><th>Covariate</th><th>$\\hat{\\beta}$ Coeff</th><th>Std Error</th><th>Odds Ratio ($e^{\\hat{\\beta}}$)</th><th>$p$-value</th></tr></thead>
+          <tbody>
+            <tr><td>$X_{\\text{DomainCited}}$ (<code>stagelectrical.com.au</code> Cited)</td><td>${fmtBeta(beta[2])}</td><td>${seVec[2].toFixed(2)}</td><td><b>${Math.exp(beta[2]).toFixed(2)}</b></td><td>${fmtPval(beta[2], seVec[2])}</td></tr>
+            <tr><td>$X_{\\text{SQPlatinum}}$ (SolarQuotes Platinum Query)</td><td>${fmtBeta(beta[1])}</td><td>${seVec[1].toFixed(2)}</td><td><b>${Math.exp(beta[1]).toFixed(2)}</b></td><td>${fmtPval(beta[1], seVec[1])}</td></tr>
+            <tr><td>$\\ln(X_{\\text{GBPReviews}} + 1)$ (Local Branch GBP Log)</td><td>${fmtBeta(beta[3])}</td><td>${seVec[3].toFixed(2)}</td><td><b>${Math.exp(beta[3]).toFixed(2)}</b></td><td>${fmtPval(beta[3], seVec[3])}</td></tr>
+            <tr><td>$\\beta_0$ (Baseline Intercept)</td><td>${fmtBeta(beta[0])}</td><td>${seVec[0].toFixed(2)}</td><td>${Math.exp(beta[0]).toFixed(4)}</td><td>${fmtPval(beta[0], seVec[0])}</td></tr>
+          </tbody>
+        </table>
       </div>
-      <h3 class="h3">Maximum Likelihood Estimates</h3>
-      <table class="tech-table">
-        <thead><tr><th>Covariate</th><th>$\\beta$ Coeff</th><th>Std Error</th><th>Odds Ratio ($e^\\beta$)</th><th>p-value</th></tr></thead>
-        <tbody>
-          <tr><td>$X_{\\text{SQPlatinum}}$ (SolarQuotes Platinum)</td><td>+2.14</td><td>0.28</td><td><b>8.50</b></td><td>&lt; 0.0001</td></tr>
-          <tr><td>$X_{\\text{Top10SERP}}$ (Google Top-10 Rank)</td><td>+1.68</td><td>0.31</td><td><b>5.37</b></td><td>&lt; 0.0001</td></tr>
-          <tr><td>$\\ln(X_{\\text{GBPReviews}} + 1)$ (Visible GBP Log)</td><td>+0.52</td><td>0.12</td><td><b>1.68</b></td><td>&lt; 0.0001</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <div>
-      <h3 class="h3">Live DataForSEO Google Maps Branch Audit (Slide 10 &amp; 24 Proof)</h3>
-      <table class="tech-table" style="font-size:11.5px;">
-        <thead><tr><th>STAG GBP Entity / Competitor</th><th>Google CID</th><th>Address Status</th><th>Rating &amp; Reviews</th></tr></thead>
-        <tbody>
-          <tr><td><b>STAG Young Regional Hub</b></td><td><code>13028632929548237826</code></td><td><code>null</code> (Hidden!)</td><td><b>4.8★ (168 reviews)</b></td></tr>
-          <tr><td><b>STAG Canberra / Queanbeyan HQ</b></td><td><code>840063358789951524</code></td><td><code>null</code> (Hidden!)</td><td><b>4.5★ (82 reviews)</b></td></tr>
-          <tr><td><b>STAG Hume ACT (Duplicate)</b></td><td><code>9860764133579467617</code></td><td>Unit 1/1 Sawmill Cct</td><td><span class="badge-danger">0 reviews (No URL)</span></td></tr>
-          <tr><td><b>STAG Sydney (Smeaton Grange)</b></td><td><code>7965264698756422651</code></td><td>5 Lone Pine Pl, NSW</td><td><b>5.0★ (12 reviews)</b></td></tr>
-          <tr><td><b>STAG Melbourne (Dandenong Sth)</b></td><td><code>4654607141300129618</code></td><td>182 Monash Dr, VIC</td><td><span class="badge-danger">0 reviews (null★)</span></td></tr>
-          <tr><td><b>STAG Brisbane (Archerfield)</b></td><td><code>675553339755521946</code></td><td>30d Kerry Rd, QLD</td><td><span class="badge-danger">0 reviews (null★)</span></td></tr>
-          <tr style="background:#FEF3C7"><td><b>Stag Solar and Electrical (QLD Rival)</b></td><td><code>10365759840758848192</code></td><td>Queensland (stag.energy)</td><td><b>5.0★ (43 reviews)</b></td></tr>
-        </tbody>
-      </table>
-      <div class="callout-card" style="margin-top:8px;background:#FEE2E2;border:1px solid #FCA5A5;padding:9px;border-radius:6px;font-size:11.5px;">
-        <b>Forensic Proof:</b> STAG’s two highest-review GBPs (Young 168★ &amp; Queanbeyan 82★) have hidden addresses (<code>address: null</code>), while Hume ACT, Melbourne, and Brisbane have <b>0 reviews</b> — explaining STAG’s 0/56 Local 3-Pack rate.
+      <div>
+        <h3 class="h3">Live DataForSEO Google Maps Branch Audit (Slide 10 &amp; 24 Proof)</h3>
+        <table class="tech-table" style="font-size:11.5px;">
+          <thead><tr><th>STAG GBP Entity / Competitor</th><th>Google CID</th><th>Address Status</th><th>Rating &amp; Reviews</th></tr></thead>
+          <tbody>
+            <tr><td><b>STAG Young Regional Hub</b></td><td><code>13028632929548237826</code></td><td><code>null</code> (Hidden!)</td><td><b>4.8★ (168 reviews)</b></td></tr>
+            <tr><td><b>STAG Canberra / Queanbeyan HQ</b></td><td><code>840063358789951524</code></td><td><code>null</code> (Hidden!)</td><td><b>4.5★ (82 reviews)</b></td></tr>
+            <tr><td><b>STAG Hume ACT (Duplicate)</b></td><td><code>9860764133579467617</code></td><td>Unit 1/1 Sawmill Cct</td><td><span class="badge-danger">0 reviews (No URL)</span></td></tr>
+            <tr><td><b>STAG Sydney (Smeaton Grange)</b></td><td><code>7965264698756422651</code></td><td>5 Lone Pine Pl, NSW</td><td><b>5.0★ (12 reviews)</b></td></tr>
+            <tr><td><b>STAG Melbourne (Dandenong Sth)</b></td><td><code>4654607141300129618</code></td><td>182 Monash Dr, VIC</td><td><span class="badge-danger">0 reviews (null★)</span></td></tr>
+            <tr><td><b>STAG Brisbane (Archerfield)</b></td><td><code>675553339755521946</code></td><td>30d Kerry Rd, QLD</td><td><span class="badge-danger">0 reviews (null★)</span></td></tr>
+            <tr style="background:#FEF3C7"><td><b>Stag Solar and Electrical (QLD Rival)</b></td><td><code>10365759840758848192</code></td><td>Queensland (stag.energy)</td><td><b>5.0★ (43 reviews)</b></td></tr>
+          </tbody>
+        </table>
+        <div class="callout-card" style="margin-top:8px;background:#FEE2E2;border:1px solid #FCA5A5;padding:9px;border-radius:6px;font-size:11.5px;">
+          <b>Forensic Proof:</b> STAG’s two highest-review GBPs (Young 168★ &amp; Queanbeyan 82★) have hidden addresses (<code>address: null</code>), while Hume ACT, Melbourne, and Brisbane have <b>0 reviews</b> — explaining STAG’s 0/56 Local 3-Pack rate.
+        </div>
       </div>
     </div>
-  </div>
-  <footer class="foot"><span class="foot-logo">${LOGO_SRC}</span><span class="foot-meta">Technical Dossier · Section 5: Econometric Attribution &amp; GBP Audit</span></footer>
-`);
+    <footer class="foot"><span class="foot-logo">${LOGO_SRC}</span><span class="foot-meta">Technical Dossier · Section 5: Econometric Attribution &amp; GBP Audit</span></footer>
+  `);
+}
 
 // ─── 07. EMPIRICAL GROUNDING & CITATION TELEMETRY ───────────────────────────
 slide('tech-07-crawl-evidence', 'light', `

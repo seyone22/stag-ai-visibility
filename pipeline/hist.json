@@ -1,110 +1,622 @@
 {
   "stagelectrical.com.au": {
     "hist": [
-      { "year": 2025, "month": 8, "metrics": { "mentions": 1, "ai_search_volume": 28 } },
-      { "year": 2025, "month": 9, "metrics": { "mentions": 2, "ai_search_volume": 36 } },
-      { "year": 2025, "month": 10, "metrics": { "mentions": 3, "ai_search_volume": 48 } },
-      { "year": 2025, "month": 11, "metrics": { "mentions": 4, "ai_search_volume": 62 } },
-      { "year": 2025, "month": 12, "metrics": { "mentions": 5, "ai_search_volume": 70 } },
-      { "year": 2026, "month": 1, "metrics": { "mentions": 6, "ai_search_volume": 85 } },
-      { "year": 2026, "month": 2, "metrics": { "mentions": 8, "ai_search_volume": 105 } },
-      { "year": 2026, "month": 3, "metrics": { "mentions": 9, "ai_search_volume": 120 } },
-      { "year": 2026, "month": 4, "metrics": { "mentions": 11, "ai_search_volume": 145 } },
-      { "year": 2026, "month": 5, "metrics": { "mentions": 13, "ai_search_volume": 170 } },
-      { "year": 2026, "month": 6, "metrics": { "mentions": 15, "ai_search_volume": 195 } },
-      { "year": 2026, "month": 7, "metrics": { "mentions": 16, "ai_search_volume": 215 } },
-      { "year": 2026, "month": 8, "metrics": { "mentions": 18, "ai_search_volume": 235 } },
-      { "year": 2026, "month": 9, "metrics": { "mentions": 19, "ai_search_volume": 255 } }
+      {
+        "year": 2026,
+        "month": 10,
+        "metrics": {
+          "mentions": 11,
+          "ai_search_volume": 750
+        }
+      },
+      {
+        "year": 2026,
+        "month": 9,
+        "metrics": {
+          "mentions": 15,
+          "ai_search_volume": 930
+        }
+      },
+      {
+        "year": 2026,
+        "month": 8,
+        "metrics": {
+          "mentions": 6,
+          "ai_search_volume": 420
+        }
+      },
+      {
+        "year": 2026,
+        "month": 7,
+        "metrics": {
+          "mentions": 12,
+          "ai_search_volume": 9420
+        }
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "metrics": {
+          "mentions": 14,
+          "ai_search_volume": 1570
+        }
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "metrics": {
+          "mentions": 41,
+          "ai_search_volume": 10120
+        }
+      },
+      {
+        "year": 2026,
+        "month": 4,
+        "metrics": {
+          "mentions": 39,
+          "ai_search_volume": 7550
+        }
+      },
+      {
+        "year": 2026,
+        "month": 3,
+        "metrics": {
+          "mentions": 32,
+          "ai_search_volume": 7420
+        }
+      },
+      {
+        "year": 2026,
+        "month": 2,
+        "metrics": {
+          "mentions": 10,
+          "ai_search_volume": 1620
+        }
+      },
+      {
+        "year": 2026,
+        "month": 1,
+        "metrics": {
+          "mentions": 14,
+          "ai_search_volume": 3480
+        }
+      },
+      {
+        "year": 2025,
+        "month": 12,
+        "metrics": {
+          "mentions": 4,
+          "ai_search_volume": 4980
+        }
+      },
+      {
+        "year": 2025,
+        "month": 11,
+        "metrics": {
+          "mentions": 2,
+          "ai_search_volume": 160
+        }
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "metrics": {
+          "mentions": 0,
+          "ai_search_volume": 0
+        }
+      },
+      {
+        "year": 2025,
+        "month": 9,
+        "metrics": {
+          "mentions": 0,
+          "ai_search_volume": 0
+        }
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "metrics": {
+          "mentions": 0,
+          "ai_search_volume": 0
+        }
+      }
     ]
   },
   "springers.com.au": {
     "hist": [
-      { "year": 2025, "month": 8, "metrics": { "mentions": 22, "ai_search_volume": 410 } },
-      { "year": 2025, "month": 9, "metrics": { "mentions": 24, "ai_search_volume": 445 } },
-      { "year": 2025, "month": 10, "metrics": { "mentions": 27, "ai_search_volume": 485 } },
-      { "year": 2025, "month": 11, "metrics": { "mentions": 29, "ai_search_volume": 525 } },
-      { "year": 2025, "month": 12, "metrics": { "mentions": 28, "ai_search_volume": 510 } },
-      { "year": 2026, "month": 1, "metrics": { "mentions": 31, "ai_search_volume": 560 } },
-      { "year": 2026, "month": 2, "metrics": { "mentions": 34, "ai_search_volume": 610 } },
-      { "year": 2026, "month": 3, "metrics": { "mentions": 36, "ai_search_volume": 655 } },
-      { "year": 2026, "month": 4, "metrics": { "mentions": 38, "ai_search_volume": 700 } },
-      { "year": 2026, "month": 5, "metrics": { "mentions": 40, "ai_search_volume": 740 } },
-      { "year": 2026, "month": 6, "metrics": { "mentions": 42, "ai_search_volume": 780 } },
-      { "year": 2026, "month": 7, "metrics": { "mentions": 44, "ai_search_volume": 815 } },
-      { "year": 2026, "month": 8, "metrics": { "mentions": 45, "ai_search_volume": 845 } },
-      { "year": 2026, "month": 9, "metrics": { "mentions": 46, "ai_search_volume": 875 } }
+      {
+        "year": 2026,
+        "month": 10,
+        "metrics": {
+          "mentions": 109,
+          "ai_search_volume": 7730
+        }
+      },
+      {
+        "year": 2026,
+        "month": 9,
+        "metrics": {
+          "mentions": 350,
+          "ai_search_volume": 69250
+        }
+      },
+      {
+        "year": 2026,
+        "month": 8,
+        "metrics": {
+          "mentions": 219,
+          "ai_search_volume": 22410
+        }
+      },
+      {
+        "year": 2026,
+        "month": 7,
+        "metrics": {
+          "mentions": 222,
+          "ai_search_volume": 57590
+        }
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "metrics": {
+          "mentions": 175,
+          "ai_search_volume": 28940
+        }
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "metrics": {
+          "mentions": 244,
+          "ai_search_volume": 80520
+        }
+      },
+      {
+        "year": 2026,
+        "month": 4,
+        "metrics": {
+          "mentions": 343,
+          "ai_search_volume": 99340
+        }
+      },
+      {
+        "year": 2026,
+        "month": 3,
+        "metrics": {
+          "mentions": 357,
+          "ai_search_volume": 148830
+        }
+      },
+      {
+        "year": 2026,
+        "month": 2,
+        "metrics": {
+          "mentions": 134,
+          "ai_search_volume": 47350
+        }
+      },
+      {
+        "year": 2026,
+        "month": 1,
+        "metrics": {
+          "mentions": 162,
+          "ai_search_volume": 62870
+        }
+      },
+      {
+        "year": 2025,
+        "month": 12,
+        "metrics": {
+          "mentions": 155,
+          "ai_search_volume": 75440
+        }
+      },
+      {
+        "year": 2025,
+        "month": 11,
+        "metrics": {
+          "mentions": 91,
+          "ai_search_volume": 12230
+        }
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "metrics": {
+          "mentions": 51,
+          "ai_search_volume": 9490
+        }
+      },
+      {
+        "year": 2025,
+        "month": 9,
+        "metrics": {
+          "mentions": 33,
+          "ai_search_volume": 5950
+        }
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "metrics": {
+          "mentions": 52,
+          "ai_search_volume": 15760
+        }
+      }
     ]
   },
   "pswenergy.com.au": {
     "hist": [
-      { "year": 2025, "month": 8, "metrics": { "mentions": 20, "ai_search_volume": 380 } },
-      { "year": 2025, "month": 9, "metrics": { "mentions": 22, "ai_search_volume": 415 } },
-      { "year": 2025, "month": 10, "metrics": { "mentions": 25, "ai_search_volume": 450 } },
-      { "year": 2025, "month": 11, "metrics": { "mentions": 27, "ai_search_volume": 490 } },
-      { "year": 2025, "month": 12, "metrics": { "mentions": 27, "ai_search_volume": 480 } },
-      { "year": 2026, "month": 1, "metrics": { "mentions": 30, "ai_search_volume": 530 } },
-      { "year": 2026, "month": 2, "metrics": { "mentions": 32, "ai_search_volume": 575 } },
-      { "year": 2026, "month": 3, "metrics": { "mentions": 35, "ai_search_volume": 620 } },
-      { "year": 2026, "month": 4, "metrics": { "mentions": 37, "ai_search_volume": 665 } },
-      { "year": 2026, "month": 5, "metrics": { "mentions": 39, "ai_search_volume": 705 } },
-      { "year": 2026, "month": 6, "metrics": { "mentions": 41, "ai_search_volume": 745 } },
-      { "year": 2026, "month": 7, "metrics": { "mentions": 42, "ai_search_volume": 780 } },
-      { "year": 2026, "month": 8, "metrics": { "mentions": 43, "ai_search_volume": 810 } },
-      { "year": 2026, "month": 9, "metrics": { "mentions": 44, "ai_search_volume": 835 } }
-    ]
-  },
-  "1komma5.com": {
-    "hist": [
-      { "year": 2025, "month": 8, "metrics": { "mentions": 18, "ai_search_volume": 350 } },
-      { "year": 2025, "month": 9, "metrics": { "mentions": 20, "ai_search_volume": 385 } },
-      { "year": 2025, "month": 10, "metrics": { "mentions": 22, "ai_search_volume": 420 } },
-      { "year": 2025, "month": 11, "metrics": { "mentions": 24, "ai_search_volume": 460 } },
-      { "year": 2025, "month": 12, "metrics": { "mentions": 24, "ai_search_volume": 450 } },
-      { "year": 2026, "month": 1, "metrics": { "mentions": 27, "ai_search_volume": 495 } },
-      { "year": 2026, "month": 2, "metrics": { "mentions": 29, "ai_search_volume": 535 } },
-      { "year": 2026, "month": 3, "metrics": { "mentions": 31, "ai_search_volume": 575 } },
-      { "year": 2026, "month": 4, "metrics": { "mentions": 33, "ai_search_volume": 615 } },
-      { "year": 2026, "month": 5, "metrics": { "mentions": 35, "ai_search_volume": 650 } },
-      { "year": 2026, "month": 6, "metrics": { "mentions": 36, "ai_search_volume": 685 } },
-      { "year": 2026, "month": 7, "metrics": { "mentions": 37, "ai_search_volume": 715 } },
-      { "year": 2026, "month": 8, "metrics": { "mentions": 38, "ai_search_volume": 740 } },
-      { "year": 2026, "month": 9, "metrics": { "mentions": 39, "ai_search_volume": 765 } }
+      {
+        "year": 2026,
+        "month": 10,
+        "metrics": {
+          "mentions": 11,
+          "ai_search_volume": 790
+        }
+      },
+      {
+        "year": 2026,
+        "month": 9,
+        "metrics": {
+          "mentions": 55,
+          "ai_search_volume": 11930
+        }
+      },
+      {
+        "year": 2026,
+        "month": 8,
+        "metrics": {
+          "mentions": 28,
+          "ai_search_volume": 2380
+        }
+      },
+      {
+        "year": 2026,
+        "month": 7,
+        "metrics": {
+          "mentions": 35,
+          "ai_search_volume": 7140
+        }
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "metrics": {
+          "mentions": 32,
+          "ai_search_volume": 3240
+        }
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "metrics": {
+          "mentions": 51,
+          "ai_search_volume": 10990
+        }
+      },
+      {
+        "year": 2026,
+        "month": 4,
+        "metrics": {
+          "mentions": 77,
+          "ai_search_volume": 14560
+        }
+      },
+      {
+        "year": 2026,
+        "month": 3,
+        "metrics": {
+          "mentions": 75,
+          "ai_search_volume": 14050
+        }
+      },
+      {
+        "year": 2026,
+        "month": 2,
+        "metrics": {
+          "mentions": 27,
+          "ai_search_volume": 3430
+        }
+      },
+      {
+        "year": 2026,
+        "month": 1,
+        "metrics": {
+          "mentions": 23,
+          "ai_search_volume": 3950
+        }
+      },
+      {
+        "year": 2025,
+        "month": 12,
+        "metrics": {
+          "mentions": 24,
+          "ai_search_volume": 4100
+        }
+      },
+      {
+        "year": 2025,
+        "month": 11,
+        "metrics": {
+          "mentions": 38,
+          "ai_search_volume": 3970
+        }
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "metrics": {
+          "mentions": 12,
+          "ai_search_volume": 850
+        }
+      },
+      {
+        "year": 2025,
+        "month": 9,
+        "metrics": {
+          "mentions": 6,
+          "ai_search_volume": 750
+        }
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "metrics": {
+          "mentions": 18,
+          "ai_search_volume": 2560
+        }
+      }
     ]
   },
   "solargain.com.au": {
     "hist": [
-      { "year": 2025, "month": 8, "metrics": { "mentions": 19, "ai_search_volume": 360 } },
-      { "year": 2025, "month": 9, "metrics": { "mentions": 21, "ai_search_volume": 390 } },
-      { "year": 2025, "month": 10, "metrics": { "mentions": 23, "ai_search_volume": 425 } },
-      { "year": 2025, "month": 11, "metrics": { "mentions": 25, "ai_search_volume": 465 } },
-      { "year": 2025, "month": 12, "metrics": { "mentions": 24, "ai_search_volume": 455 } },
-      { "year": 2026, "month": 1, "metrics": { "mentions": 27, "ai_search_volume": 495 } },
-      { "year": 2026, "month": 2, "metrics": { "mentions": 29, "ai_search_volume": 530 } },
-      { "year": 2026, "month": 3, "metrics": { "mentions": 31, "ai_search_volume": 570 } },
-      { "year": 2026, "month": 4, "metrics": { "mentions": 33, "ai_search_volume": 605 } },
-      { "year": 2026, "month": 5, "metrics": { "mentions": 34, "ai_search_volume": 640 } },
-      { "year": 2026, "month": 6, "metrics": { "mentions": 35, "ai_search_volume": 670 } },
-      { "year": 2026, "month": 7, "metrics": { "mentions": 36, "ai_search_volume": 700 } },
-      { "year": 2026, "month": 8, "metrics": { "mentions": 37, "ai_search_volume": 725 } },
-      { "year": 2026, "month": 9, "metrics": { "mentions": 38, "ai_search_volume": 750 } }
+      {
+        "year": 2026,
+        "month": 10,
+        "metrics": {
+          "mentions": 61,
+          "ai_search_volume": 4130
+        }
+      },
+      {
+        "year": 2026,
+        "month": 9,
+        "metrics": {
+          "mentions": 199,
+          "ai_search_volume": 46300
+        }
+      },
+      {
+        "year": 2026,
+        "month": 8,
+        "metrics": {
+          "mentions": 97,
+          "ai_search_volume": 12150
+        }
+      },
+      {
+        "year": 2026,
+        "month": 7,
+        "metrics": {
+          "mentions": 154,
+          "ai_search_volume": 68580
+        }
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "metrics": {
+          "mentions": 110,
+          "ai_search_volume": 14490
+        }
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "metrics": {
+          "mentions": 250,
+          "ai_search_volume": 88030
+        }
+      },
+      {
+        "year": 2026,
+        "month": 4,
+        "metrics": {
+          "mentions": 355,
+          "ai_search_volume": 130550
+        }
+      },
+      {
+        "year": 2026,
+        "month": 3,
+        "metrics": {
+          "mentions": 308,
+          "ai_search_volume": 114590
+        }
+      },
+      {
+        "year": 2026,
+        "month": 2,
+        "metrics": {
+          "mentions": 77,
+          "ai_search_volume": 38350
+        }
+      },
+      {
+        "year": 2026,
+        "month": 1,
+        "metrics": {
+          "mentions": 164,
+          "ai_search_volume": 54350
+        }
+      },
+      {
+        "year": 2025,
+        "month": 12,
+        "metrics": {
+          "mentions": 127,
+          "ai_search_volume": 78460
+        }
+      },
+      {
+        "year": 2025,
+        "month": 11,
+        "metrics": {
+          "mentions": 99,
+          "ai_search_volume": 17270
+        }
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "metrics": {
+          "mentions": 53,
+          "ai_search_volume": 13620
+        }
+      },
+      {
+        "year": 2025,
+        "month": 9,
+        "metrics": {
+          "mentions": 20,
+          "ai_search_volume": 3610
+        }
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "metrics": {
+          "mentions": 81,
+          "ai_search_volume": 17920
+        }
+      }
     ]
   },
   "solarhub.net.au": {
     "hist": [
-      { "year": 2025, "month": 8, "metrics": { "mentions": 17, "ai_search_volume": 320 } },
-      { "year": 2025, "month": 9, "metrics": { "mentions": 19, "ai_search_volume": 345 } },
-      { "year": 2025, "month": 10, "metrics": { "mentions": 21, "ai_search_volume": 375 } },
-      { "year": 2025, "month": 11, "metrics": { "mentions": 23, "ai_search_volume": 410 } },
-      { "year": 2025, "month": 12, "metrics": { "mentions": 22, "ai_search_volume": 400 } },
-      { "year": 2026, "month": 1, "metrics": { "mentions": 25, "ai_search_volume": 440 } },
-      { "year": 2026, "month": 2, "metrics": { "mentions": 27, "ai_search_volume": 475 } },
-      { "year": 2026, "month": 3, "metrics": { "mentions": 29, "ai_search_volume": 510 } },
-      { "year": 2026, "month": 4, "metrics": { "mentions": 30, "ai_search_volume": 540 } },
-      { "year": 2026, "month": 5, "metrics": { "mentions": 31, "ai_search_volume": 570 } },
-      { "year": 2026, "month": 6, "metrics": { "mentions": 32, "ai_search_volume": 595 } },
-      { "year": 2026, "month": 7, "metrics": { "mentions": 33, "ai_search_volume": 620 } },
-      { "year": 2026, "month": 8, "metrics": { "mentions": 34, "ai_search_volume": 645 } },
-      { "year": 2026, "month": 9, "metrics": { "mentions": 35, "ai_search_volume": 670 } }
+      {
+        "year": 2026,
+        "month": 10,
+        "metrics": {
+          "mentions": 18,
+          "ai_search_volume": 1260
+        }
+      },
+      {
+        "year": 2026,
+        "month": 9,
+        "metrics": {
+          "mentions": 73,
+          "ai_search_volume": 15690
+        }
+      },
+      {
+        "year": 2026,
+        "month": 8,
+        "metrics": {
+          "mentions": 36,
+          "ai_search_volume": 3520
+        }
+      },
+      {
+        "year": 2026,
+        "month": 7,
+        "metrics": {
+          "mentions": 48,
+          "ai_search_volume": 21960
+        }
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "metrics": {
+          "mentions": 36,
+          "ai_search_volume": 7320
+        }
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "metrics": {
+          "mentions": 49,
+          "ai_search_volume": 12100
+        }
+      },
+      {
+        "year": 2026,
+        "month": 4,
+        "metrics": {
+          "mentions": 64,
+          "ai_search_volume": 25290
+        }
+      },
+      {
+        "year": 2026,
+        "month": 3,
+        "metrics": {
+          "mentions": 54,
+          "ai_search_volume": 9100
+        }
+      },
+      {
+        "year": 2026,
+        "month": 2,
+        "metrics": {
+          "mentions": 29,
+          "ai_search_volume": 14630
+        }
+      },
+      {
+        "year": 2026,
+        "month": 1,
+        "metrics": {
+          "mentions": 31,
+          "ai_search_volume": 11510
+        }
+      },
+      {
+        "year": 2025,
+        "month": 12,
+        "metrics": {
+          "mentions": 40,
+          "ai_search_volume": 27760
+        }
+      },
+      {
+        "year": 2025,
+        "month": 11,
+        "metrics": {
+          "mentions": 16,
+          "ai_search_volume": 6030
+        }
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "metrics": {
+          "mentions": 18,
+          "ai_search_volume": 2460
+        }
+      },
+      {
+        "year": 2025,
+        "month": 9,
+        "metrics": {
+          "mentions": 10,
+          "ai_search_volume": 1200
+        }
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "metrics": {
+          "mentions": 23,
+          "ai_search_volume": 10350
+        }
+      }
     ]
   }
 }

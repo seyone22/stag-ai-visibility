@@ -1,7 +1,7 @@
 # STAG ELECTRICAL — MASTER FORENSIC RAW EVIDENCE LEDGER (OCTOBER 2026)
 **Target Entity:** Stag Electrical, Solar & Refrigeration Pty Ltd (`https://www.stagelectrical.com.au/`)
 **Founder & Managing Director:** Sam Friend (Est. 2007 · ABN `37 664 400 828` / ACN `664 400 828`)
-**Empirical Sample:** $N = 280$ Live Search-Grounded AI Evaluations ($8 \text{ Markets} \times 7 \text{ Prompts} \times 5 \text{ Engines}$) + $56$ DataForSEO Australian Google SERP/Local Pack Checks + $8$ DataForSEO Google Maps 20-Pack Audits
+**Empirical Sample:** $N = 280$ Live Search-Grounded AI Evaluations ($8 \text{ Markets} \times 7 \text{ Prompts} \times 5 \text{ Engines}$) + $56$ DataForSEO Australian Google SERP/Local Pack Checks + $8$ DataForSEO Google Maps 20-Pack Audits + DataForSEO AI Keyword Data & Historical LLM Mentions
 
 ---
 
@@ -9,13 +9,43 @@
 | Slide | Deck Assertion | Verifiable Raw Evidence Source |
 | :--- | :--- | :--- |
 | **Slides 1 & 4 (Cover & National)** | STAG Electrical is named in **19 / 280 answers (6.8% SoMV, 95% CI [4.4%, 10.3%], Rank #17 of 65 installers)**. Springers Solar leads with 46, PSW Energy 44, 1KOMMA5° 39, Solargain 38. | `pipeline/metrics.json` & Section 6 below (all 280 verbatim answers). |
-| **Slide 2 (Why It Matters — Search Volume)** | Australian monthly search volume for **“solar installer”** grew **+50% YoY** from **2,400/mo (Oct 2025)** to **3,600/mo (Sep 2026)** (peaking at **4,400/mo** in Mar 2026), alongside **22,200/mo** for **“solar battery”**, **8,100/mo** for **“solar battery rebate”**, and **5,400/mo** each for **“tesla powerwall 3”** and **“sungrow battery”**. | Live **DataForSEO Google Ads Search Volume API** (`POST https://api.dataforseo.com/v3/keywords_data/google_ads/search_volume/live`, `location_name: "Australia"`, `language_name: "English"`) — full 12-month series in Section 1.5 below. |
+| **Slide 2 (Why It Matters — AI Search Volume)** | Australian monthly AI search demand across the **7-keyword commercial solar & battery cluster** reached **17,808/mo** in Sep 2026 (peaking at **20,326/mo** in May 2026): **“solar battery” (8,408)** + **“solar company” (4,105)** + **“solar installer” (2,180)** + **“sigenergy” (928)** + **“home battery” (888)** + **“tesla powerwall” (684)** + **“solar battery rebate” (615)**. | Live **DataForSEO AI Keyword Data API** (`POST /v3/ai_optimization/ai_keyword_data/keywords_search_volume/live`, `location_code: 2036`) — raw payload in `pipeline/raw_ai_keyword_data.json` & Section 1.5 below. |
 | **Slides 6–10 (Canberra & ACT Deep Dive)** | STAG Electrical captures **11 / 35 answers (31.4% SoMV, Rank #4)** in Canberra behind SolarHub (33), Mondiaux Solar (16), and ECG Electrical (13). Named across all 5 engines (Claude 4/7, AI Mode 3/7, Perplexity 2/7, ChatGPT 1/7, Gemini 1/7). | `pipeline/metrics.json` (`cities.canberra`) & Canberra cells #1–#35 in Section 6. |
 | **Slides 11–17 (Interstate Markets)** | Sydney: **2/35 (5.7%)**; Melbourne: **1/35 (2.9%)**; Adelaide: **1/35 (2.9%)**; Brisbane, Perth & Gold Coast: **0/35 (0.0%)**; National Australia: **4/35 (11.4%)**. | `pipeline/metrics.json` & Cells #36–#280 in Section 6. |
 | **Slide 18 (SERP vs AI Pattern)** | STAG ranks in Google's Organic Top 10 on **2 / 56 queries** (both in Canberra) and **0 / 56 in the Google Local 3-Pack**. | `pipeline/serp_audit.json` (Section 4 below). |
+| **Slide 19 (14-Month Historical Trend)** | In DataForSEO's Google AI LLM Mentions database (`Aug 2025 – Sep 2026`), `stagelectrical.com.au` rose from **0 mentions** (`Aug–Oct 2025`) to a peak of **41 mentions** (`10,120` AI search volume) in May 2026 and **15 mentions** (`930` AI search volume) in Sep 2026, vs `springers.com.au` (**350**), `solargain.com.au` (**199**), `solarhub.net.au` (**73**), and `pswenergy.com.au` (**55**). | Live **DataForSEO LLM Mentions Historical API** (`POST /v3/ai_optimization/llm_mentions/historical/live`, `location_code: 2036, platform: "google"`) — `pipeline/hist.json` & Section 1.6 below. |
 | **Slide 23 (Cited Sources)** | `solarquotes.com.au` is cited in **261 / 280 answers (93.2%)**, `facebook.com` (148), `solarchoice.net.au` (118), `reddit.com` (101), `productreview.com.au` (70), `stagelectrical.com.au` (16). | `pipeline/citations.json` (Section 5 below). |
 | **Slide 24 (GBP Branch Audit)** | Young NSW GBP (`cid=13028632929548237826`) has **168 reviews (4.8★)** & hidden address; Queanbeyan HQ (`cid=840063358789951524`) has **82 reviews (4.5★)** & hidden address; Hume ACT duplicate (`cid=9860764133579467617`) has **0 reviews**; Smeaton Grange NSW has **12 reviews (5.0★)**; Dandenong South VIC & Archerfield QLD have **0 reviews** vs QLD rival `stag.energy` (**43 reviews, 5.0★**). | `pipeline/maps_audit.json` (Section 3 below). |
 | **Slides 25 & 26 (Live Site & Schema Audit)** | `/contact-us` JSON-LD outputs `"telephone": "+61XXXXXXXXX"`; `/aircon` returns **HTTP 404**; review counts conflict (`100+`, `200+`, `350` vs live **434**); 7 state licenses omitted from website schema. | Section 2 below (Live Website & SolarQuotes Forensic Crawl). |
+
+---
+
+## SECTION 1.5: DATAFORSEO AI KEYWORD SEARCH VOLUME (`pipeline/raw_ai_keyword_data.json`)
+Endpoint: `POST https://api.dataforseo.com/v3/ai_optimization/ai_keyword_data/keywords_search_volume/live` (`location_code: 2036` Australia, `language_code: "en"`)
+| Keyword | Oct 25 | Nov 25 | Dec 25 | Jan 26 | Feb 26 | Mar 26 | Apr 26 | May 26 | Jun 26 | Jul 26 | Aug 26 | Sep 26 |
+| :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| **`solar battery`** | 8,726 | 8,321 | 9,555 | 9,930 | 9,523 | 11,038 | 10,825 | 11,115 | 8,255 | 7,287 | 6,761 | 8,408 |
+| **`solar panels`** | 32,095 | 30,955 | 34,555 | 33,263 | 29,651 | 31,024 | 29,152 | 31,199 | 24,753 | 22,203 | 19,886 | 23,783 |
+| **`solar installer`** | 2,023 | 1,898 | 2,091 | 2,065 | 1,793 | 2,012 | 1,946 | 2,033 | 1,621 | 1,513 | 1,634 | 2,180 |
+| **`solar battery rebate`** | 486 | 492 | 573 | 573 | 610 | 676 | 655 | 657 | 567 | 517 | 467 | 615 |
+| **`solar installation`** | 2,023 | 1,898 | 2,091 | 2,065 | 1,793 | 2,012 | 1,946 | 2,033 | 1,621 | 1,513 | 1,634 | 2,180 |
+| **`best solar installer`** | 100 | 95 | 81 | 59 | 47 | 79 | 118 | 171 | 189 | 235 | 270 | 339 |
+| **`solar quotes`** | 57 | 40 | 37 | 30 | 26 | 22 | 17 | 18 | 14 | 12 | 7 | 15 |
+| **`tesla powerwall`** | 911 | 858 | 1,013 | 1,071 | 1,020 | 1,066 | 996 | 948 | 700 | 616 | 562 | 684 |
+| **`sigenergy`** | 271 | 389 | 511 | 540 | 530 | 646 | 749 | 862 | 761 | 743 | 761 | 928 |
+| **`home battery`** | 857 | 832 | 991 | 979 | 943 | 1,208 | 1,213 | 1,269 | 908 | 789 | 775 | 888 |
+| **`solar system cost`** | 3,297 | 2,756 | 3,601 | 4,077 | 4,208 | 4,236 | 3,269 | 2,472 | 1,534 | 1,380 | 1,355 | 1,955 |
+| **`solar company`** | 3,326 | 3,438 | 3,942 | 3,935 | 3,596 | 3,305 | 3,170 | 3,442 | 3,053 | 3,143 | 3,169 | 4,105 |
+
+## SECTION 1.6: DATAFORSEO HISTORICAL LLM MENTIONS (`pipeline/hist.json`)
+Endpoint: `POST https://api.dataforseo.com/v3/ai_optimization/llm_mentions/historical/live` (`location_code: 2036` Australia, `platform: "google"`)
+| Domain | Aug 25 | Sep 25 | Oct 25 | Nov 25 | Dec 25 | Jan 26 | Feb 26 | Mar 26 | Apr 26 | May 26 | Jun 26 | Jul 26 | Aug 26 | Sep 26 | Oct 26 |
+| :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| **`stagelectrical.com.au`** | 0 (0) | 0 (0) | 0 (0) | 2 (160) | 4 (4980) | 14 (3480) | 10 (1620) | 32 (7420) | 39 (7550) | 41 (10120) | 14 (1570) | 12 (9420) | 6 (420) | 15 (930) | 11 (750) |
+| **`springers.com.au`** | 52 (15760) | 33 (5950) | 51 (9490) | 91 (12230) | 155 (75440) | 162 (62870) | 134 (47350) | 357 (148830) | 343 (99340) | 244 (80520) | 175 (28940) | 222 (57590) | 219 (22410) | 350 (69250) | 109 (7730) |
+| **`pswenergy.com.au`** | 18 (2560) | 6 (750) | 12 (850) | 38 (3970) | 24 (4100) | 23 (3950) | 27 (3430) | 75 (14050) | 77 (14560) | 51 (10990) | 32 (3240) | 35 (7140) | 28 (2380) | 55 (11930) | 11 (790) |
+| **`solargain.com.au`** | 81 (17920) | 20 (3610) | 53 (13620) | 99 (17270) | 127 (78460) | 164 (54350) | 77 (38350) | 308 (114590) | 355 (130550) | 250 (88030) | 110 (14490) | 154 (68580) | 97 (12150) | 199 (46300) | 61 (4130) |
+| **`solarhub.net.au`** | 23 (10350) | 10 (1200) | 18 (2460) | 16 (6030) | 40 (27760) | 31 (11510) | 29 (14630) | 54 (9100) | 64 (25290) | 49 (12100) | 36 (7320) | 48 (21960) | 36 (3520) | 73 (15690) | 18 (1260) |
 
 ---
 

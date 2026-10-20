@@ -40,11 +40,14 @@ const PLAT_NAME = {
   claude: 'Claude Sonnet 4.6'
 };
 
+const H = JSON.parse(fs.readFileSync(path.join(pipelineDir, 'hist.json'), 'utf8'));
+const AIKW = JSON.parse(fs.readFileSync(path.join(pipelineDir, 'raw_ai_keyword_data.json'), 'utf8')).tasks[0].result[0].items;
+
 const lines = [];
 lines.push(`# STAG ELECTRICAL — MASTER FORENSIC RAW EVIDENCE LEDGER (OCTOBER 2026)`);
 lines.push(`**Target Entity:** Stag Electrical, Solar & Refrigeration Pty Ltd (\`https://www.stagelectrical.com.au/\`)`);
 lines.push(`**Founder & Managing Director:** Sam Friend (Est. 2007 · ABN \`37 664 400 828\` / ACN \`664 400 828\`)`);
-lines.push(`**Empirical Sample:** $N = 280$ Live Search-Grounded AI Evaluations ($8 \\text{ Markets} \\times 7 \\text{ Prompts} \\times 5 \\text{ Engines}$) + $56$ DataForSEO Australian Google SERP/Local Pack Checks + $8$ DataForSEO Google Maps 20-Pack Audits`);
+lines.push(`**Empirical Sample:** $N = 280$ Live Search-Grounded AI Evaluations ($8 \\text{ Markets} \\times 7 \\text{ Prompts} \\times 5 \\text{ Engines}$) + $56$ DataForSEO Australian Google SERP/Local Pack Checks + $8$ DataForSEO Google Maps 20-Pack Audits + DataForSEO AI Keyword Data & Historical LLM Mentions`);
 lines.push(``);
 lines.push(`---`);
 lines.push(``);
@@ -52,13 +55,34 @@ lines.push(`## SECTION 1: 1:1 SLIDE-BY-SLIDE EMPIRICAL PROOF INDEX`);
 lines.push(`| Slide | Deck Assertion | Verifiable Raw Evidence Source |`);
 lines.push(`| :--- | :--- | :--- |`);
 lines.push(`| **Slides 1 & 4 (Cover & National)** | STAG Electrical is named in **19 / 280 answers (6.8% SoMV, 95% CI [4.4%, 10.3%], Rank #17 of 65 installers)**. Springers Solar leads with 46, PSW Energy 44, 1KOMMA5° 39, Solargain 38. | \`pipeline/metrics.json\` & Section 6 below (all 280 verbatim answers). |`);
-lines.push(`| **Slide 2 (Why It Matters — Search Volume)** | Australian monthly search volume for **“solar installer”** grew **+50% YoY** from **2,400/mo (Oct 2025)** to **3,600/mo (Sep 2026)** (peaking at **4,400/mo** in Mar 2026), alongside **22,200/mo** for **“solar battery”**, **8,100/mo** for **“solar battery rebate”**, and **5,400/mo** each for **“tesla powerwall 3”** and **“sungrow battery”**. | Live **DataForSEO Google Ads Search Volume API** (\`POST https://api.dataforseo.com/v3/keywords_data/google_ads/search_volume/live\`, \`location_name: "Australia"\`, \`language_name: "English"\`) — full 12-month series in Section 1.5 below. |`);
+lines.push(`| **Slide 2 (Why It Matters — AI Search Volume)** | Australian monthly AI search demand across the **7-keyword commercial solar & battery cluster** reached **17,808/mo** in Sep 2026 (peaking at **20,326/mo** in May 2026): **“solar battery” (8,408)** + **“solar company” (4,105)** + **“solar installer” (2,180)** + **“sigenergy” (928)** + **“home battery” (888)** + **“tesla powerwall” (684)** + **“solar battery rebate” (615)**. | Live **DataForSEO AI Keyword Data API** (\`POST /v3/ai_optimization/ai_keyword_data/keywords_search_volume/live\`, \`location_code: 2036\`) — raw payload in \`pipeline/raw_ai_keyword_data.json\` & Section 1.5 below. |`);
 lines.push(`| **Slides 6–10 (Canberra & ACT Deep Dive)** | STAG Electrical captures **11 / 35 answers (31.4% SoMV, Rank #4)** in Canberra behind SolarHub (33), Mondiaux Solar (16), and ECG Electrical (13). Named across all 5 engines (Claude 4/7, AI Mode 3/7, Perplexity 2/7, ChatGPT 1/7, Gemini 1/7). | \`pipeline/metrics.json\` (\`cities.canberra\`) & Canberra cells #1–#35 in Section 6. |`);
 lines.push(`| **Slides 11–17 (Interstate Markets)** | Sydney: **2/35 (5.7%)**; Melbourne: **1/35 (2.9%)**; Adelaide: **1/35 (2.9%)**; Brisbane, Perth & Gold Coast: **0/35 (0.0%)**; National Australia: **4/35 (11.4%)**. | \`pipeline/metrics.json\` & Cells #36–#280 in Section 6. |`);
 lines.push(`| **Slide 18 (SERP vs AI Pattern)** | STAG ranks in Google's Organic Top 10 on **2 / 56 queries** (both in Canberra) and **0 / 56 in the Google Local 3-Pack**. | \`pipeline/serp_audit.json\` (Section 4 below). |`);
+lines.push(`| **Slide 19 (14-Month Historical Trend)** | In DataForSEO's Google AI LLM Mentions database (\`Aug 2025 – Sep 2026\`), \`stagelectrical.com.au\` rose from **0 mentions** (\`Aug–Oct 2025\`) to a peak of **41 mentions** (\`10,120\` AI search volume) in May 2026 and **15 mentions** (\`930\` AI search volume) in Sep 2026, vs \`springers.com.au\` (**350**), \`solargain.com.au\` (**199**), \`solarhub.net.au\` (**73**), and \`pswenergy.com.au\` (**55**). | Live **DataForSEO LLM Mentions Historical API** (\`POST /v3/ai_optimization/llm_mentions/historical/live\`, \`location_code: 2036, platform: "google"\`) — \`pipeline/hist.json\` & Section 1.6 below. |`);
 lines.push(`| **Slide 23 (Cited Sources)** | \`solarquotes.com.au\` is cited in **261 / 280 answers (93.2%)**, \`facebook.com\` (148), \`solarchoice.net.au\` (118), \`reddit.com\` (101), \`productreview.com.au\` (70), \`stagelectrical.com.au\` (16). | \`pipeline/citations.json\` (Section 5 below). |`);
 lines.push(`| **Slide 24 (GBP Branch Audit)** | Young NSW GBP (\`cid=13028632929548237826\`) has **168 reviews (4.8★)** & hidden address; Queanbeyan HQ (\`cid=840063358789951524\`) has **82 reviews (4.5★)** & hidden address; Hume ACT duplicate (\`cid=9860764133579467617\`) has **0 reviews**; Smeaton Grange NSW has **12 reviews (5.0★)**; Dandenong South VIC & Archerfield QLD have **0 reviews** vs QLD rival \`stag.energy\` (**43 reviews, 5.0★**). | \`pipeline/maps_audit.json\` (Section 3 below). |`);
 lines.push(`| **Slides 25 & 26 (Live Site & Schema Audit)** | \`/contact-us\` JSON-LD outputs \`"telephone": "+61XXXXXXXXX"\`; \`/aircon\` returns **HTTP 404**; review counts conflict (\`100+\`, \`200+\`, \`350\` vs live **434**); 7 state licenses omitted from website schema. | Section 2 below (Live Website & SolarQuotes Forensic Crawl). |`);
+lines.push(``);
+lines.push(`---`);
+lines.push(``);
+lines.push(`## SECTION 1.5: DATAFORSEO AI KEYWORD SEARCH VOLUME (\`pipeline/raw_ai_keyword_data.json\`)`);
+lines.push(`Endpoint: \`POST https://api.dataforseo.com/v3/ai_optimization/ai_keyword_data/keywords_search_volume/live\` (\`location_code: 2036\` Australia, \`language_code: "en"\`)`);
+lines.push(`| Keyword | Oct 25 | Nov 25 | Dec 25 | Jan 26 | Feb 26 | Mar 26 | Apr 26 | May 26 | Jun 26 | Jul 26 | Aug 26 | Sep 26 |`);
+lines.push(`| :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |`);
+for (const it of AIKW) {
+  const m = [...(it.ai_monthly_searches || [])].reverse().map(x => x.ai_search_volume.toLocaleString('en-AU'));
+  lines.push(`| **\`${it.keyword}\`** | ${m.join(' | ')} |`);
+}
+lines.push(``);
+lines.push(`## SECTION 1.6: DATAFORSEO HISTORICAL LLM MENTIONS (\`pipeline/hist.json\`)`);
+lines.push(`Endpoint: \`POST https://api.dataforseo.com/v3/ai_optimization/llm_mentions/historical/live\` (\`location_code: 2036\` Australia, \`platform: "google"\`)`);
+lines.push(`| Domain | Aug 25 | Sep 25 | Oct 25 | Nov 25 | Dec 25 | Jan 26 | Feb 26 | Mar 26 | Apr 26 | May 26 | Jun 26 | Jul 26 | Aug 26 | Sep 26 | Oct 26 |`);
+lines.push(`| :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |`);
+for (const [dom, obj] of Object.entries(H)) {
+  const chron = [...(obj.hist || [])].reverse().map(x => `${x.metrics.mentions} (${x.metrics.ai_search_volume})`);
+  lines.push(`| **\`${dom}\`** | ${chron.join(' | ')} |`);
+}
 lines.push(``);
 lines.push(`---`);
 lines.push(``);

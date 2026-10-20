@@ -1,0 +1,847 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.6022 sec.",
+  "cost": 0.0112,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10200547-2864-0619-0000-35513deb5f28",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.5664 sec.",
+      "cost": 0.0112,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "ai_keyword_data",
+        "keywords_search_volume",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "keywords_search_volume",
+        "keywords": [
+          "solar battery",
+          "solar panels",
+          "solar installer",
+          "solar battery rebate",
+          "solar installation",
+          "best solar installer",
+          "solar quotes",
+          "tesla powerwall",
+          "sigenergy",
+          "home battery",
+          "solar system cost",
+          "solar company"
+        ],
+        "location_code": 2036,
+        "language_code": "en"
+      },
+      "result": [
+        {
+          "location_code": 2036,
+          "language_code": "en",
+          "items_count": 12,
+          "items": [
+            {
+              "keyword": "solar battery",
+              "ai_search_volume": 8408,
+              "ai_monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "ai_search_volume": 8408
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "ai_search_volume": 6761
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "ai_search_volume": 7287
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "ai_search_volume": 8255
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "ai_search_volume": 11115
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "ai_search_volume": 10825
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "ai_search_volume": 11038
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "ai_search_volume": 9523
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "ai_search_volume": 9930
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "ai_search_volume": 9555
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "ai_search_volume": 8321
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "ai_search_volume": 8726
+                }
+              ]
+            },
+            {
+              "keyword": "solar panels",
+              "ai_search_volume": 23783,
+              "ai_monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "ai_search_volume": 23783
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "ai_search_volume": 19886
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "ai_search_volume": 22203
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "ai_search_volume": 24753
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "ai_search_volume": 31199
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "ai_search_volume": 29152
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "ai_search_volume": 31024
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "ai_search_volume": 29651
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "ai_search_volume": 33263
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "ai_search_volume": 34555
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "ai_search_volume": 30955
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "ai_search_volume": 32095
+                }
+              ]
+            },
+            {
+              "keyword": "solar installer",
+              "ai_search_volume": 2180,
+              "ai_monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "ai_search_volume": 2180
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "ai_search_volume": 1634
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "ai_search_volume": 1513
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "ai_search_volume": 1621
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "ai_search_volume": 2033
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "ai_search_volume": 1946
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "ai_search_volume": 2012
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "ai_search_volume": 1793
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "ai_search_volume": 2065
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "ai_search_volume": 2091
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "ai_search_volume": 1898
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "ai_search_volume": 2023
+                }
+              ]
+            },
+            {
+              "keyword": "solar battery rebate",
+              "ai_search_volume": 615,
+              "ai_monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "ai_search_volume": 615
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "ai_search_volume": 467
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "ai_search_volume": 517
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "ai_search_volume": 567
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "ai_search_volume": 657
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "ai_search_volume": 655
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "ai_search_volume": 676
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "ai_search_volume": 610
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "ai_search_volume": 573
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "ai_search_volume": 573
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "ai_search_volume": 492
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "ai_search_volume": 486
+                }
+              ]
+            },
+            {
+              "keyword": "solar installation",
+              "ai_search_volume": 2180,
+              "ai_monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "ai_search_volume": 2180
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "ai_search_volume": 1634
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "ai_search_volume": 1513
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "ai_search_volume": 1621
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "ai_search_volume": 2033
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "ai_search_volume": 1946
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "ai_search_volume": 2012
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "ai_search_volume": 1793
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "ai_search_volume": 2065
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "ai_search_volume": 2091
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "ai_search_volume": 1898
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "ai_search_volume": 2023
+                }
+              ]
+            },
+            {
+              "keyword": "best solar installer",
+              "ai_search_volume": 339,
+              "ai_monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "ai_search_volume": 339
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "ai_search_volume": 270
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "ai_search_volume": 235
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "ai_search_volume": 189
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "ai_search_volume": 171
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "ai_search_volume": 118
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "ai_search_volume": 79
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "ai_search_volume": 47
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "ai_search_volume": 59
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "ai_search_volume": 81
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "ai_search_volume": 95
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "ai_search_volume": 100
+                }
+              ]
+            },
+            {
+              "keyword": "solar quotes",
+              "ai_search_volume": 15,
+              "ai_monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "ai_search_volume": 15
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "ai_search_volume": 7
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "ai_search_volume": 12
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "ai_search_volume": 14
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "ai_search_volume": 18
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "ai_search_volume": 17
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "ai_search_volume": 22
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "ai_search_volume": 26
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "ai_search_volume": 30
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "ai_search_volume": 37
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "ai_search_volume": 40
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "ai_search_volume": 57
+                }
+              ]
+            },
+            {
+              "keyword": "tesla powerwall",
+              "ai_search_volume": 684,
+              "ai_monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "ai_search_volume": 684
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "ai_search_volume": 562
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "ai_search_volume": 616
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "ai_search_volume": 700
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "ai_search_volume": 948
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "ai_search_volume": 996
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "ai_search_volume": 1066
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "ai_search_volume": 1020
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "ai_search_volume": 1071
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "ai_search_volume": 1013
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "ai_search_volume": 858
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "ai_search_volume": 911
+                }
+              ]
+            },
+            {
+              "keyword": "sigenergy",
+              "ai_search_volume": 928,
+              "ai_monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "ai_search_volume": 928
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "ai_search_volume": 761
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "ai_search_volume": 743
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "ai_search_volume": 761
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "ai_search_volume": 862
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "ai_search_volume": 749
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "ai_search_volume": 646
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "ai_search_volume": 530
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "ai_search_volume": 540
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "ai_search_volume": 511
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "ai_search_volume": 389
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "ai_search_volume": 271
+                }
+              ]
+            },
+            {
+              "keyword": "home battery",
+              "ai_search_volume": 888,
+              "ai_monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "ai_search_volume": 888
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "ai_search_volume": 775
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "ai_search_volume": 789
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "ai_search_volume": 908
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "ai_search_volume": 1269
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "ai_search_volume": 1213
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "ai_search_volume": 1208
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "ai_search_volume": 943
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "ai_search_volume": 979
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "ai_search_volume": 991
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "ai_search_volume": 832
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "ai_search_volume": 857
+                }
+              ]
+            },
+            {
+              "keyword": "solar system cost",
+              "ai_search_volume": 1955,
+              "ai_monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "ai_search_volume": 1955
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "ai_search_volume": 1355
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "ai_search_volume": 1380
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "ai_search_volume": 1534
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "ai_search_volume": 2472
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "ai_search_volume": 3269
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "ai_search_volume": 4236
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "ai_search_volume": 4208
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "ai_search_volume": 4077
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "ai_search_volume": 3601
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "ai_search_volume": 2756
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "ai_search_volume": 3297
+                }
+              ]
+            },
+            {
+              "keyword": "solar company",
+              "ai_search_volume": 4105,
+              "ai_monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 9,
+                  "ai_search_volume": 4105
+                },
+                {
+                  "year": 2026,
+                  "month": 8,
+                  "ai_search_volume": 3169
+                },
+                {
+                  "year": 2026,
+                  "month": 7,
+                  "ai_search_volume": 3143
+                },
+                {
+                  "year": 2026,
+                  "month": 6,
+                  "ai_search_volume": 3053
+                },
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "ai_search_volume": 3442
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "ai_search_volume": 3170
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "ai_search_volume": 3305
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "ai_search_volume": 3596
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "ai_search_volume": 3935
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "ai_search_volume": 3942
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "ai_search_volume": 3438
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "ai_search_volume": 3326
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

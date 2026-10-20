@@ -118,10 +118,21 @@ const shareSeries = MONTHS.map((_, i) => {
 const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const monLabel = ([y, m]) => `${MON[m - 1]} ${String(y).slice(2)}`;
 
-// Verifiable DataForSEO Google Ads Search Volume (/v3/keywords_data/google_ads/search_volume/live, Australia) for "solar installer"
+// Verifiable DataForSEO AI Keyword Data (/v3/ai_optimization/ai_keyword_data/keywords_search_volume/live, location_code: 2036 Australia)
+// 7-Keyword Commercial Solar & Battery AI Search Cluster Aggregate:
+// "solar battery" (8,408) + "solar company" (4,105) + "solar installer" (2,180) + "sigenergy" (928) + "home battery" (888) + "tesla powerwall" (684) + "solar battery rebate" (615) = 17,808 / mo (Sep 2026)
+const rawAiKw = JSON.parse(fs.readFileSync(path.join(pipelineDir, 'raw_ai_keyword_data.json'), 'utf8'));
+const aiKwItems = rawAiKw.tasks[0].result[0].items;
+const AI_CLUSTER_KWS = ['solar battery', 'solar company', 'solar installer', 'sigenergy', 'home battery', 'tesla powerwall', 'solar battery rebate'];
+const AIDEMAND_LABELS = ['Oct 25', 'Nov 25', 'Dec 25', 'Jan 26', 'Feb 26', 'Mar 26', 'Apr 26', 'May 26', 'Jun 26', 'Jul 26', 'Aug 26', 'Sep 26'];
+const AIDEMAND_VALUES = AIDEMAND_LABELS.map((_, idx) => AI_CLUSTER_KWS.reduce((sum, kw) => {
+  const item = aiKwItems.find(x => x.keyword === kw);
+  const chronological = [...(item?.ai_monthly_searches || [])].reverse();
+  return sum + (chronological[idx]?.ai_search_volume || 0);
+}, 0));
 const AIDEMAND = {
-  labels: ['Oct 25', 'Nov 25', 'Dec 25', 'Jan 26', 'Feb 26', 'Mar 26', 'Apr 26', 'May 26', 'Jun 26', 'Jul 26', 'Aug 26', 'Sep 26'],
-  values: [2400, 2400, 1900, 2900, 2900, 4400, 2900, 2400, 2900, 1900, 2400, 3600]
+  labels: AIDEMAND_LABELS,
+  values: AIDEMAND_VALUES
 };
 
 // ─── Chart helpers ──────────────────────────────────────────────────────────
@@ -206,29 +217,31 @@ const SRC_ANS = `Source: ${TOTAL_ANSWERS} empirical AI Search answers collected 
 
 // ─── 2. Why it matters ──────────────────────────────────────────────────────
 {
+  const sepClusterVol = AIDEMAND.values[11];
+  const octClusterVol = AIDEMAND.values[0];
   const chart = lineChart({
-    w: 1000, h: 560, pad: [40, 170, 70, 90], labels: AIDEMAND.labels, yMax: 5000, yTicks: [0, 1500, 3000, 4500], yFmt: v => v.toLocaleString('en-AU'),
+    w: 1000, h: 560, pad: [40, 170, 70, 90], labels: AIDEMAND.labels, yMax: 22000, yTicks: [0, 7000, 14000, 21000], yFmt: v => v.toLocaleString('en-AU'),
     series: [{ name: 'Sep 26', values: AIDEMAND.values, color: '#D92D20', width: 6, area: 'gPulp', valueLabel: '', label: false }],
     area: true, endLabels: false,
     ann: [
-      (x, y) => `<g class="pop" style="--d:1500ms"><text x="${x(11) + 24}" y="${y(3600) + 10}" class="callnum">3,600/mo</text></g>`,
-      (x, y) => `<text x="${x(0)}" y="${y(2400) - 26}" class="callsmall" text-anchor="start">2,400/mo</text>`,
+      (x, y) => `<g class="pop" style="--d:1500ms"><text x="${x(11) + 24}" y="${y(sepClusterVol) + 10}" class="callnum">${sepClusterVol.toLocaleString('en-AU')}/mo</text></g>`,
+      (x, y) => `<text x="${x(0)}" y="${y(octClusterVol) - 26}" class="callsmall" text-anchor="start">${octClusterVol.toLocaleString('en-AU')}/mo</text>`,
     ],
   });
   slide('why', 'light', `
     <header class="hd"><p class="eyebrow">Why AI Search matters now</p><h2 class="h1">Australian homeowners researching $12k–$25k solar & battery systems are shortlisting installers inside AI</h2></header>
     <div class="cols-2 why">
       <div class="panel">
-        <div class="kpi-inline"><span class="big pulp">+50%</span><span class="kpi-cap">monthly Australian search demand for <b>“solar installer”</b> (2,400 to 3,600/mo, peaking at 4,400/mo), alongside <b>22,200/mo</b> for <b>“solar battery”</b> &amp; <b>8,100/mo</b> for <b>“solar battery rebate”</b></span></div>
+        <div class="kpi-inline"><span class="big pulp">17,808/mo</span><span class="kpi-cap">aggregate monthly Australian AI-assistant search volume across the <b>7-keyword solar &amp; battery commercial cluster</b> in Sep 2026 (peaking at <b>20,326/mo</b> in May 2026; <b>“sigenergy” +242%</b>, <b>“best solar installer” +239%</b>)</span></div>
         ${chart}
       </div>
       <ol class="points">
-        <li class="rise" style="--d:300ms"><b>High-ticket solar & battery buyers ask AI to compare quotes and accreditations.</b> Before signing for a 10kW–13.2kW Aiko/Jinko array or a Sigenergy SigenStor / Tesla Powerwall 3 (5,400 searches/mo), homeowners ask ChatGPT, Google AI Mode, or Perplexity who is NETCC-approved and SolarQuotes Platinum-rated.</li>
+        <li class="rise" style="--d:300ms"><b>High-ticket solar & battery buyers ask AI to compare quotes and accreditations.</b> Across Australia, monthly AI search demand spans <b>“solar battery” (8,408/mo)</b>, <b>“solar company” (4,105/mo)</b>, <b>“solar installer” (2,180/mo)</b>, <b>“sigenergy” (928/mo)</b>, <b>“home battery” (888/mo)</b>, <b>“tesla powerwall” (684/mo)</b>, and <b>“solar battery rebate” (615/mo)</b>.</li>
         <li class="rise" style="--d:450ms"><b>SolarQuotes is cited in 93.2% of AI answers (261 of 280).</b> AI assistants synthesize their shortlist from SolarQuotes (261 citations), Solar Choice (118), ProductReview (70), and verified Google Business Profile ratings.</li>
         <li class="rise" style="--d:600ms"><b>STAG Electrical has 434 verified SolarQuotes ratings (4.8★) & 7 state licenses — but hides them from AI.</b> STAG wins 31.4% of Canberra answers, yet scores 0%–6% interstate because its Melbourne & Brisbane GBPs have 0 reviews and its website schema omits 4 states and all 7 electrical license numbers.</li>
       </ol>
     </div>
-    ${src('Source: DataForSEO Google Ads Search Volume API (/v3/keywords_data/google_ads/search_volume/live, Australia, Oct 2025–Sep 2026); empirical answer and citation counts from this 280-query study.')}`);
+    ${src('Source: DataForSEO AI Keyword Data (/v3/ai_optimization/ai_keyword_data/keywords_search_volume/live, location_code: 2036 Australia, Oct 2025–Sep 2026) 7-keyword cluster aggregate (17,808/mo in Sep 2026); answer counts from this 280-query study.')}`);
 }
 
 // ─── 3. Method ──────────────────────────────────────────────────────────────
@@ -592,35 +605,37 @@ function marketSlide(c, idx) {
 {
   const S = [
     ['Springers Solar', 'springers.com.au', '#0F172A', 4],
-    ['PSW Energy', 'pswenergy.com.au', '#475569', 3],
-    ['1KOMMA5°', '1komma5.com', '#64748B', 3],
-    ['Solargain', 'solargain.com.au', '#94A3B8', 3],
-    ['SolarHub', 'solarhub.net.au', '#CBD5E1', 3],
+    ['Solargain', 'solargain.com.au', '#475569', 3],
+    ['SolarHub', 'solarhub.net.au', '#64748B', 3],
+    ['PSW Energy', 'pswenergy.com.au', '#94A3B8', 3],
     ['STAG Electrical', 'stagelectrical.com.au', '#D92D20', 7],
   ];
   const labels = MONTHS.map(monLabel);
   const chart = lineChart({
-    w: 1140, h: 600, pad: [30, 300, 70, 90], labels, yMax: 55, yTicks: [0, 15, 30, 45], yFmt: v => v.toLocaleString('en-AU'),
+    w: 1140, h: 600, pad: [30, 300, 70, 90], labels, yMax: 400, yTicks: [0, 100, 200, 300, 400], yFmt: v => v.toLocaleString('en-AU'),
     series: S.map(([name, d, color, width]) => ({ name, values: series(d), color, width, cls: name === 'STAG Electrical' ? 'pulp' : '', textColor: name === 'STAG Electrical' ? '#D92D20' : '#0F172A' })),
   });
   const sh = lineChart({
-    w: 520, h: 230, pad: [36, 40, 52, 70], labels: labels.map((l, i) => (i === 0 || i === labels.length - 1) ? l : ''), yMax: 15, yTicks: [0, 5, 10, 15], yFmt: v => v + '%', endLabels: false,
+    w: 520, h: 230, pad: [36, 40, 52, 70], labels: labels.map((l, i) => (i === 0 || i === labels.length - 1) ? l : ''), yMax: 10, yTicks: [0, 3, 6, 9], yFmt: v => v + '%', endLabels: false,
     series: [{ name: 'STAG Share', values: shareSeries, color: '#D92D20', width: 5, label: false }],
     ann: [(x, y) => `<text x="${x(labels.length - 1)}" y="${y(shareSeries[shareSeries.length - 1]) - 18}" text-anchor="end" class="callsmall pulp">${shareSeries[shareSeries.length - 1]}%</text>`],
   });
-  const stagSep = series('stagelectrical.com.au')[MONTHS.length - 1] || 19;
-  const springSep = series('springers.com.au')[MONTHS.length - 1] || 46;
+  const stagSep = series('stagelectrical.com.au')[MONTHS.length - 1];
+  const stagPeak = Math.max(...series('stagelectrical.com.au'));
+  const springSep = series('springers.com.au')[MONTHS.length - 1];
+  const solargainSep = series('solargain.com.au')[MONTHS.length - 1];
+  const solarhubSep = series('solarhub.com.au' in H ? 'solarhub.com.au' : 'solarhub.net.au')[MONTHS.length - 1];
 
   slide('trend', 'white', `
-    <header class="hd"><p class="eyebrow">14-Month Historical Trajectory · AI Search Mentions</p><h2 class="h1">STAG’s 2026 Webflow site & SolarQuotes Platinum rating lifted mentions from 1 to 19, while national leaders sit at 35–46</h2></header>
+    <header class="hd"><p class="eyebrow">14-Month Historical Trajectory · DataForSEO LLM Mentions</p><h2 class="h1">STAG rose from 0 to a peak of ${stagPeak} monthly Google AI mentions (${stagSep} in Sep 2026), while national leaders sit at ${solarhubSep}–${springSep}</h2></header>
     <div class="cols-trend">
-      <div class="panel"><p class="chart-title">AI Search panel mentions across Australia referencing each installer, Aug 2025 to Sep 2026</p>${chart}</div>
+      <div class="panel"><p class="chart-title">Monthly Google AI answers in Australia referencing each installer’s domain, Aug 2025 to Sep 2026</p>${chart}</div>
       <div class="side-stats">
-        <div class="stat"><span class="big">${(springSep / stagSep).toFixed(1)}×</span><span class="stat-cap">Springers Solar’s national AI mention volume against STAG Electrical (${springSep} vs ${stagSep}). SolarHub sits at 35 (1.8× STAG) and Solargain at 38 (2.0× STAG).</span></div>
-        <div class="mini-chart"><p class="mini-title">STAG Share Among Tracked National Cohort</p>${sh}<p class="note">Launching the 26-page <code>/solar-installation/*</code> hub and earning 434 SolarQuotes reviews lifted STAG to 8.6% cohort share — fixing branch GBPs and schema inflects the next leg.</p></div>
+        <div class="stat"><span class="big">${(springSep / stagSep).toFixed(1)}×</span><span class="stat-cap">Springers Solar’s Sep 2026 Google AI mention volume against STAG Electrical (${springSep} vs ${stagSep}). Solargain recorded ${solargainSep} (${(solargainSep / stagSep).toFixed(1)}× STAG) and SolarHub recorded ${solarhubSep} (${(solarhubSep / stagSep).toFixed(1)}× STAG).</span></div>
+        <div class="mini-chart"><p class="mini-title">STAG Share Among Tracked National Cohort</p>${sh}<p class="note">Launching the 26-page <code>/solar-installation/*</code> hub lifted STAG from 0% (Aug–Oct 2025) to a 6.4% cohort peak in May 2026 (${stagPeak} mentions; 10,120 AI search volume) and ${shareSeries[shareSeries.length - 1]}% in Sep 2026.</p></div>
       </div>
     </div>
-    ${src('Source: Longitudinal AI Search visibility tracking across Australian solar & battery queries, Aug 2025 to Oct 2026.')}`);
+    ${src('Source: DataForSEO LLM Mentions Historical API (/v3/ai_optimization/llm_mentions/historical/live, location_code: 2036 Australia, platform: google, Aug 2025 to Sep 2026).')}`);
 }
 
 // ─── 20. The Gap to Close (Dumbbell) ────────────────────────────────────────
