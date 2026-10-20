@@ -118,10 +118,10 @@ const shareSeries = MONTHS.map((_, i) => {
 const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const monLabel = ([y, m]) => `${MON[m - 1]} ${String(y).slice(2)}`;
 
-// AI search demand for Residential Solar, Sigenergy/Powerwall 3 & Cheaper Home Batteries Program in Australia
+// Verifiable DataForSEO Google Ads Search Volume (/v3/keywords_data/google_ads/search_volume/live, Australia) for "solar installer"
 const AIDEMAND = {
   labels: ['Oct 25', 'Nov 25', 'Dec 25', 'Jan 26', 'Feb 26', 'Mar 26', 'Apr 26', 'May 26', 'Jun 26', 'Jul 26', 'Aug 26', 'Sep 26'],
-  values: [4200, 4900, 5600, 6800, 7900, 9100, 10400, 11800, 13100, 14600, 16100, 17800]
+  values: [2400, 2400, 1900, 2900, 2900, 4400, 2900, 2400, 2900, 1900, 2400, 3600]
 };
 
 // ─── Chart helpers ──────────────────────────────────────────────────────────
@@ -207,28 +207,28 @@ const SRC_ANS = `Source: ${TOTAL_ANSWERS} empirical AI Search answers collected 
 // ─── 2. Why it matters ──────────────────────────────────────────────────────
 {
   const chart = lineChart({
-    w: 1000, h: 560, pad: [40, 170, 70, 90], labels: AIDEMAND.labels, yMax: 20000, yTicks: [0, 5000, 10000, 15000, 20000], yFmt: v => v.toLocaleString('en-AU'),
+    w: 1000, h: 560, pad: [40, 170, 70, 90], labels: AIDEMAND.labels, yMax: 5000, yTicks: [0, 1500, 3000, 4500], yFmt: v => v.toLocaleString('en-AU'),
     series: [{ name: 'Sep 26', values: AIDEMAND.values, color: '#D92D20', width: 6, area: 'gPulp', valueLabel: '', label: false }],
     area: true, endLabels: false,
     ann: [
-      (x, y) => `<g class="pop" style="--d:1500ms"><text x="${x(11) + 24}" y="${y(17800) + 10}" class="callnum">17,800/mo</text></g>`,
-      (x, y) => `<text x="${x(0)}" y="${y(4200) - 26}" class="callsmall" text-anchor="start">4,200/mo</text>`,
+      (x, y) => `<g class="pop" style="--d:1500ms"><text x="${x(11) + 24}" y="${y(3600) + 10}" class="callnum">3,600/mo</text></g>`,
+      (x, y) => `<text x="${x(0)}" y="${y(2400) - 26}" class="callsmall" text-anchor="start">2,400/mo</text>`,
     ],
   });
   slide('why', 'light', `
     <header class="hd"><p class="eyebrow">Why AI Search matters now</p><h2 class="h1">Australian homeowners researching $12k–$25k solar & battery systems are shortlisting installers inside AI</h2></header>
     <div class="cols-2 why">
       <div class="panel">
-        <div class="kpi-inline"><span class="big pulp">+324%</span><span class="kpi-cap">estimated monthly Australian AI-assistant queries for <b>“best solar & battery installer + Cheaper Home Batteries rebate”</b>, Oct 2025 to Sep 2026</span></div>
+        <div class="kpi-inline"><span class="big pulp">+50%</span><span class="kpi-cap">monthly Australian search demand for <b>“solar installer”</b> (2,400 to 3,600/mo, peaking at 4,400/mo), alongside <b>22,200/mo</b> for <b>“solar battery”</b> &amp; <b>8,100/mo</b> for <b>“solar battery rebate”</b></span></div>
         ${chart}
       </div>
       <ol class="points">
-        <li class="rise" style="--d:300ms"><b>High-ticket solar & battery buyers ask AI to compare quotes and accreditations.</b> Before signing for a 10kW–13.2kW Aiko/Jinko array or a Sigenergy SigenStor / Tesla Powerwall 3, homeowners ask ChatGPT, Google AI Mode, or Perplexity who is NETCC-approved and SolarQuotes Platinum-rated.</li>
+        <li class="rise" style="--d:300ms"><b>High-ticket solar & battery buyers ask AI to compare quotes and accreditations.</b> Before signing for a 10kW–13.2kW Aiko/Jinko array or a Sigenergy SigenStor / Tesla Powerwall 3 (5,400 searches/mo), homeowners ask ChatGPT, Google AI Mode, or Perplexity who is NETCC-approved and SolarQuotes Platinum-rated.</li>
         <li class="rise" style="--d:450ms"><b>SolarQuotes is cited in 93.2% of AI answers (261 of 280).</b> AI assistants synthesize their shortlist from SolarQuotes (261 citations), Solar Choice (118), ProductReview (70), and verified Google Business Profile ratings.</li>
         <li class="rise" style="--d:600ms"><b>STAG Electrical has 434 verified SolarQuotes ratings (4.8★) & 7 state licenses — but hides them from AI.</b> STAG wins 31.4% of Canberra answers, yet scores 0%–6% interstate because its Melbourne & Brisbane GBPs have 0 reviews and its website schema omits 4 states and all 7 electrical license numbers.</li>
       </ol>
     </div>
-    ${src('Source: Australian solar & battery AI search demand index (Oct 2025–Sep 2026); empirical answer and citation counts from this 280-query study.')}`);
+    ${src('Source: DataForSEO Google Ads Search Volume API (/v3/keywords_data/google_ads/search_volume/live, Australia, Oct 2025–Sep 2026); empirical answer and citation counts from this 280-query study.')}`);
 }
 
 // ─── 3. Method ──────────────────────────────────────────────────────────────
