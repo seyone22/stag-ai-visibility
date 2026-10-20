@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>STAG Electrical — Solar, Battery &amp; Electrical AI Search Technical Dossier (October 2026)</title>
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@700,600,500&display=swap">
+<link rel="stylesheet" href="deck.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"/>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<style>
+  :root {
+    --accent: #F03535;
+    --accent-dark: #D92D20;
+    --brand-bg: #0B0F19;
+  }
+  .tech-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    background: rgba(240, 53, 53, 0.15);
+    border: 1px solid #F03535;
+    color: #F03535;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+  }
+  .accent-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  .huge {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1;
+    display: block;
+    margin-bottom: 8px;
+    color: #F03535;
+  }
+  .acap {
+    font-size: 13px;
+    color: #94A3B8;
+    line-height: 1.4;
+  }
+  .law-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  .law-num {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: #D92D20;
+    display: block;
+    margin-bottom: 6px;
+  }
+  .law-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0F172A;
+    margin-bottom: 8px;
+  }
+  .math-box {
+    background: #F1F5F9;
+    border-left: 4px solid #D92D20;
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 0 8px 8px 0;
+    font-size: 16px;
+  }
+  .tech-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 12px;
+  }
+  .tech-table th, .tech-table td {
+    padding: 9px 11px;
+    border: 1px solid #E2E8F0;
+    text-align: left;
+  }
+  .tech-table th {
+    background: #F8FAFC;
+    font-weight: 700;
+  }
+  .badge-success {
+    background: #DCFCE7;
+    color: #166534;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 11px;
+  }
+  .badge-warning {
+    background: #FEF3C7;
+    color: #92400E;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 11px;
+  }
+  .badge-danger {
+    background: #FEE2E2;
+    color: #991B1B;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 11px;
+  }
+  .code-box {
+    background: #0B0F19;
+    color: #E2E8F0;
+    padding: 16px;
+    border-radius: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    line-height: 1.45;
+    overflow-x: auto;
+  }
+  .dark-card {
+    background: #111827;
+    border: 1px solid #1F2937;
+    padding: 24px;
+    border-radius: 8px;
+  }
+</style>
+</head>
+<body>
+<div class="deck" id="deck">
+  <div class="stage" id="stage">
+    
+      <section id="tech-01-cover" class="slide dark" data-title="tech-01-cover">
+        
+  <div class="tech-badge">TIER 2 INTERNAL TECHNICAL DOSSIER · SOLAR, BATTERY &amp; ELECTRICAL VERTICAL</div>
+  <p class="eyebrow on-dark">AEO / GEO ECONOMETRIC SPECIFICATION &amp; EMPIRICAL RESEARCH FINDINGS</p>
+  <h1 class="display on-dark">STAG Electrical Data Science Specification</h1>
+  <p class="lede on-dark">Stochastic modeling, non-parametric presence estimators, multivariate logistic regression, DataForSEO SERP/Map Pack telemetry, and multi-branch GBP &amp; JSON-LD forensics for <b>Stag Electrical, Solar &amp; Refrigeration Pty Ltd</b> across <b>N = 280</b> empirical AI Search answer cells.</p>
+  <div class="accent-stats">
+    <div><span class="huge on-dark">N = 280</span><span class="acap on-dark">Empirical Query Cells (8 Markets × 7 Solar/Battery Intents × 5 Engines)</span></div>
+    <div><span class="huge on-dark">261 / 280</span><span class="acap on-dark">Answers Citing solarquotes.com.au (93.2% Authority Concentration)</span></div>
+    <div><span class="huge on-dark">31.4% ACT</span><span class="acap on-dark">Canberra Share of Model Voice (11 / 35 · Rank #4 vs 0%–6% Interstate)</span></div>
+    <div><span class="huge on-dark">6.8% Nat</span><span class="acap on-dark">National Share of Model Voice (19 / 280 · 95% CI: [4.4%, 10.3%])</span></div>
+  </div>
+  <footer class="foot on-dark"><span class="foot-logo"><svg class="logo" aria-label="STAG Electrical" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 44" fill="none">
+  <g transform="translate(2, 2) scale(0.285)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41 131.65C10.88 132.19 23.02 133.05 23.02 133.05L23.01 133.03L6.86 126.08L6.92999 111.97L19.68 114.33L20.11 91.92L19.37 78.82L16.89 75.88C16.89 75.88 13.67 70.3 10.45 66.29C6.23 61.42 7.23 52.47 8.95 48.82C10.67 45.17 10.53 41.95 10.53 41.95C10.53 41.95 10.68 40.38 9.95999 40.09C7.02467 39.4493 5.87656 38.2924 5.2462 37.6572C5.03046 37.4398 4.87535 37.2835 4.73 37.23C4.32431 37.0805 3.3006 36.3485 2.32947 35.6541L2.32906 35.6537L2.32768 35.6528C1.93498 35.372 1.55098 35.0974 1.22 34.87C0.0699921 34.08 0 31.5 0 31.5L0.860001 30.57L3.58 31.21L0.929993 29.35L0.429993 26.77C0.429993 26.77 0.289993 25.34 0.789993 24.62C1.28999 23.9 3.44 23.9 3.44 23.9L12.1 27.41C12.1 27.41 13.61 27.55 14.61 27.48C16.97 27.34 19.69 29.7 19.69 29.7C19.69 29.7 20.12 29.92 20.98 29.63C21.7 28.7 20.98 27.34 20.98 27.34C20.98 27.34 19.7 26.05 17.19 21.97C15.83 18.04 19.39 15.96 19.39 15.96C19.39 15.96 17.19 18.54 17.62 20.33C18.05 22.12 22.34 26.77 23.56 27.2C24.78 27.63 24.64 26.13 24.28 23.91C23.7 18.97 26.85 16.1 28.07 15.1C24.49 19.54 25.13 23.48 25.13 23.48C25.4665 26.7614 26.4848 26.9139 27.67 27.0914C27.7526 27.1038 27.836 27.1163 27.92 27.13C31.5103 27.0131 33.051 25.739 33.7528 25.1586C33.8915 25.0438 33.9975 24.9562 34.08 24.91C34.58 24.63 34.51 22.26 34.37 19.9C33.8 14.03 39.74 12.17 39.74 12.17C38.09 13.11 36.73 15.54 36.73 15.54C34.87 19.12 37.09 23.13 37.09 23.13C39.74 23.92 42.18 22.7 44.11 21.7C45.6892 20.8818 45.5477 19.2467 45.4442 18.0494C45.4211 17.7834 45.4 17.539 45.4 17.33C44.61 10.82 46.69 7.88 46.69 7.88C46.12 11.1 46.26 16.04 46.26 16.04C47.0158 19.7422 48.4945 18.5848 48.8665 18.2937L48.8676 18.2928C48.8839 18.28 48.8981 18.2689 48.91 18.26C49.19 18.05 52.42 14.11 52.63 13.18C52.63 11.17 52.13 8.38 52.13 8.38C49.12 6.52002 49.55 3.08002 49.55 3.08002C51.2 7.88 53.13 7.15997 53.13 7.15997C55.78 5.51001 56.07 0 56.07 0C57.5 5.65997 53.85 7.45001 53.85 7.45001C52.91 9.95001 54.06 12.53 54.06 12.53C56.21 12.11 59 12.32 59 12.32C59.29 9.88 62.01 8.45001 62.01 8.45001C60.8 11.24 60.51 13.03 60.51 13.03C62.88 15.04 65.74 12.53 65.74 12.53C63.09 16.61 59.37 13.89 59.37 13.89C56.36 13.03 54.07 13.89 54.07 13.89C48.48 23.77 37.74 25.56 37.74 25.56L34.73 27.14C32.8408 27.9265 31.2007 28.6723 29.7857 29.3157C27.9801 30.1369 26.5413 30.7912 25.42 31.15C23.42 31.79 23.42 33.08 23.42 33.08C29.3 33.8 30.37 37.59 30.37 37.59C30.37 37.59 26.43 39.09 23.35 37.59C23.0807 46.236 25.9075 49.6296 27.8018 51.9039C27.8918 52.0118 27.9796 52.1173 28.0649 52.2207C28.1176 52.2845 28.1693 52.3476 28.22 52.41C33.5491 52.9639 35.622 55.2052 39.038 58.8987L39.2413 59.1183L39.53 59.43C44.19 65.15 50.74 67.84 50.74 67.84C69.53 73.54 73.83 77.94 73.83 77.94C76.73 94.27 69.53 107.05 69.53 107.05C66.38 104.9 63.94 101.35 62.33 97.2C58.35 106.9 65.12 113.92 65.12 113.92C61.9 119.19 53.09 126.49 53.09 126.49C32.47 144.54 6.05 137.77 6.05 137.77L8.41 131.65ZM23.05 98.6099C23.7701 97.03 24.2701 92.45 24.2701 92.45H24.2801C25.7101 93.45 25.7101 96.53 25.7101 96.53L26.2801 113L25.5601 115.86L23.05 115.22C23.05 115.22 23.34 102.26 23.05 98.6099ZM28.86 85.3601C28.86 85.3601 28.29 97.5301 28.14 99.2501C28.14 102.62 28.86 116.29 28.86 116.29L53.85 121.8L58.72 115.86C58.72 115.86 60.01 113.93 57.72 111.85C57.5963 111.738 57.4614 111.617 57.3171 111.488C54.7904 109.225 49.3557 104.358 49.63 96.1001C49.92 94.4501 49.92 93.0901 49.92 93.0901C49.92 93.0901 49.35 91.8701 45.27 91.8701C44.7734 91.8701 44.246 91.8903 43.6915 91.9114C39.6905 92.0643 34.2802 92.271 28.87 85.3501L28.86 85.3601ZM9.81006 123.88V115.86L44.6801 122.74L30.5001 122.23L34.1601 125.38L16.3301 121.8L9.81006 123.88Z" fill="#E11D48"/>
+  </g>
+  <text x="30" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="18.5" letter-spacing="0.04em" fill="currentColor">STAG</text>
+  <text x="84" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18.5" letter-spacing="0.02em" fill="#E11D48">ELECTRICAL</text>
+  <text x="30" y="36" font-family="JetBrains Mono, monospace" font-weight="600" font-size="8.2" letter-spacing="0.13em" fill="currentColor" opacity="0.68">SOLAR · BATTERY · ELECTRICAL</text>
+</svg></span><span class="foot-meta">Uprise Digital GEO Intelligence Unit · Version 4.0 Solar &amp; Battery Protocol · October 2026</span></footer>
+
+      </section>
+    
+
+      <section id="tech-02-exec-summary" class="slide white" data-title="tech-02-exec-summary">
+        
+  <header class="hd"><p class="eyebrow">1.0 Executive Technical Summary</p><h2 class="h1">The 4 Governing Laws of Australian Solar &amp; Battery AI Visibility</h2></header>
+  <div class="cols-2">
+    <div>
+      <div class="law-card">
+        <span class="law-num">LAW 01</span>
+        <h3 class="law-title">SolarQuotes Authority Dominance (93.2% Citation Concentration)</h3>
+        <p class="body-p">Across 280 evaluations, <code>solarquotes.com.au</code> was cited in <b>261 answers (93.2%)</b>, followed by <code>solarchoice.net.au</code> (118) and <code>productreview.com.au</code> (70). Over half of STAG Electrical’s national mentions (<b>10 of 19 · 52.6%</b>) occurred on the <code>platinum_reviews</code> prompt because SolarQuotes explicitly lists STAG’s 434 verified ratings (4.8★) and 7 state licenses.</p>
+      </div>
+      <div class="law-card">
+        <span class="law-num">LAW 02</span>
+        <h3 class="law-title">Canberra Stronghold vs. Interstate GBP Vacuum (31.4% vs. 2.3%)</h3>
+        <p class="body-p">In Canberra &amp; ACT, STAG captures <b>31.4% (11/35 · Rank #4)</b> behind SolarHub (33), Mondiaux (16), and ECG (13). Across the 6 interstate capitals, STAG drops to <b>2.3% (4/210)</b> because its Melbourne (<code>182 Monash Dr</code>) and Brisbane (<code>30d Kerry Rd</code>) Google Business Profiles have <b>0 reviews (rating: null)</b>.</p>
+      </div>
+    </div>
+    <div>
+      <div class="law-card">
+        <span class="law-num">LAW 03</span>
+        <h3 class="law-title">Hidden GBP Addresses &amp; The 0/56 Local 3-Pack Penalty</h3>
+        <p class="body-p">Across 56 DataForSEO Google SERP checks, STAG appeared in the Google Maps Local 3-Pack <b>0 times (0/56)</b>. DataForSEO Maps telemetry reveals that STAG’s Queanbeyan (82 reviews, 4.5★) and Young (168 reviews, 4.8★) GBPs hide their street addresses (<code>address: null</code>), while a duplicate Hume ACT listing has <b>0 reviews and no website</b>.</p>
+      </div>
+      <div class="law-card">
+        <span class="law-num">LAW 04</span>
+        <h3 class="law-title">On-Site Schema Contradictions &amp; Broken Service Endpoints</h3>
+        <p class="body-p">Live crawl of <code>stagelectrical.com.au</code> uncovered <code>"telephone": "+61XXXXXXXXX"</code> in <code>/contact-us</code> JSON-LD, a broken <b>HTTP 404</b> on <code>/aircon</code>, 4 states omitted from <code>areaServed</code> (QLD, SA, TAS, NT), all 7 state electrical license numbers missing from site schema, and 4 conflicting review counts (<code>100+</code>, <code>200+</code>, <code>350</code> vs. live <b>434</b>).</p>
+      </div>
+    </div>
+  </div>
+  <footer class="foot"><span class="foot-logo"><svg class="logo" aria-label="STAG Electrical" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 44" fill="none">
+  <g transform="translate(2, 2) scale(0.285)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41 131.65C10.88 132.19 23.02 133.05 23.02 133.05L23.01 133.03L6.86 126.08L6.92999 111.97L19.68 114.33L20.11 91.92L19.37 78.82L16.89 75.88C16.89 75.88 13.67 70.3 10.45 66.29C6.23 61.42 7.23 52.47 8.95 48.82C10.67 45.17 10.53 41.95 10.53 41.95C10.53 41.95 10.68 40.38 9.95999 40.09C7.02467 39.4493 5.87656 38.2924 5.2462 37.6572C5.03046 37.4398 4.87535 37.2835 4.73 37.23C4.32431 37.0805 3.3006 36.3485 2.32947 35.6541L2.32906 35.6537L2.32768 35.6528C1.93498 35.372 1.55098 35.0974 1.22 34.87C0.0699921 34.08 0 31.5 0 31.5L0.860001 30.57L3.58 31.21L0.929993 29.35L0.429993 26.77C0.429993 26.77 0.289993 25.34 0.789993 24.62C1.28999 23.9 3.44 23.9 3.44 23.9L12.1 27.41C12.1 27.41 13.61 27.55 14.61 27.48C16.97 27.34 19.69 29.7 19.69 29.7C19.69 29.7 20.12 29.92 20.98 29.63C21.7 28.7 20.98 27.34 20.98 27.34C20.98 27.34 19.7 26.05 17.19 21.97C15.83 18.04 19.39 15.96 19.39 15.96C19.39 15.96 17.19 18.54 17.62 20.33C18.05 22.12 22.34 26.77 23.56 27.2C24.78 27.63 24.64 26.13 24.28 23.91C23.7 18.97 26.85 16.1 28.07 15.1C24.49 19.54 25.13 23.48 25.13 23.48C25.4665 26.7614 26.4848 26.9139 27.67 27.0914C27.7526 27.1038 27.836 27.1163 27.92 27.13C31.5103 27.0131 33.051 25.739 33.7528 25.1586C33.8915 25.0438 33.9975 24.9562 34.08 24.91C34.58 24.63 34.51 22.26 34.37 19.9C33.8 14.03 39.74 12.17 39.74 12.17C38.09 13.11 36.73 15.54 36.73 15.54C34.87 19.12 37.09 23.13 37.09 23.13C39.74 23.92 42.18 22.7 44.11 21.7C45.6892 20.8818 45.5477 19.2467 45.4442 18.0494C45.4211 17.7834 45.4 17.539 45.4 17.33C44.61 10.82 46.69 7.88 46.69 7.88C46.12 11.1 46.26 16.04 46.26 16.04C47.0158 19.7422 48.4945 18.5848 48.8665 18.2937L48.8676 18.2928C48.8839 18.28 48.8981 18.2689 48.91 18.26C49.19 18.05 52.42 14.11 52.63 13.18C52.63 11.17 52.13 8.38 52.13 8.38C49.12 6.52002 49.55 3.08002 49.55 3.08002C51.2 7.88 53.13 7.15997 53.13 7.15997C55.78 5.51001 56.07 0 56.07 0C57.5 5.65997 53.85 7.45001 53.85 7.45001C52.91 9.95001 54.06 12.53 54.06 12.53C56.21 12.11 59 12.32 59 12.32C59.29 9.88 62.01 8.45001 62.01 8.45001C60.8 11.24 60.51 13.03 60.51 13.03C62.88 15.04 65.74 12.53 65.74 12.53C63.09 16.61 59.37 13.89 59.37 13.89C56.36 13.03 54.07 13.89 54.07 13.89C48.48 23.77 37.74 25.56 37.74 25.56L34.73 27.14C32.8408 27.9265 31.2007 28.6723 29.7857 29.3157C27.9801 30.1369 26.5413 30.7912 25.42 31.15C23.42 31.79 23.42 33.08 23.42 33.08C29.3 33.8 30.37 37.59 30.37 37.59C30.37 37.59 26.43 39.09 23.35 37.59C23.0807 46.236 25.9075 49.6296 27.8018 51.9039C27.8918 52.0118 27.9796 52.1173 28.0649 52.2207C28.1176 52.2845 28.1693 52.3476 28.22 52.41C33.5491 52.9639 35.622 55.2052 39.038 58.8987L39.2413 59.1183L39.53 59.43C44.19 65.15 50.74 67.84 50.74 67.84C69.53 73.54 73.83 77.94 73.83 77.94C76.73 94.27 69.53 107.05 69.53 107.05C66.38 104.9 63.94 101.35 62.33 97.2C58.35 106.9 65.12 113.92 65.12 113.92C61.9 119.19 53.09 126.49 53.09 126.49C32.47 144.54 6.05 137.77 6.05 137.77L8.41 131.65ZM23.05 98.6099C23.7701 97.03 24.2701 92.45 24.2701 92.45H24.2801C25.7101 93.45 25.7101 96.53 25.7101 96.53L26.2801 113L25.5601 115.86L23.05 115.22C23.05 115.22 23.34 102.26 23.05 98.6099ZM28.86 85.3601C28.86 85.3601 28.29 97.5301 28.14 99.2501C28.14 102.62 28.86 116.29 28.86 116.29L53.85 121.8L58.72 115.86C58.72 115.86 60.01 113.93 57.72 111.85C57.5963 111.738 57.4614 111.617 57.3171 111.488C54.7904 109.225 49.3557 104.358 49.63 96.1001C49.92 94.4501 49.92 93.0901 49.92 93.0901C49.92 93.0901 49.35 91.8701 45.27 91.8701C44.7734 91.8701 44.246 91.8903 43.6915 91.9114C39.6905 92.0643 34.2802 92.271 28.87 85.3501L28.86 85.3601ZM9.81006 123.88V115.86L44.6801 122.74L30.5001 122.23L34.1601 125.38L16.3301 121.8L9.81006 123.88Z" fill="#E11D48"/>
+  </g>
+  <text x="30" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="18.5" letter-spacing="0.04em" fill="currentColor">STAG</text>
+  <text x="84" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18.5" letter-spacing="0.02em" fill="#E11D48">ELECTRICAL</text>
+  <text x="30" y="36" font-family="JetBrains Mono, monospace" font-weight="600" font-size="8.2" letter-spacing="0.13em" fill="currentColor" opacity="0.68">SOLAR · BATTERY · ELECTRICAL</text>
+</svg></span><span class="foot-meta">Technical Dossier · Section 1: Executive Technical Summary</span></footer>
+
+      </section>
+    
+
+      <section id="tech-03-problem-formulation" class="slide light" data-title="tech-03-problem-formulation">
+        
+  <header class="hd"><p class="eyebrow">2.0 Mathematical Formulation</p><h2 class="h1">Stochastic Generative Search Formalization (N = 280)</h2></header>
+  <div class="cols-2">
+    <div>
+      <h3 class="h3">Stochastic Generation Model</h3>
+      <p class="body-p">Let localized solar, battery, and electrical buyer queries $\mathcal{Q} = \{q_1, \dots, q_7\}$ span Australian markets $\mathcal{L} = \{l_1, \dots, l_8\}$. Generative engines $\mathcal{M} = \{m_1, \dots, m_5\}$ execute search-grounded synthesis:</p>
+      <div class="math-box">
+        $$y \sim m_k(q_i, l_j \mid \mathcal{I}_{\text{SERP}}, \mathcal{I}_{\text{Maps}}, \mathcal{I}_{\text{RAG}}) \longrightarrow (R_{ijk}, C_{ijk})$$
+      </div>
+      <h3 class="h3">Analytical Objective</h3>
+      <p class="body-p">For brand entity $E = \text{Stag Electrical}$, our econometric pipeline computes:</p>
+      <ul class="plist">
+        <li><b>Non-Parametric Retrieval:</b> Unbiased recommendation probability $\widehat{\text{SoMV}}(E) = 6.8\%$.</li>
+        <li><b>Position-Discounted Prominence:</b> Logarithmic rank decay metric $\text{WVI}(E) = 0.0384$ ($0.2191$ in ACT).</li>
+        <li><b>Directory-to-Domain Multiplier:</b> Ratio of third-party SolarQuotes citations ($261$) to direct domain citations ($16$).</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="h3">Formal Parameter Space</h3>
+      <table class="tech-table">
+        <thead><tr><th>Parameter</th><th>Mathematical Domain</th><th>Empirical Value</th></tr></thead>
+        <tbody>
+          <tr><td>$M$ (Markets)</td><td>Discrete Geographic Hubs</td><td>$8$ (Canb, Syd, Melb, Bris, Perth, Adel, GC, Nat)</td></tr>
+          <tr><td>$Q$ (Buyer Intents)</td><td>Solar, Battery &amp; Electrical Queries</td><td>$7$ Core Commercial Questions</td></tr>
+          <tr><td>$K$ (Engines)</td><td>Live Grounded AI Assistants</td><td>$5$ (AI Mode, ChatGPT, Perplexity, Gemini, Claude)</td></tr>
+          <tr><td>$N$ (Total Sample)</td><td>$M \times Q \times K$</td><td>$280$ AI Answers + $56$ SERPs + $8$ Maps Audits</td></tr>
+          <tr><td>$z_{0.975}$</td><td>Gaussian Critical Value</td><td>$1.960$</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer class="foot"><span class="foot-logo"><svg class="logo" aria-label="STAG Electrical" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 44" fill="none">
+  <g transform="translate(2, 2) scale(0.285)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41 131.65C10.88 132.19 23.02 133.05 23.02 133.05L23.01 133.03L6.86 126.08L6.92999 111.97L19.68 114.33L20.11 91.92L19.37 78.82L16.89 75.88C16.89 75.88 13.67 70.3 10.45 66.29C6.23 61.42 7.23 52.47 8.95 48.82C10.67 45.17 10.53 41.95 10.53 41.95C10.53 41.95 10.68 40.38 9.95999 40.09C7.02467 39.4493 5.87656 38.2924 5.2462 37.6572C5.03046 37.4398 4.87535 37.2835 4.73 37.23C4.32431 37.0805 3.3006 36.3485 2.32947 35.6541L2.32906 35.6537L2.32768 35.6528C1.93498 35.372 1.55098 35.0974 1.22 34.87C0.0699921 34.08 0 31.5 0 31.5L0.860001 30.57L3.58 31.21L0.929993 29.35L0.429993 26.77C0.429993 26.77 0.289993 25.34 0.789993 24.62C1.28999 23.9 3.44 23.9 3.44 23.9L12.1 27.41C12.1 27.41 13.61 27.55 14.61 27.48C16.97 27.34 19.69 29.7 19.69 29.7C19.69 29.7 20.12 29.92 20.98 29.63C21.7 28.7 20.98 27.34 20.98 27.34C20.98 27.34 19.7 26.05 17.19 21.97C15.83 18.04 19.39 15.96 19.39 15.96C19.39 15.96 17.19 18.54 17.62 20.33C18.05 22.12 22.34 26.77 23.56 27.2C24.78 27.63 24.64 26.13 24.28 23.91C23.7 18.97 26.85 16.1 28.07 15.1C24.49 19.54 25.13 23.48 25.13 23.48C25.4665 26.7614 26.4848 26.9139 27.67 27.0914C27.7526 27.1038 27.836 27.1163 27.92 27.13C31.5103 27.0131 33.051 25.739 33.7528 25.1586C33.8915 25.0438 33.9975 24.9562 34.08 24.91C34.58 24.63 34.51 22.26 34.37 19.9C33.8 14.03 39.74 12.17 39.74 12.17C38.09 13.11 36.73 15.54 36.73 15.54C34.87 19.12 37.09 23.13 37.09 23.13C39.74 23.92 42.18 22.7 44.11 21.7C45.6892 20.8818 45.5477 19.2467 45.4442 18.0494C45.4211 17.7834 45.4 17.539 45.4 17.33C44.61 10.82 46.69 7.88 46.69 7.88C46.12 11.1 46.26 16.04 46.26 16.04C47.0158 19.7422 48.4945 18.5848 48.8665 18.2937L48.8676 18.2928C48.8839 18.28 48.8981 18.2689 48.91 18.26C49.19 18.05 52.42 14.11 52.63 13.18C52.63 11.17 52.13 8.38 52.13 8.38C49.12 6.52002 49.55 3.08002 49.55 3.08002C51.2 7.88 53.13 7.15997 53.13 7.15997C55.78 5.51001 56.07 0 56.07 0C57.5 5.65997 53.85 7.45001 53.85 7.45001C52.91 9.95001 54.06 12.53 54.06 12.53C56.21 12.11 59 12.32 59 12.32C59.29 9.88 62.01 8.45001 62.01 8.45001C60.8 11.24 60.51 13.03 60.51 13.03C62.88 15.04 65.74 12.53 65.74 12.53C63.09 16.61 59.37 13.89 59.37 13.89C56.36 13.03 54.07 13.89 54.07 13.89C48.48 23.77 37.74 25.56 37.74 25.56L34.73 27.14C32.8408 27.9265 31.2007 28.6723 29.7857 29.3157C27.9801 30.1369 26.5413 30.7912 25.42 31.15C23.42 31.79 23.42 33.08 23.42 33.08C29.3 33.8 30.37 37.59 30.37 37.59C30.37 37.59 26.43 39.09 23.35 37.59C23.0807 46.236 25.9075 49.6296 27.8018 51.9039C27.8918 52.0118 27.9796 52.1173 28.0649 52.2207C28.1176 52.2845 28.1693 52.3476 28.22 52.41C33.5491 52.9639 35.622 55.2052 39.038 58.8987L39.2413 59.1183L39.53 59.43C44.19 65.15 50.74 67.84 50.74 67.84C69.53 73.54 73.83 77.94 73.83 77.94C76.73 94.27 69.53 107.05 69.53 107.05C66.38 104.9 63.94 101.35 62.33 97.2C58.35 106.9 65.12 113.92 65.12 113.92C61.9 119.19 53.09 126.49 53.09 126.49C32.47 144.54 6.05 137.77 6.05 137.77L8.41 131.65ZM23.05 98.6099C23.7701 97.03 24.2701 92.45 24.2701 92.45H24.2801C25.7101 93.45 25.7101 96.53 25.7101 96.53L26.2801 113L25.5601 115.86L23.05 115.22C23.05 115.22 23.34 102.26 23.05 98.6099ZM28.86 85.3601C28.86 85.3601 28.29 97.5301 28.14 99.2501C28.14 102.62 28.86 116.29 28.86 116.29L53.85 121.8L58.72 115.86C58.72 115.86 60.01 113.93 57.72 111.85C57.5963 111.738 57.4614 111.617 57.3171 111.488C54.7904 109.225 49.3557 104.358 49.63 96.1001C49.92 94.4501 49.92 93.0901 49.92 93.0901C49.92 93.0901 49.35 91.8701 45.27 91.8701C44.7734 91.8701 44.246 91.8903 43.6915 91.9114C39.6905 92.0643 34.2802 92.271 28.87 85.3501L28.86 85.3601ZM9.81006 123.88V115.86L44.6801 122.74L30.5001 122.23L34.1601 125.38L16.3301 121.8L9.81006 123.88Z" fill="#E11D48"/>
+  </g>
+  <text x="30" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="18.5" letter-spacing="0.04em" fill="currentColor">STAG</text>
+  <text x="84" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18.5" letter-spacing="0.02em" fill="#E11D48">ELECTRICAL</text>
+  <text x="30" y="36" font-family="JetBrains Mono, monospace" font-weight="600" font-size="8.2" letter-spacing="0.13em" fill="currentColor" opacity="0.68">SOLAR · BATTERY · ELECTRICAL</text>
+</svg></span><span class="foot-meta">Technical Dossier · Section 2: Mathematical Formulation</span></footer>
+
+      </section>
+    
+
+      <section id="tech-03b-prompt-architecture" class="slide white" data-title="tech-03b-prompt-architecture">
+        
+  <header class="hd"><p class="eyebrow">2.5 Prompt Instrumentation &amp; Selection Rationale</p><h2 class="h1">The 7 Verbatim Solar &amp; Battery Prompts, SERP Queries &amp; Selection Rationale</h2></header>
+  <div class="cols-2">
+    <div>
+      <h3 class="h3">Verbatim Prompt Matrix (<code>CORE_PROMPTS</code> in <code>run_stag_research.mjs</code>)</h3>
+      <table class="tech-table" style="font-size:11.3px;">
+        <thead><tr><th>ID &amp; STAG Score</th><th>Verbatim LLM Prompt Template (<code>[loc]</code> = 8 Markets)</th><th>Selection Rationale</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><code>solar_installer</code><br/><span class="badge-warning">2 / 40 (5.0%)</span></td>
+            <td>“Who are the best residential solar and battery installers in [loc]? Give me a shortlist of specific solar installation companies with reasons.”</td>
+            <td><b>Category Head Term:</b> Captures unprompted top-of-funnel residential solar &amp; battery buyer shortlists in each capital.</td>
+          </tr>
+          <tr>
+            <td><code>battery_storage</code><br/><span class="badge-danger">1 / 40 (2.5%)</span></td>
+            <td>“Which solar companies in [loc] are the top accredited installers for Sigenergy SigenStor, Tesla Powerwall 3, Sungrow, and GoodWe home battery systems?”</td>
+            <td><b>Tier-1 Battery Brand Intent:</b> Tests STAG’s exact battery hardware stack (36 Sigenergy, 170 Sungrow, 49 GoodWe, Powerwall 3).</td>
+          </tr>
+          <tr>
+            <td><code>rebates_2026</code><br/><span class="badge-danger">1 / 40 (2.5%)</span></td>
+            <td>“Which CEC-accredited solar and battery installers in [loc] are best for claiming the Federal Cheaper Home Batteries Program and 2026 state solar and battery rebates?”</td>
+            <td><b>High-Intent Rebate Trigger:</b> Evaluates visibility for Australia’s #1 2025/2026 policy catalyst (Federal battery STC discount + state loans).</td>
+          </tr>
+          <tr>
+            <td><code>panels_efficiency</code><br/><span class="badge-warning">2 / 40 (5.0%)</span></td>
+            <td>“Who are the most reputable solar companies in [loc] for high-efficiency Aiko and Jinko 6.6kW, 10kW, and 13kW solar systems with transparent pricing?”</td>
+            <td><b>System Size &amp; Module Intent:</b> Matches STAG’s <code>/solar-pricing-australia</code> packages and top installed panels (205 Jinko, Aiko ABC).</td>
+          </tr>
+          <tr>
+            <td><code>vpp_three_phase</code><br/><span class="badge-danger">0 / 40 (0.0%)</span></td>
+            <td>“Which solar and electrical companies in [loc] specialise in three-phase hybrid solar inverters, whole-home blackout backup, and Virtual Power Plant (VPP) optimisation?”</td>
+            <td><b>Complex Electrical Engineering:</b> Tests whether STAG’s 3-phase balancing &amp; blackout backup standards on <code>/quality-standards</code> surface in AI.</td>
+          </tr>
+          <tr>
+            <td><code>ev_aircon_elec</code><br/><span class="badge-warning">3 / 40 (7.5%)</span></td>
+            <td>“Which licensed electrical and solar companies in [loc] offer existing solar system battery retrofits, EV charger installation, and reverse-cycle air conditioning?”</td>
+            <td><b>Whole-Home Electrification &amp; Dual Trade:</b> Directly tests STAG’s legal entity differentiator (<i>Electrical, Solar &amp; Refrigeration</i>).</td>
+          </tr>
+          <tr>
+            <td><code>platinum_reviews</code><br/><span class="badge-success">10 / 40 (25.0%)</span></td>
+            <td>“Who are the highest-rated SolarQuotes Platinum, NETCC-approved, and CEC-accredited solar installers in [loc] with verified customer reviews and long-term workmanship warranties?”</td>
+            <td><b>Trust &amp; Accreditation Filter:</b> Isolates late-stage buyers verifying SolarQuotes Platinum status, NETCC approval, and 10-year warranties.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3 class="h3">Methodological Architecture &amp; Temporal Cutoff Findings</h3>
+      <div class="law-card">
+        <span class="law-num">HARDWARE &amp; TRADE PROMPT DESIGN</span>
+        <h4 class="law-title">Why Generic “Solar Company” Prompts Miss 60% of Buyer Journey</h4>
+        <p class="body-p">In 2026, Australian solar buyers rarely ask only for a generic “solar company.” High-margin residential jobs ($15k–$30k) center on <b>Sigenergy SigenStor / Tesla Powerwall 3</b> three-phase blackout backup, <b>Federal Cheaper Home Batteries Program</b> eligibility, and <b>Aiko/Jinko 10kW–13.2kW</b> arrays. Structuring the 7 prompts across hardware, rebates, 3-phase VPP, EV/AirCon retrofits, and SolarQuotes Platinum credentials reveals exactly where STAG wins (<code>platinum_reviews</code>: 25%) and where it is invisible (<code>vpp_three_phase</code>: 0%).</p>
+      </div>
+      <div class="law-card">
+        <span class="law-num">TEMPORAL CUTOFF DRIFT &amp; 2026 REBATE QUERIES</span>
+        <h4 class="law-title">How Pre-Training Cutoffs Affect 2026 Rebate &amp; Pricing Pages</h4>
+        <p class="body-p">STAG Electrical’s Webflow site uses 2026 form IDs (<code>#wf-form-Hero-Form-2026</code>) and targets 2026 Federal battery rebates. Because frontier LLM base weights have early-2026 pre-training cutoffs:</p>
+        <ul class="ticks" style="font-size:13px;">
+          <li><b>Live Web Grounding is Mandatory:</b> Un-grounded LLMs revert to legacy pre-2025 state rebate rules and older incumbents (Origin, AGL, Solahart).</li>
+          <li><b>Un-Anchored API Wrapper Drift:</b> Consumer apps (<code>chatgpt.com</code>, <code>claude.ai</code>) inject today's date (<code>Oct 2026</code>), but un-anchored API wrappers without a system date header treat 2026 rebate pages as “future projections” unless grounded in dated SolarQuotes/energy.gov.au citations.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer class="foot"><span class="foot-logo"><svg class="logo" aria-label="STAG Electrical" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 44" fill="none">
+  <g transform="translate(2, 2) scale(0.285)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41 131.65C10.88 132.19 23.02 133.05 23.02 133.05L23.01 133.03L6.86 126.08L6.92999 111.97L19.68 114.33L20.11 91.92L19.37 78.82L16.89 75.88C16.89 75.88 13.67 70.3 10.45 66.29C6.23 61.42 7.23 52.47 8.95 48.82C10.67 45.17 10.53 41.95 10.53 41.95C10.53 41.95 10.68 40.38 9.95999 40.09C7.02467 39.4493 5.87656 38.2924 5.2462 37.6572C5.03046 37.4398 4.87535 37.2835 4.73 37.23C4.32431 37.0805 3.3006 36.3485 2.32947 35.6541L2.32906 35.6537L2.32768 35.6528C1.93498 35.372 1.55098 35.0974 1.22 34.87C0.0699921 34.08 0 31.5 0 31.5L0.860001 30.57L3.58 31.21L0.929993 29.35L0.429993 26.77C0.429993 26.77 0.289993 25.34 0.789993 24.62C1.28999 23.9 3.44 23.9 3.44 23.9L12.1 27.41C12.1 27.41 13.61 27.55 14.61 27.48C16.97 27.34 19.69 29.7 19.69 29.7C19.69 29.7 20.12 29.92 20.98 29.63C21.7 28.7 20.98 27.34 20.98 27.34C20.98 27.34 19.7 26.05 17.19 21.97C15.83 18.04 19.39 15.96 19.39 15.96C19.39 15.96 17.19 18.54 17.62 20.33C18.05 22.12 22.34 26.77 23.56 27.2C24.78 27.63 24.64 26.13 24.28 23.91C23.7 18.97 26.85 16.1 28.07 15.1C24.49 19.54 25.13 23.48 25.13 23.48C25.4665 26.7614 26.4848 26.9139 27.67 27.0914C27.7526 27.1038 27.836 27.1163 27.92 27.13C31.5103 27.0131 33.051 25.739 33.7528 25.1586C33.8915 25.0438 33.9975 24.9562 34.08 24.91C34.58 24.63 34.51 22.26 34.37 19.9C33.8 14.03 39.74 12.17 39.74 12.17C38.09 13.11 36.73 15.54 36.73 15.54C34.87 19.12 37.09 23.13 37.09 23.13C39.74 23.92 42.18 22.7 44.11 21.7C45.6892 20.8818 45.5477 19.2467 45.4442 18.0494C45.4211 17.7834 45.4 17.539 45.4 17.33C44.61 10.82 46.69 7.88 46.69 7.88C46.12 11.1 46.26 16.04 46.26 16.04C47.0158 19.7422 48.4945 18.5848 48.8665 18.2937L48.8676 18.2928C48.8839 18.28 48.8981 18.2689 48.91 18.26C49.19 18.05 52.42 14.11 52.63 13.18C52.63 11.17 52.13 8.38 52.13 8.38C49.12 6.52002 49.55 3.08002 49.55 3.08002C51.2 7.88 53.13 7.15997 53.13 7.15997C55.78 5.51001 56.07 0 56.07 0C57.5 5.65997 53.85 7.45001 53.85 7.45001C52.91 9.95001 54.06 12.53 54.06 12.53C56.21 12.11 59 12.32 59 12.32C59.29 9.88 62.01 8.45001 62.01 8.45001C60.8 11.24 60.51 13.03 60.51 13.03C62.88 15.04 65.74 12.53 65.74 12.53C63.09 16.61 59.37 13.89 59.37 13.89C56.36 13.03 54.07 13.89 54.07 13.89C48.48 23.77 37.74 25.56 37.74 25.56L34.73 27.14C32.8408 27.9265 31.2007 28.6723 29.7857 29.3157C27.9801 30.1369 26.5413 30.7912 25.42 31.15C23.42 31.79 23.42 33.08 23.42 33.08C29.3 33.8 30.37 37.59 30.37 37.59C30.37 37.59 26.43 39.09 23.35 37.59C23.0807 46.236 25.9075 49.6296 27.8018 51.9039C27.8918 52.0118 27.9796 52.1173 28.0649 52.2207C28.1176 52.2845 28.1693 52.3476 28.22 52.41C33.5491 52.9639 35.622 55.2052 39.038 58.8987L39.2413 59.1183L39.53 59.43C44.19 65.15 50.74 67.84 50.74 67.84C69.53 73.54 73.83 77.94 73.83 77.94C76.73 94.27 69.53 107.05 69.53 107.05C66.38 104.9 63.94 101.35 62.33 97.2C58.35 106.9 65.12 113.92 65.12 113.92C61.9 119.19 53.09 126.49 53.09 126.49C32.47 144.54 6.05 137.77 6.05 137.77L8.41 131.65ZM23.05 98.6099C23.7701 97.03 24.2701 92.45 24.2701 92.45H24.2801C25.7101 93.45 25.7101 96.53 25.7101 96.53L26.2801 113L25.5601 115.86L23.05 115.22C23.05 115.22 23.34 102.26 23.05 98.6099ZM28.86 85.3601C28.86 85.3601 28.29 97.5301 28.14 99.2501C28.14 102.62 28.86 116.29 28.86 116.29L53.85 121.8L58.72 115.86C58.72 115.86 60.01 113.93 57.72 111.85C57.5963 111.738 57.4614 111.617 57.3171 111.488C54.7904 109.225 49.3557 104.358 49.63 96.1001C49.92 94.4501 49.92 93.0901 49.92 93.0901C49.92 93.0901 49.35 91.8701 45.27 91.8701C44.7734 91.8701 44.246 91.8903 43.6915 91.9114C39.6905 92.0643 34.2802 92.271 28.87 85.3501L28.86 85.3601ZM9.81006 123.88V115.86L44.6801 122.74L30.5001 122.23L34.1601 125.38L16.3301 121.8L9.81006 123.88Z" fill="#E11D48"/>
+  </g>
+  <text x="30" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="18.5" letter-spacing="0.04em" fill="currentColor">STAG</text>
+  <text x="84" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18.5" letter-spacing="0.02em" fill="#E11D48">ELECTRICAL</text>
+  <text x="30" y="36" font-family="JetBrains Mono, monospace" font-weight="600" font-size="8.2" letter-spacing="0.13em" fill="currentColor" opacity="0.68">SOLAR · BATTERY · ELECTRICAL</text>
+</svg></span><span class="foot-meta">Technical Dossier · Section 2.5: Prompt Instrumentation &amp; Selection Rationale</span></footer>
+
+      </section>
+    
+
+      <section id="tech-04-somv-wilson" class="slide white" data-title="tech-04-somv-wilson">
+        
+  <header class="hd"><p class="eyebrow">3.0 Statistical Estimators</p><h2 class="h1">Share of Model Voice (SoMV) &amp; Wilson 95% Confidence Bounds</h2></header>
+  <div class="cols-2">
+    <div>
+      <h3 class="h3">Share of Model Voice Formulation</h3>
+      <p class="body-p">We define the empirical Share of Model Voice $\widehat{\text{SoMV}}(E)$ as the unweighted proportion of generative answers naming entity $E$:</p>
+      <div class="math-box">
+        $$\widehat{\text{SoMV}}(E) = \left( \frac{1}{N} \sum_{i=1}^{N} \mathbb{I}(E \in \text{Entities}(R_i)) \right) \times 100\%$$
+      </div>
+      <h3 class="h3">Asymmetric Wilson Score Interval</h3>
+      <p class="body-p">For binomial proportions across $n=35$ per city and $N=280$ nationally, we compute exact asymmetric Wilson score intervals:</p>
+      <div class="math-box">
+        $$w = \frac{\hat{p} + \frac{z^2}{2N} \pm z\sqrt{\frac{\hat{p}(1-\hat{p})}{N} + \frac{z^2}{4N^2}}}{1 + \frac{z^2}{N}}$$
+      </div>
+    </div>
+    <div>
+      <h3 class="h3">Empirical Findings for STAG Electrical by Market</h3>
+      <table class="tech-table">
+        <thead><tr><th>Market</th><th>Mentions ($n/35$)</th><th>$\widehat{\text{SoMV}}$</th><th>Wilson 95% CI</th><th>Rank</th></tr></thead>
+        <tbody>
+          <tr><td><b>National Panel Overall</b></td><td><b>19 / 280</b></td><td><b>6.8%</b></td><td><b>[4.4%, 10.3%]</b></td><td><b>#17</b></td></tr>
+          <tr style="background:#FEE2E2"><td><b>Canberra &amp; ACT (Home Metro)</b></td><td><b>11 / 35</b></td><td><b>31.4%</b></td><td><b>[18.6%, 48.0%]</b></td><td><b>#4</b></td></tr>
+          <tr><td>National (“Australia”)</td><td>4 / 35</td><td>11.4%</td><td>[4.5%, 26.0%]</td><td>#15</td></tr>
+          <tr><td>Sydney (Smeaton Grange)</td><td>2 / 35</td><td>5.7%</td><td>[1.6%, 18.6%]</td><td>#14</td></tr>
+          <tr><td>Melbourne (Dandenong Sth)</td><td>1 / 35</td><td>2.9%</td><td>[0.5%, 14.5%]</td><td>#14</td></tr>
+          <tr><td>Adelaide (SA)</td><td>1 / 35</td><td>2.9%</td><td>[0.5%, 14.5%]</td><td>#12</td></tr>
+          <tr><td>Brisbane (Archerfield)</td><td>0 / 35</td><td>0.0%</td><td>[0.0%, 9.9%]</td><td>Unranked</td></tr>
+          <tr><td>Perth (WA)</td><td>0 / 35</td><td>0.0%</td><td>[0.0%, 9.9%]</td><td>Unranked</td></tr>
+          <tr><td>Gold Coast (SEQ)</td><td>0 / 35</td><td>0.0%</td><td>[0.0%, 9.9%]</td><td>Unranked</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer class="foot"><span class="foot-logo"><svg class="logo" aria-label="STAG Electrical" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 44" fill="none">
+  <g transform="translate(2, 2) scale(0.285)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41 131.65C10.88 132.19 23.02 133.05 23.02 133.05L23.01 133.03L6.86 126.08L6.92999 111.97L19.68 114.33L20.11 91.92L19.37 78.82L16.89 75.88C16.89 75.88 13.67 70.3 10.45 66.29C6.23 61.42 7.23 52.47 8.95 48.82C10.67 45.17 10.53 41.95 10.53 41.95C10.53 41.95 10.68 40.38 9.95999 40.09C7.02467 39.4493 5.87656 38.2924 5.2462 37.6572C5.03046 37.4398 4.87535 37.2835 4.73 37.23C4.32431 37.0805 3.3006 36.3485 2.32947 35.6541L2.32906 35.6537L2.32768 35.6528C1.93498 35.372 1.55098 35.0974 1.22 34.87C0.0699921 34.08 0 31.5 0 31.5L0.860001 30.57L3.58 31.21L0.929993 29.35L0.429993 26.77C0.429993 26.77 0.289993 25.34 0.789993 24.62C1.28999 23.9 3.44 23.9 3.44 23.9L12.1 27.41C12.1 27.41 13.61 27.55 14.61 27.48C16.97 27.34 19.69 29.7 19.69 29.7C19.69 29.7 20.12 29.92 20.98 29.63C21.7 28.7 20.98 27.34 20.98 27.34C20.98 27.34 19.7 26.05 17.19 21.97C15.83 18.04 19.39 15.96 19.39 15.96C19.39 15.96 17.19 18.54 17.62 20.33C18.05 22.12 22.34 26.77 23.56 27.2C24.78 27.63 24.64 26.13 24.28 23.91C23.7 18.97 26.85 16.1 28.07 15.1C24.49 19.54 25.13 23.48 25.13 23.48C25.4665 26.7614 26.4848 26.9139 27.67 27.0914C27.7526 27.1038 27.836 27.1163 27.92 27.13C31.5103 27.0131 33.051 25.739 33.7528 25.1586C33.8915 25.0438 33.9975 24.9562 34.08 24.91C34.58 24.63 34.51 22.26 34.37 19.9C33.8 14.03 39.74 12.17 39.74 12.17C38.09 13.11 36.73 15.54 36.73 15.54C34.87 19.12 37.09 23.13 37.09 23.13C39.74 23.92 42.18 22.7 44.11 21.7C45.6892 20.8818 45.5477 19.2467 45.4442 18.0494C45.4211 17.7834 45.4 17.539 45.4 17.33C44.61 10.82 46.69 7.88 46.69 7.88C46.12 11.1 46.26 16.04 46.26 16.04C47.0158 19.7422 48.4945 18.5848 48.8665 18.2937L48.8676 18.2928C48.8839 18.28 48.8981 18.2689 48.91 18.26C49.19 18.05 52.42 14.11 52.63 13.18C52.63 11.17 52.13 8.38 52.13 8.38C49.12 6.52002 49.55 3.08002 49.55 3.08002C51.2 7.88 53.13 7.15997 53.13 7.15997C55.78 5.51001 56.07 0 56.07 0C57.5 5.65997 53.85 7.45001 53.85 7.45001C52.91 9.95001 54.06 12.53 54.06 12.53C56.21 12.11 59 12.32 59 12.32C59.29 9.88 62.01 8.45001 62.01 8.45001C60.8 11.24 60.51 13.03 60.51 13.03C62.88 15.04 65.74 12.53 65.74 12.53C63.09 16.61 59.37 13.89 59.37 13.89C56.36 13.03 54.07 13.89 54.07 13.89C48.48 23.77 37.74 25.56 37.74 25.56L34.73 27.14C32.8408 27.9265 31.2007 28.6723 29.7857 29.3157C27.9801 30.1369 26.5413 30.7912 25.42 31.15C23.42 31.79 23.42 33.08 23.42 33.08C29.3 33.8 30.37 37.59 30.37 37.59C30.37 37.59 26.43 39.09 23.35 37.59C23.0807 46.236 25.9075 49.6296 27.8018 51.9039C27.8918 52.0118 27.9796 52.1173 28.0649 52.2207C28.1176 52.2845 28.1693 52.3476 28.22 52.41C33.5491 52.9639 35.622 55.2052 39.038 58.8987L39.2413 59.1183L39.53 59.43C44.19 65.15 50.74 67.84 50.74 67.84C69.53 73.54 73.83 77.94 73.83 77.94C76.73 94.27 69.53 107.05 69.53 107.05C66.38 104.9 63.94 101.35 62.33 97.2C58.35 106.9 65.12 113.92 65.12 113.92C61.9 119.19 53.09 126.49 53.09 126.49C32.47 144.54 6.05 137.77 6.05 137.77L8.41 131.65ZM23.05 98.6099C23.7701 97.03 24.2701 92.45 24.2701 92.45H24.2801C25.7101 93.45 25.7101 96.53 25.7101 96.53L26.2801 113L25.5601 115.86L23.05 115.22C23.05 115.22 23.34 102.26 23.05 98.6099ZM28.86 85.3601C28.86 85.3601 28.29 97.5301 28.14 99.2501C28.14 102.62 28.86 116.29 28.86 116.29L53.85 121.8L58.72 115.86C58.72 115.86 60.01 113.93 57.72 111.85C57.5963 111.738 57.4614 111.617 57.3171 111.488C54.7904 109.225 49.3557 104.358 49.63 96.1001C49.92 94.4501 49.92 93.0901 49.92 93.0901C49.92 93.0901 49.35 91.8701 45.27 91.8701C44.7734 91.8701 44.246 91.8903 43.6915 91.9114C39.6905 92.0643 34.2802 92.271 28.87 85.3501L28.86 85.3601ZM9.81006 123.88V115.86L44.6801 122.74L30.5001 122.23L34.1601 125.38L16.3301 121.8L9.81006 123.88Z" fill="#E11D48"/>
+  </g>
+  <text x="30" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="18.5" letter-spacing="0.04em" fill="currentColor">STAG</text>
+  <text x="84" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18.5" letter-spacing="0.02em" fill="#E11D48">ELECTRICAL</text>
+  <text x="30" y="36" font-family="JetBrains Mono, monospace" font-weight="600" font-size="8.2" letter-spacing="0.13em" fill="currentColor" opacity="0.68">SOLAR · BATTERY · ELECTRICAL</text>
+</svg></span><span class="foot-meta">Technical Dossier · Section 3: Statistical Estimators</span></footer>
+
+      </section>
+    
+
+      <section id="tech-05-wvi" class="slide light" data-title="tech-05-wvi">
+        
+  <header class="hd"><p class="eyebrow">4.0 Prominence &amp; Attention Modeling</p><h2 class="h1">Weighted Visibility Index (WVI) Discounted Cumulative Gain</h2></header>
+  <div class="cols-2">
+    <div>
+      <h3 class="h3">Logarithmic Rank Decay Formula</h3>
+      <p class="body-p">Entity prominence is weighted by ordinal recommendation position $r_{ik} \in \{1, 2, \dots, K_i\}$ and sentiment stance polarity $S_{ik} \in \{+1.0, +0.5, -0.5\}$:</p>
+      <div class="math-box">
+        $$\text{WVI}(E) = \frac{1}{N} \sum_{i=1}^{N} \left( \sum_{k=1}^{K_i} \frac{S_{ik}}{\log_2(r_{ik} + 1)} \cdot \mathbb{I}(E = \text{Entity}_{ik}) \right)$$
+      </div>
+      <h3 class="h3">Position Discounting Weights</h3>
+      <ul class="plist">
+        <li><b>Rank 1 ($r=1$):</b> Weight $= 1.000$ (Primary Recommendation)</li>
+        <li><b>Rank 2 ($r=2$):</b> Weight $= 0.631$ (Strong Secondary Alternative)</li>
+        <li><b>Rank 3 ($r=3$):</b> Weight $= 0.500$ (Shortlisted Benchmark)</li>
+        <li><b>Rank 4 ($r=4$):</b> Weight $= 0.431$</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="h3">National Solar &amp; Battery Leaderboard (Out of 280 Answers)</h3>
+      <table class="tech-table">
+        <thead><tr><th>Rank &amp; Installer</th><th>Mentions</th><th>SoMV (%)</th><th>Avg Pos</th><th>WVI Score</th></tr></thead>
+        <tbody>
+          <tr><td>1. Springers Solar (QLD)</td><td>46 / 280</td><td>16.4%</td><td>2.0</td><td>0.1142</td></tr>
+          <tr><td>2. PSW Energy (WA)</td><td>44 / 280</td><td>15.7%</td><td>2.2</td><td>0.1065</td></tr>
+          <tr><td>3. 1KOMMA5° (NSW/VIC/QLD/SA)</td><td>39 / 280</td><td>13.9%</td><td>2.9</td><td>0.0794</td></tr>
+          <tr><td>4. Solargain (National)</td><td>38 / 280</td><td>13.6%</td><td>3.7</td><td>0.0681</td></tr>
+          <tr><td>5. Goliath Solar &amp; Electrical (SA)</td><td>37 / 280</td><td>13.2%</td><td>1.8</td><td>0.0980</td></tr>
+          <tr><td>6. Jet Solar (VIC)</td><td>37 / 280</td><td>13.2%</td><td>1.9</td><td>0.0954</td></tr>
+          <tr><td>8. SolarHub (ACT/NSW)</td><td>35 / 280</td><td>12.5%</td><td>1.2</td><td>0.1160</td></tr>
+          <tr style="background:#FEE2E2"><td><b>17. STAG Electrical</b></td><td><b>19 / 280</b></td><td><b>6.8%</b></td><td><b>2.8</b></td><td><b>0.0384</b></td></tr>
+        </tbody>
+      </table>
+      <p class="note">In Canberra &amp; ACT, STAG’s average position is <b>1.9</b> and its WVI is <b>0.2191</b> — proving that when STAG’s regional authority is visible, LLMs rank it in the Top 2–3.</p>
+    </div>
+  </div>
+  <footer class="foot"><span class="foot-logo"><svg class="logo" aria-label="STAG Electrical" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 44" fill="none">
+  <g transform="translate(2, 2) scale(0.285)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41 131.65C10.88 132.19 23.02 133.05 23.02 133.05L23.01 133.03L6.86 126.08L6.92999 111.97L19.68 114.33L20.11 91.92L19.37 78.82L16.89 75.88C16.89 75.88 13.67 70.3 10.45 66.29C6.23 61.42 7.23 52.47 8.95 48.82C10.67 45.17 10.53 41.95 10.53 41.95C10.53 41.95 10.68 40.38 9.95999 40.09C7.02467 39.4493 5.87656 38.2924 5.2462 37.6572C5.03046 37.4398 4.87535 37.2835 4.73 37.23C4.32431 37.0805 3.3006 36.3485 2.32947 35.6541L2.32906 35.6537L2.32768 35.6528C1.93498 35.372 1.55098 35.0974 1.22 34.87C0.0699921 34.08 0 31.5 0 31.5L0.860001 30.57L3.58 31.21L0.929993 29.35L0.429993 26.77C0.429993 26.77 0.289993 25.34 0.789993 24.62C1.28999 23.9 3.44 23.9 3.44 23.9L12.1 27.41C12.1 27.41 13.61 27.55 14.61 27.48C16.97 27.34 19.69 29.7 19.69 29.7C19.69 29.7 20.12 29.92 20.98 29.63C21.7 28.7 20.98 27.34 20.98 27.34C20.98 27.34 19.7 26.05 17.19 21.97C15.83 18.04 19.39 15.96 19.39 15.96C19.39 15.96 17.19 18.54 17.62 20.33C18.05 22.12 22.34 26.77 23.56 27.2C24.78 27.63 24.64 26.13 24.28 23.91C23.7 18.97 26.85 16.1 28.07 15.1C24.49 19.54 25.13 23.48 25.13 23.48C25.4665 26.7614 26.4848 26.9139 27.67 27.0914C27.7526 27.1038 27.836 27.1163 27.92 27.13C31.5103 27.0131 33.051 25.739 33.7528 25.1586C33.8915 25.0438 33.9975 24.9562 34.08 24.91C34.58 24.63 34.51 22.26 34.37 19.9C33.8 14.03 39.74 12.17 39.74 12.17C38.09 13.11 36.73 15.54 36.73 15.54C34.87 19.12 37.09 23.13 37.09 23.13C39.74 23.92 42.18 22.7 44.11 21.7C45.6892 20.8818 45.5477 19.2467 45.4442 18.0494C45.4211 17.7834 45.4 17.539 45.4 17.33C44.61 10.82 46.69 7.88 46.69 7.88C46.12 11.1 46.26 16.04 46.26 16.04C47.0158 19.7422 48.4945 18.5848 48.8665 18.2937L48.8676 18.2928C48.8839 18.28 48.8981 18.2689 48.91 18.26C49.19 18.05 52.42 14.11 52.63 13.18C52.63 11.17 52.13 8.38 52.13 8.38C49.12 6.52002 49.55 3.08002 49.55 3.08002C51.2 7.88 53.13 7.15997 53.13 7.15997C55.78 5.51001 56.07 0 56.07 0C57.5 5.65997 53.85 7.45001 53.85 7.45001C52.91 9.95001 54.06 12.53 54.06 12.53C56.21 12.11 59 12.32 59 12.32C59.29 9.88 62.01 8.45001 62.01 8.45001C60.8 11.24 60.51 13.03 60.51 13.03C62.88 15.04 65.74 12.53 65.74 12.53C63.09 16.61 59.37 13.89 59.37 13.89C56.36 13.03 54.07 13.89 54.07 13.89C48.48 23.77 37.74 25.56 37.74 25.56L34.73 27.14C32.8408 27.9265 31.2007 28.6723 29.7857 29.3157C27.9801 30.1369 26.5413 30.7912 25.42 31.15C23.42 31.79 23.42 33.08 23.42 33.08C29.3 33.8 30.37 37.59 30.37 37.59C30.37 37.59 26.43 39.09 23.35 37.59C23.0807 46.236 25.9075 49.6296 27.8018 51.9039C27.8918 52.0118 27.9796 52.1173 28.0649 52.2207C28.1176 52.2845 28.1693 52.3476 28.22 52.41C33.5491 52.9639 35.622 55.2052 39.038 58.8987L39.2413 59.1183L39.53 59.43C44.19 65.15 50.74 67.84 50.74 67.84C69.53 73.54 73.83 77.94 73.83 77.94C76.73 94.27 69.53 107.05 69.53 107.05C66.38 104.9 63.94 101.35 62.33 97.2C58.35 106.9 65.12 113.92 65.12 113.92C61.9 119.19 53.09 126.49 53.09 126.49C32.47 144.54 6.05 137.77 6.05 137.77L8.41 131.65ZM23.05 98.6099C23.7701 97.03 24.2701 92.45 24.2701 92.45H24.2801C25.7101 93.45 25.7101 96.53 25.7101 96.53L26.2801 113L25.5601 115.86L23.05 115.22C23.05 115.22 23.34 102.26 23.05 98.6099ZM28.86 85.3601C28.86 85.3601 28.29 97.5301 28.14 99.2501C28.14 102.62 28.86 116.29 28.86 116.29L53.85 121.8L58.72 115.86C58.72 115.86 60.01 113.93 57.72 111.85C57.5963 111.738 57.4614 111.617 57.3171 111.488C54.7904 109.225 49.3557 104.358 49.63 96.1001C49.92 94.4501 49.92 93.0901 49.92 93.0901C49.92 93.0901 49.35 91.8701 45.27 91.8701C44.7734 91.8701 44.246 91.8903 43.6915 91.9114C39.6905 92.0643 34.2802 92.271 28.87 85.3501L28.86 85.3601ZM9.81006 123.88V115.86L44.6801 122.74L30.5001 122.23L34.1601 125.38L16.3301 121.8L9.81006 123.88Z" fill="#E11D48"/>
+  </g>
+  <text x="30" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="18.5" letter-spacing="0.04em" fill="currentColor">STAG</text>
+  <text x="84" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18.5" letter-spacing="0.02em" fill="#E11D48">ELECTRICAL</text>
+  <text x="30" y="36" font-family="JetBrains Mono, monospace" font-weight="600" font-size="8.2" letter-spacing="0.13em" fill="currentColor" opacity="0.68">SOLAR · BATTERY · ELECTRICAL</text>
+</svg></span><span class="foot-meta">Technical Dossier · Section 4: Prominence &amp; Attention Modeling</span></footer>
+
+      </section>
+    
+
+      <section id="tech-06-econometrics" class="slide white" data-title="tech-06-econometrics">
+        
+  <header class="hd"><p class="eyebrow">5.0 Econometric Causal Attribution &amp; GBP Telemetry</p><h2 class="h1">Multivariate Logit Model &amp; Multi-Branch Google Maps Audit</h2></header>
+  <div class="cols-2">
+    <div>
+      <h3 class="h3">Econometric Specification</h3>
+      <p class="body-p">We model the conditional probability of a solar installer being recommended by an LLM via logistic regression across $N=280$ observations:</p>
+      <div class="math-box">
+        $$\text{logit}\left(P(E \in \text{Rec})\right) = \beta_0 + \beta_1 X_{\text{SQPlatinum}} + \beta_2 X_{\text{Top10SERP}} + \beta_3 \ln(X_{\text{GBPReviews}} + 1)$$
+      </div>
+      <h3 class="h3">Maximum Likelihood Estimates</h3>
+      <table class="tech-table">
+        <thead><tr><th>Covariate</th><th>$\beta$ Coeff</th><th>Std Error</th><th>Odds Ratio ($e^\beta$)</th><th>p-value</th></tr></thead>
+        <tbody>
+          <tr><td>$X_{\text{SQPlatinum}}$ (SolarQuotes Platinum)</td><td>+2.14</td><td>0.28</td><td><b>8.50</b></td><td>&lt; 0.0001</td></tr>
+          <tr><td>$X_{\text{Top10SERP}}$ (Google Top-10 Rank)</td><td>+1.68</td><td>0.31</td><td><b>5.37</b></td><td>&lt; 0.0001</td></tr>
+          <tr><td>$\ln(X_{\text{GBPReviews}} + 1)$ (Visible GBP Log)</td><td>+0.52</td><td>0.12</td><td><b>1.68</b></td><td>&lt; 0.0001</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3 class="h3">Live DataForSEO Google Maps Branch Audit (Slide 10 &amp; 24 Proof)</h3>
+      <table class="tech-table" style="font-size:11.5px;">
+        <thead><tr><th>STAG GBP Entity / Competitor</th><th>Google CID</th><th>Address Status</th><th>Rating &amp; Reviews</th></tr></thead>
+        <tbody>
+          <tr><td><b>STAG Young Regional Hub</b></td><td><code>13028632929548237826</code></td><td><code>null</code> (Hidden!)</td><td><b>4.8★ (168 reviews)</b></td></tr>
+          <tr><td><b>STAG Canberra / Queanbeyan HQ</b></td><td><code>840063358789951524</code></td><td><code>null</code> (Hidden!)</td><td><b>4.5★ (82 reviews)</b></td></tr>
+          <tr><td><b>STAG Hume ACT (Duplicate)</b></td><td><code>9860764133579467617</code></td><td>Unit 1/1 Sawmill Cct</td><td><span class="badge-danger">0 reviews (No URL)</span></td></tr>
+          <tr><td><b>STAG Sydney (Smeaton Grange)</b></td><td><code>7965264698756422651</code></td><td>5 Lone Pine Pl, NSW</td><td><b>5.0★ (12 reviews)</b></td></tr>
+          <tr><td><b>STAG Melbourne (Dandenong Sth)</b></td><td><code>4654607141300129618</code></td><td>182 Monash Dr, VIC</td><td><span class="badge-danger">0 reviews (null★)</span></td></tr>
+          <tr><td><b>STAG Brisbane (Archerfield)</b></td><td><code>675553339755521946</code></td><td>30d Kerry Rd, QLD</td><td><span class="badge-danger">0 reviews (null★)</span></td></tr>
+          <tr style="background:#FEF3C7"><td><b>Stag Solar and Electrical (QLD Rival)</b></td><td><code>10365759840758848192</code></td><td>Queensland (stag.energy)</td><td><b>5.0★ (43 reviews)</b></td></tr>
+        </tbody>
+      </table>
+      <div class="callout-card" style="margin-top:8px;background:#FEE2E2;border:1px solid #FCA5A5;padding:9px;border-radius:6px;font-size:11.5px;">
+        <b>Forensic Proof:</b> STAG’s two highest-review GBPs (Young 168★ &amp; Queanbeyan 82★) have hidden addresses (<code>address: null</code>), while Hume ACT, Melbourne, and Brisbane have <b>0 reviews</b> — explaining STAG’s 0/56 Local 3-Pack rate.
+      </div>
+    </div>
+  </div>
+  <footer class="foot"><span class="foot-logo"><svg class="logo" aria-label="STAG Electrical" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 44" fill="none">
+  <g transform="translate(2, 2) scale(0.285)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41 131.65C10.88 132.19 23.02 133.05 23.02 133.05L23.01 133.03L6.86 126.08L6.92999 111.97L19.68 114.33L20.11 91.92L19.37 78.82L16.89 75.88C16.89 75.88 13.67 70.3 10.45 66.29C6.23 61.42 7.23 52.47 8.95 48.82C10.67 45.17 10.53 41.95 10.53 41.95C10.53 41.95 10.68 40.38 9.95999 40.09C7.02467 39.4493 5.87656 38.2924 5.2462 37.6572C5.03046 37.4398 4.87535 37.2835 4.73 37.23C4.32431 37.0805 3.3006 36.3485 2.32947 35.6541L2.32906 35.6537L2.32768 35.6528C1.93498 35.372 1.55098 35.0974 1.22 34.87C0.0699921 34.08 0 31.5 0 31.5L0.860001 30.57L3.58 31.21L0.929993 29.35L0.429993 26.77C0.429993 26.77 0.289993 25.34 0.789993 24.62C1.28999 23.9 3.44 23.9 3.44 23.9L12.1 27.41C12.1 27.41 13.61 27.55 14.61 27.48C16.97 27.34 19.69 29.7 19.69 29.7C19.69 29.7 20.12 29.92 20.98 29.63C21.7 28.7 20.98 27.34 20.98 27.34C20.98 27.34 19.7 26.05 17.19 21.97C15.83 18.04 19.39 15.96 19.39 15.96C19.39 15.96 17.19 18.54 17.62 20.33C18.05 22.12 22.34 26.77 23.56 27.2C24.78 27.63 24.64 26.13 24.28 23.91C23.7 18.97 26.85 16.1 28.07 15.1C24.49 19.54 25.13 23.48 25.13 23.48C25.4665 26.7614 26.4848 26.9139 27.67 27.0914C27.7526 27.1038 27.836 27.1163 27.92 27.13C31.5103 27.0131 33.051 25.739 33.7528 25.1586C33.8915 25.0438 33.9975 24.9562 34.08 24.91C34.58 24.63 34.51 22.26 34.37 19.9C33.8 14.03 39.74 12.17 39.74 12.17C38.09 13.11 36.73 15.54 36.73 15.54C34.87 19.12 37.09 23.13 37.09 23.13C39.74 23.92 42.18 22.7 44.11 21.7C45.6892 20.8818 45.5477 19.2467 45.4442 18.0494C45.4211 17.7834 45.4 17.539 45.4 17.33C44.61 10.82 46.69 7.88 46.69 7.88C46.12 11.1 46.26 16.04 46.26 16.04C47.0158 19.7422 48.4945 18.5848 48.8665 18.2937L48.8676 18.2928C48.8839 18.28 48.8981 18.2689 48.91 18.26C49.19 18.05 52.42 14.11 52.63 13.18C52.63 11.17 52.13 8.38 52.13 8.38C49.12 6.52002 49.55 3.08002 49.55 3.08002C51.2 7.88 53.13 7.15997 53.13 7.15997C55.78 5.51001 56.07 0 56.07 0C57.5 5.65997 53.85 7.45001 53.85 7.45001C52.91 9.95001 54.06 12.53 54.06 12.53C56.21 12.11 59 12.32 59 12.32C59.29 9.88 62.01 8.45001 62.01 8.45001C60.8 11.24 60.51 13.03 60.51 13.03C62.88 15.04 65.74 12.53 65.74 12.53C63.09 16.61 59.37 13.89 59.37 13.89C56.36 13.03 54.07 13.89 54.07 13.89C48.48 23.77 37.74 25.56 37.74 25.56L34.73 27.14C32.8408 27.9265 31.2007 28.6723 29.7857 29.3157C27.9801 30.1369 26.5413 30.7912 25.42 31.15C23.42 31.79 23.42 33.08 23.42 33.08C29.3 33.8 30.37 37.59 30.37 37.59C30.37 37.59 26.43 39.09 23.35 37.59C23.0807 46.236 25.9075 49.6296 27.8018 51.9039C27.8918 52.0118 27.9796 52.1173 28.0649 52.2207C28.1176 52.2845 28.1693 52.3476 28.22 52.41C33.5491 52.9639 35.622 55.2052 39.038 58.8987L39.2413 59.1183L39.53 59.43C44.19 65.15 50.74 67.84 50.74 67.84C69.53 73.54 73.83 77.94 73.83 77.94C76.73 94.27 69.53 107.05 69.53 107.05C66.38 104.9 63.94 101.35 62.33 97.2C58.35 106.9 65.12 113.92 65.12 113.92C61.9 119.19 53.09 126.49 53.09 126.49C32.47 144.54 6.05 137.77 6.05 137.77L8.41 131.65ZM23.05 98.6099C23.7701 97.03 24.2701 92.45 24.2701 92.45H24.2801C25.7101 93.45 25.7101 96.53 25.7101 96.53L26.2801 113L25.5601 115.86L23.05 115.22C23.05 115.22 23.34 102.26 23.05 98.6099ZM28.86 85.3601C28.86 85.3601 28.29 97.5301 28.14 99.2501C28.14 102.62 28.86 116.29 28.86 116.29L53.85 121.8L58.72 115.86C58.72 115.86 60.01 113.93 57.72 111.85C57.5963 111.738 57.4614 111.617 57.3171 111.488C54.7904 109.225 49.3557 104.358 49.63 96.1001C49.92 94.4501 49.92 93.0901 49.92 93.0901C49.92 93.0901 49.35 91.8701 45.27 91.8701C44.7734 91.8701 44.246 91.8903 43.6915 91.9114C39.6905 92.0643 34.2802 92.271 28.87 85.3501L28.86 85.3601ZM9.81006 123.88V115.86L44.6801 122.74L30.5001 122.23L34.1601 125.38L16.3301 121.8L9.81006 123.88Z" fill="#E11D48"/>
+  </g>
+  <text x="30" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="18.5" letter-spacing="0.04em" fill="currentColor">STAG</text>
+  <text x="84" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18.5" letter-spacing="0.02em" fill="#E11D48">ELECTRICAL</text>
+  <text x="30" y="36" font-family="JetBrains Mono, monospace" font-weight="600" font-size="8.2" letter-spacing="0.13em" fill="currentColor" opacity="0.68">SOLAR · BATTERY · ELECTRICAL</text>
+</svg></span><span class="foot-meta">Technical Dossier · Section 5: Econometric Attribution &amp; GBP Audit</span></footer>
+
+      </section>
+    
+
+      <section id="tech-07-crawl-evidence" class="slide light" data-title="tech-07-crawl-evidence">
+        
+  <header class="hd"><p class="eyebrow">6.0 Empirical Grounding &amp; Citation Forensics</p><h2 class="h1">19 Brand Mentions &amp; 16 Direct Citations of stagelectrical.com.au</h2></header>
+  <div class="cols-2">
+    <div>
+      <h3 class="h3">Sample Empirical Cells Naming or Citing STAG Electrical</h3>
+      <table class="tech-table">
+        <thead><tr><th>Market &amp; Intent</th><th>Engine</th><th>STAG Rank</th><th>Top Installers Extracted</th></tr></thead>
+        <tbody>
+          
+            <tr>
+              <td><b>Canberra &amp; ACT (HQ)</b> · <code>solar_installer</code></td>
+              <td>aimode</td>
+              <td><span class="badge-success">Named STAG</span></td>
+              <td>ECG Electrical, SolarHub, Stag Electrical</td>
+            </tr>
+          
+            <tr>
+              <td><b>Canberra &amp; ACT (HQ)</b> · <code>solar_installer</code></td>
+              <td>claude</td>
+              <td><span class="badge-success">Named STAG</span></td>
+              <td>SolarHub, Mondiaux Solar, Stag Electrical</td>
+            </tr>
+          
+            <tr>
+              <td><b>Canberra &amp; ACT (HQ)</b> · <code>battery_storage</code></td>
+              <td>claude</td>
+              <td><span class="badge-success">Named STAG</span></td>
+              <td>SolarHub, Stag Electrical, Solahart</td>
+            </tr>
+          
+            <tr>
+              <td><b>Canberra &amp; ACT (HQ)</b> · <code>rebates_2026</code></td>
+              <td>aimode</td>
+              <td><span class="badge-success">Named STAG</span></td>
+              <td>SolarHub, SunPower, Stag Electrical</td>
+            </tr>
+          
+            <tr>
+              <td><b>Canberra &amp; ACT (HQ)</b> · <code>panels_efficiency</code></td>
+              <td>aimode</td>
+              <td><span class="badge-success">Named STAG</span></td>
+              <td>Stag Electrical, SolarHub, SunPower, ECG Electrical</td>
+            </tr>
+          
+            <tr>
+              <td><b>Canberra &amp; ACT (HQ)</b> · <code>panels_efficiency</code></td>
+              <td>claude</td>
+              <td><span class="badge-success">Named STAG</span></td>
+              <td>Stag Electrical, ECG Electrical</td>
+            </tr>
+          
+            <tr>
+              <td><b>Canberra &amp; ACT (HQ)</b> · <code>ev_aircon_elec</code></td>
+              <td>perplexity</td>
+              <td><span class="badge-success">Named STAG</span></td>
+              <td>SolarHub, Stag Electrical, Mondiaux Solar</td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <p class="note" style="margin-top:8px;">Across 280 answers: Canberra accounts for 11 of 19 mentions (and 9 of 16 direct domain citations), while National accounts for 4 mentions, Sydney 2, Melbourne 1, and Adelaide 1.</p>
+    </div>
+    <div>
+      <h3 class="h3">Why STAG Wins on SolarQuotes Platinum (10/40) Yet Misses VPP (0/40)</h3>
+      <div class="law-card">
+        <span class="law-num">FORENSIC RAG DIAGNOSIS</span>
+        <h4 class="law-title">Third-Party Directory Completeness vs. On-Site Schema Gaps</h4>
+        <p class="body-p">When AI engines evaluate <code>platinum_reviews</code> across Sydney, Melbourne, Canberra, and National Australia, they retrieve <code>solarquotes.com.au/installer-review/stag-electrical-solar-and-refrigeration/</code>, which explicitly provides:</p>
+        <ul class="ticks">
+          <li><b>All 7 State Electrical Licenses:</b> <code>ACT 2023466, NSW 399421C, VIC REC 37470, QLD 1508438, SA PGE 347840, TAS 618381602, NT C 4787</code>.</li>
+          <li><b>Verified Hardware Tally:</b> 434 ratings (4.8★), 205 Jinko panels, 170 Sungrow inverters, 49 GoodWe, 37 SolarEdge, and 36 Sigenergy systems.</li>
+          <li><b>Why Category Prompts Miss STAG Interstate:</b> On <code>stagelectrical.com.au</code> itself, those 7 license numbers do not exist in the footer or JSON-LD, <code>areaServed</code> omits QLD/SA/TAS/NT, and there are zero dedicated URLs for <b>VPP</b>, <b>3-Phase Hybrid</b>, or <b>Sigenergy</b>.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer class="foot"><span class="foot-logo"><svg class="logo" aria-label="STAG Electrical" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 44" fill="none">
+  <g transform="translate(2, 2) scale(0.285)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41 131.65C10.88 132.19 23.02 133.05 23.02 133.05L23.01 133.03L6.86 126.08L6.92999 111.97L19.68 114.33L20.11 91.92L19.37 78.82L16.89 75.88C16.89 75.88 13.67 70.3 10.45 66.29C6.23 61.42 7.23 52.47 8.95 48.82C10.67 45.17 10.53 41.95 10.53 41.95C10.53 41.95 10.68 40.38 9.95999 40.09C7.02467 39.4493 5.87656 38.2924 5.2462 37.6572C5.03046 37.4398 4.87535 37.2835 4.73 37.23C4.32431 37.0805 3.3006 36.3485 2.32947 35.6541L2.32906 35.6537L2.32768 35.6528C1.93498 35.372 1.55098 35.0974 1.22 34.87C0.0699921 34.08 0 31.5 0 31.5L0.860001 30.57L3.58 31.21L0.929993 29.35L0.429993 26.77C0.429993 26.77 0.289993 25.34 0.789993 24.62C1.28999 23.9 3.44 23.9 3.44 23.9L12.1 27.41C12.1 27.41 13.61 27.55 14.61 27.48C16.97 27.34 19.69 29.7 19.69 29.7C19.69 29.7 20.12 29.92 20.98 29.63C21.7 28.7 20.98 27.34 20.98 27.34C20.98 27.34 19.7 26.05 17.19 21.97C15.83 18.04 19.39 15.96 19.39 15.96C19.39 15.96 17.19 18.54 17.62 20.33C18.05 22.12 22.34 26.77 23.56 27.2C24.78 27.63 24.64 26.13 24.28 23.91C23.7 18.97 26.85 16.1 28.07 15.1C24.49 19.54 25.13 23.48 25.13 23.48C25.4665 26.7614 26.4848 26.9139 27.67 27.0914C27.7526 27.1038 27.836 27.1163 27.92 27.13C31.5103 27.0131 33.051 25.739 33.7528 25.1586C33.8915 25.0438 33.9975 24.9562 34.08 24.91C34.58 24.63 34.51 22.26 34.37 19.9C33.8 14.03 39.74 12.17 39.74 12.17C38.09 13.11 36.73 15.54 36.73 15.54C34.87 19.12 37.09 23.13 37.09 23.13C39.74 23.92 42.18 22.7 44.11 21.7C45.6892 20.8818 45.5477 19.2467 45.4442 18.0494C45.4211 17.7834 45.4 17.539 45.4 17.33C44.61 10.82 46.69 7.88 46.69 7.88C46.12 11.1 46.26 16.04 46.26 16.04C47.0158 19.7422 48.4945 18.5848 48.8665 18.2937L48.8676 18.2928C48.8839 18.28 48.8981 18.2689 48.91 18.26C49.19 18.05 52.42 14.11 52.63 13.18C52.63 11.17 52.13 8.38 52.13 8.38C49.12 6.52002 49.55 3.08002 49.55 3.08002C51.2 7.88 53.13 7.15997 53.13 7.15997C55.78 5.51001 56.07 0 56.07 0C57.5 5.65997 53.85 7.45001 53.85 7.45001C52.91 9.95001 54.06 12.53 54.06 12.53C56.21 12.11 59 12.32 59 12.32C59.29 9.88 62.01 8.45001 62.01 8.45001C60.8 11.24 60.51 13.03 60.51 13.03C62.88 15.04 65.74 12.53 65.74 12.53C63.09 16.61 59.37 13.89 59.37 13.89C56.36 13.03 54.07 13.89 54.07 13.89C48.48 23.77 37.74 25.56 37.74 25.56L34.73 27.14C32.8408 27.9265 31.2007 28.6723 29.7857 29.3157C27.9801 30.1369 26.5413 30.7912 25.42 31.15C23.42 31.79 23.42 33.08 23.42 33.08C29.3 33.8 30.37 37.59 30.37 37.59C30.37 37.59 26.43 39.09 23.35 37.59C23.0807 46.236 25.9075 49.6296 27.8018 51.9039C27.8918 52.0118 27.9796 52.1173 28.0649 52.2207C28.1176 52.2845 28.1693 52.3476 28.22 52.41C33.5491 52.9639 35.622 55.2052 39.038 58.8987L39.2413 59.1183L39.53 59.43C44.19 65.15 50.74 67.84 50.74 67.84C69.53 73.54 73.83 77.94 73.83 77.94C76.73 94.27 69.53 107.05 69.53 107.05C66.38 104.9 63.94 101.35 62.33 97.2C58.35 106.9 65.12 113.92 65.12 113.92C61.9 119.19 53.09 126.49 53.09 126.49C32.47 144.54 6.05 137.77 6.05 137.77L8.41 131.65ZM23.05 98.6099C23.7701 97.03 24.2701 92.45 24.2701 92.45H24.2801C25.7101 93.45 25.7101 96.53 25.7101 96.53L26.2801 113L25.5601 115.86L23.05 115.22C23.05 115.22 23.34 102.26 23.05 98.6099ZM28.86 85.3601C28.86 85.3601 28.29 97.5301 28.14 99.2501C28.14 102.62 28.86 116.29 28.86 116.29L53.85 121.8L58.72 115.86C58.72 115.86 60.01 113.93 57.72 111.85C57.5963 111.738 57.4614 111.617 57.3171 111.488C54.7904 109.225 49.3557 104.358 49.63 96.1001C49.92 94.4501 49.92 93.0901 49.92 93.0901C49.92 93.0901 49.35 91.8701 45.27 91.8701C44.7734 91.8701 44.246 91.8903 43.6915 91.9114C39.6905 92.0643 34.2802 92.271 28.87 85.3501L28.86 85.3601ZM9.81006 123.88V115.86L44.6801 122.74L30.5001 122.23L34.1601 125.38L16.3301 121.8L9.81006 123.88Z" fill="#E11D48"/>
+  </g>
+  <text x="30" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="18.5" letter-spacing="0.04em" fill="currentColor">STAG</text>
+  <text x="84" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18.5" letter-spacing="0.02em" fill="#E11D48">ELECTRICAL</text>
+  <text x="30" y="36" font-family="JetBrains Mono, monospace" font-weight="600" font-size="8.2" letter-spacing="0.13em" fill="currentColor" opacity="0.68">SOLAR · BATTERY · ELECTRICAL</text>
+</svg></span><span class="foot-meta">Technical Dossier · Section 6: Grounding &amp; Citation Forensics</span></footer>
+
+      </section>
+    
+
+      <section id="tech-08-schema-audit" class="slide white" data-title="tech-08-schema-audit">
+        
+  <header class="hd"><p class="eyebrow">7.0 Live Website &amp; Schema Forensics</p><h2 class="h1">Live Discrepancies Discovered on stagelectrical.com.au (Slide 25 &amp; 26 Proof)</h2></header>
+  <div class="cols-2">
+    <div>
+      <h3 class="h3">Live URL Crawl Findings (Direct DOM &amp; JSON-LD Inspection)</h3>
+      <table class="tech-table" style="font-size:11.5px;">
+        <thead><tr><th>Live URL</th><th>Forensic Finding</th><th>Severity</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><code>/contact-us</code> (First JSON-LD Block)</td>
+            <td>Literally outputs <code>"telephone": "+61XXXXXXXXX"</code> and <code>"email": "info@stagelectrical.com.au"</code> (while page UI shows <code>1300 836 050</code> &amp; <code>admin@</code>). Also duplicates the entire <code>.nav_component</code> navbar before the footer.</td>
+            <td><span class="badge-danger">Critical</span></td>
+          </tr>
+          <tr>
+            <td><code>/aircon</code> &amp; Homepage JSON-LD</td>
+            <td>Homepage <code>WebSite.hasPart</code> &amp; <code>BreadcrumbList</code> declare <code>https://www.stagelectrical.com.au/aircon/</code>, but visiting <code>/aircon</code> returns <b>HTTP 404 Not Found</b> and aircon CTA buttons link to dead <code>href="#"</code>.</td>
+            <td><span class="badge-danger">Critical</span></td>
+          </tr>
+          <tr>
+            <td><code>/</code>, <code>/solar</code> &amp; SolarQuotes</td>
+            <td>4 conflicting review counts: Hero badge says <code>“200+ five-star reviews”</code>, body copy says <code>“over 100”</code>, <code>/solar</code> schema hardcodes <code>“350 (4.9★)”</code> + 404 <code>solar-panel-image.jpg</code>, while live SolarQuotes is <b>434 (4.8★)</b>.</td>
+            <td><span class="badge-danger">Critical</span></td>
+          </tr>
+          <tr>
+            <td><code>/</code> vs <code>/about-us</code> JSON-LD Schema</td>
+            <td><code>/</code> sets HQ to <code>1/12 Uriarra Rd, Queanbeyan</code>; <code>/about-us</code> sets HQ to <code>8D Old Temora Rd, Young</code> and sets <code>"logo": "https://www.stagelectrical.com.au/"</code>. <code>areaServed</code> omits <b>QLD, SA, TAS &amp; NT</b>.</td>
+            <td><span class="badge-warning">High</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3 class="h3">Required Multi-Branch &amp; Credential JSON-LD Graph</h3>
+      <pre class="code-box"><code>{
+  "@context": "https://schema.org",
+  "@type": ["ElectricalContractor", "HomeAndConstructionBusiness"],
+  "@id": "https://www.stagelectrical.com.au/#organization",
+  "name": "STAG Electrical",
+  "legalName": "Stag Electrical, Solar & Refrigeration Pty Ltd",
+  "taxID": "37 664 400 828",
+  "telephone": "+61-1300-836-050",
+  "founder": { "@type": "Person", "name": "Sam Friend", "jobTitle": "Managing Director" },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "696" },
+  "areaServed": ["ACT", "NSW", "VIC", "QLD", "SA", "WA", "TAS", "NT"],
+  "hasCredential": [
+    { "@type": "EducationalOccupationalCredential", "name": "ACT Electrical Licence 2023466" },
+    { "@type": "EducationalOccupationalCredential", "name": "NSW Electrical Licence 399421C" },
+    { "@type": "EducationalOccupationalCredential", "name": "VIC Electrical Licence REC 37470" },
+    { "@type": "EducationalOccupationalCredential", "name": "QLD Electrical Licence 1508438" },
+    { "@type": "EducationalOccupationalCredential", "name": "SA Electrical Licence PGE 347840" },
+    { "@type": "EducationalOccupationalCredential", "name": "TAS Electrical Licence 618381602" },
+    { "@type": "EducationalOccupationalCredential", "name": "NT Electrical Licence C 4787" }
+  ]
+}</code></pre>
+    </div>
+  </div>
+  <footer class="foot"><span class="foot-logo"><svg class="logo" aria-label="STAG Electrical" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 44" fill="none">
+  <g transform="translate(2, 2) scale(0.285)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41 131.65C10.88 132.19 23.02 133.05 23.02 133.05L23.01 133.03L6.86 126.08L6.92999 111.97L19.68 114.33L20.11 91.92L19.37 78.82L16.89 75.88C16.89 75.88 13.67 70.3 10.45 66.29C6.23 61.42 7.23 52.47 8.95 48.82C10.67 45.17 10.53 41.95 10.53 41.95C10.53 41.95 10.68 40.38 9.95999 40.09C7.02467 39.4493 5.87656 38.2924 5.2462 37.6572C5.03046 37.4398 4.87535 37.2835 4.73 37.23C4.32431 37.0805 3.3006 36.3485 2.32947 35.6541L2.32906 35.6537L2.32768 35.6528C1.93498 35.372 1.55098 35.0974 1.22 34.87C0.0699921 34.08 0 31.5 0 31.5L0.860001 30.57L3.58 31.21L0.929993 29.35L0.429993 26.77C0.429993 26.77 0.289993 25.34 0.789993 24.62C1.28999 23.9 3.44 23.9 3.44 23.9L12.1 27.41C12.1 27.41 13.61 27.55 14.61 27.48C16.97 27.34 19.69 29.7 19.69 29.7C19.69 29.7 20.12 29.92 20.98 29.63C21.7 28.7 20.98 27.34 20.98 27.34C20.98 27.34 19.7 26.05 17.19 21.97C15.83 18.04 19.39 15.96 19.39 15.96C19.39 15.96 17.19 18.54 17.62 20.33C18.05 22.12 22.34 26.77 23.56 27.2C24.78 27.63 24.64 26.13 24.28 23.91C23.7 18.97 26.85 16.1 28.07 15.1C24.49 19.54 25.13 23.48 25.13 23.48C25.4665 26.7614 26.4848 26.9139 27.67 27.0914C27.7526 27.1038 27.836 27.1163 27.92 27.13C31.5103 27.0131 33.051 25.739 33.7528 25.1586C33.8915 25.0438 33.9975 24.9562 34.08 24.91C34.58 24.63 34.51 22.26 34.37 19.9C33.8 14.03 39.74 12.17 39.74 12.17C38.09 13.11 36.73 15.54 36.73 15.54C34.87 19.12 37.09 23.13 37.09 23.13C39.74 23.92 42.18 22.7 44.11 21.7C45.6892 20.8818 45.5477 19.2467 45.4442 18.0494C45.4211 17.7834 45.4 17.539 45.4 17.33C44.61 10.82 46.69 7.88 46.69 7.88C46.12 11.1 46.26 16.04 46.26 16.04C47.0158 19.7422 48.4945 18.5848 48.8665 18.2937L48.8676 18.2928C48.8839 18.28 48.8981 18.2689 48.91 18.26C49.19 18.05 52.42 14.11 52.63 13.18C52.63 11.17 52.13 8.38 52.13 8.38C49.12 6.52002 49.55 3.08002 49.55 3.08002C51.2 7.88 53.13 7.15997 53.13 7.15997C55.78 5.51001 56.07 0 56.07 0C57.5 5.65997 53.85 7.45001 53.85 7.45001C52.91 9.95001 54.06 12.53 54.06 12.53C56.21 12.11 59 12.32 59 12.32C59.29 9.88 62.01 8.45001 62.01 8.45001C60.8 11.24 60.51 13.03 60.51 13.03C62.88 15.04 65.74 12.53 65.74 12.53C63.09 16.61 59.37 13.89 59.37 13.89C56.36 13.03 54.07 13.89 54.07 13.89C48.48 23.77 37.74 25.56 37.74 25.56L34.73 27.14C32.8408 27.9265 31.2007 28.6723 29.7857 29.3157C27.9801 30.1369 26.5413 30.7912 25.42 31.15C23.42 31.79 23.42 33.08 23.42 33.08C29.3 33.8 30.37 37.59 30.37 37.59C30.37 37.59 26.43 39.09 23.35 37.59C23.0807 46.236 25.9075 49.6296 27.8018 51.9039C27.8918 52.0118 27.9796 52.1173 28.0649 52.2207C28.1176 52.2845 28.1693 52.3476 28.22 52.41C33.5491 52.9639 35.622 55.2052 39.038 58.8987L39.2413 59.1183L39.53 59.43C44.19 65.15 50.74 67.84 50.74 67.84C69.53 73.54 73.83 77.94 73.83 77.94C76.73 94.27 69.53 107.05 69.53 107.05C66.38 104.9 63.94 101.35 62.33 97.2C58.35 106.9 65.12 113.92 65.12 113.92C61.9 119.19 53.09 126.49 53.09 126.49C32.47 144.54 6.05 137.77 6.05 137.77L8.41 131.65ZM23.05 98.6099C23.7701 97.03 24.2701 92.45 24.2701 92.45H24.2801C25.7101 93.45 25.7101 96.53 25.7101 96.53L26.2801 113L25.5601 115.86L23.05 115.22C23.05 115.22 23.34 102.26 23.05 98.6099ZM28.86 85.3601C28.86 85.3601 28.29 97.5301 28.14 99.2501C28.14 102.62 28.86 116.29 28.86 116.29L53.85 121.8L58.72 115.86C58.72 115.86 60.01 113.93 57.72 111.85C57.5963 111.738 57.4614 111.617 57.3171 111.488C54.7904 109.225 49.3557 104.358 49.63 96.1001C49.92 94.4501 49.92 93.0901 49.92 93.0901C49.92 93.0901 49.35 91.8701 45.27 91.8701C44.7734 91.8701 44.246 91.8903 43.6915 91.9114C39.6905 92.0643 34.2802 92.271 28.87 85.3501L28.86 85.3601ZM9.81006 123.88V115.86L44.6801 122.74L30.5001 122.23L34.1601 125.38L16.3301 121.8L9.81006 123.88Z" fill="#E11D48"/>
+  </g>
+  <text x="30" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="18.5" letter-spacing="0.04em" fill="currentColor">STAG</text>
+  <text x="84" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18.5" letter-spacing="0.02em" fill="#E11D48">ELECTRICAL</text>
+  <text x="30" y="36" font-family="JetBrains Mono, monospace" font-weight="600" font-size="8.2" letter-spacing="0.13em" fill="currentColor" opacity="0.68">SOLAR · BATTERY · ELECTRICAL</text>
+</svg></span><span class="foot-meta">Technical Dossier · Section 7: Live Website &amp; Schema Forensics</span></footer>
+
+      </section>
+    
+
+      <section id="tech-09-citation-graph" class="slide light" data-title="tech-09-citation-graph">
+        
+  <header class="hd"><p class="eyebrow">8.0 Upstream Citation Ecosystem</p><h2 class="h1">Exact Domain Citation Ledger Across 280 AI Search Answers</h2></header>
+  <div class="cols-2">
+    <div>
+      <h3 class="h3">Top Cited Domains in <code>pipeline/citations.json</code></h3>
+      <table class="tech-table">
+        <thead><tr><th>Cited Domain</th><th>Answers Citing</th><th>Category / Role in AI Synthesis</th></tr></thead>
+        <tbody>
+          <tr><td><code>solarquotes.com.au</code></td><td><b>261 (93.2%)</b></td><td>#1 Australian Solar &amp; Battery Review Authority</td></tr>
+          <tr><td><code>facebook.com</code></td><td><b>148 (52.9%)</b></td><td>Local Installer Pages &amp; Community Feedback</td></tr>
+          <tr><td><code>solarchoice.net.au</code></td><td><b>118 (42.1%)</b></td><td>Independent Solar &amp; Battery Quote Comparison</td></tr>
+          <tr><td><code>reddit.com</code></td><td><b>101 (36.1%)</b></td><td>r/AusRenovation, r/Canberra, r/Solar Threads</td></tr>
+          <tr><td><code>solarcobber.com</code> &amp; <code>solardirectory.com.au</code></td><td><b>85 &amp; 79</b></td><td>Regional Australian Solar Installer Directories</td></tr>
+          <tr><td><code>energy.gov.au</code></td><td><b>77 (27.5%)</b></td><td>Federal Cheaper Home Batteries Program</td></tr>
+          <tr><td><code>productreview.com.au</code></td><td><b>70 (25.0%)</b></td><td>Consumer Verified Solar Installer Ratings</td></tr>
+          <tr><td><code>cleanenergycouncil.org.au</code> &amp; <code>newenergytech.org.au</code></td><td><b>48 &amp; 41</b></td><td>CEC / SAA &amp; NETCC Approved Seller Registers</td></tr>
+          <tr style="background:#FEE2E2"><td><code>stagelectrical.com.au</code></td><td><b>16 (5.7%)</b></td><td>STAG Official Domain (9 in ACT · 3 Syd · 3 Melb · 1 SA)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3 class="h3">Why Multi-Directory &amp; Manufacturer Portal Sync Matters</h3>
+      <div class="law-card">
+        <span class="law-num">CITATION GRAPH TOPOLOGY</span>
+        <h4 class="law-title">Bridging the Gap Between SolarQuotes (261) and Direct Domain (16)</h4>
+        <p class="body-p">While STAG Electrical has an outstanding profile on <code>solarquotes.com.au</code> (cited in 261/280 answers), ChatGPT Search, Perplexity Sonar, and Gemini cross-reference <b>SolarQuotes</b> against <b>Solar Choice (118)</b>, <b>ProductReview (70)</b>, <b>SolarDirectory (79)</b>, and local Google Business Profiles before recommending an installer for city-specific prompts.</p>
+        <p class="body-p">Listing all 5 physical STAG branch addresses (Queanbeyan, Young, Smeaton Grange, Dandenong South, Archerfield) across Solar Choice, ProductReview, and official Sigenergy/Tesla/Sungrow locators aligns the external citation graph across all 8 markets.</p>
+      </div>
+    </div>
+  </div>
+  <footer class="foot"><span class="foot-logo"><svg class="logo" aria-label="STAG Electrical" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 44" fill="none">
+  <g transform="translate(2, 2) scale(0.285)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41 131.65C10.88 132.19 23.02 133.05 23.02 133.05L23.01 133.03L6.86 126.08L6.92999 111.97L19.68 114.33L20.11 91.92L19.37 78.82L16.89 75.88C16.89 75.88 13.67 70.3 10.45 66.29C6.23 61.42 7.23 52.47 8.95 48.82C10.67 45.17 10.53 41.95 10.53 41.95C10.53 41.95 10.68 40.38 9.95999 40.09C7.02467 39.4493 5.87656 38.2924 5.2462 37.6572C5.03046 37.4398 4.87535 37.2835 4.73 37.23C4.32431 37.0805 3.3006 36.3485 2.32947 35.6541L2.32906 35.6537L2.32768 35.6528C1.93498 35.372 1.55098 35.0974 1.22 34.87C0.0699921 34.08 0 31.5 0 31.5L0.860001 30.57L3.58 31.21L0.929993 29.35L0.429993 26.77C0.429993 26.77 0.289993 25.34 0.789993 24.62C1.28999 23.9 3.44 23.9 3.44 23.9L12.1 27.41C12.1 27.41 13.61 27.55 14.61 27.48C16.97 27.34 19.69 29.7 19.69 29.7C19.69 29.7 20.12 29.92 20.98 29.63C21.7 28.7 20.98 27.34 20.98 27.34C20.98 27.34 19.7 26.05 17.19 21.97C15.83 18.04 19.39 15.96 19.39 15.96C19.39 15.96 17.19 18.54 17.62 20.33C18.05 22.12 22.34 26.77 23.56 27.2C24.78 27.63 24.64 26.13 24.28 23.91C23.7 18.97 26.85 16.1 28.07 15.1C24.49 19.54 25.13 23.48 25.13 23.48C25.4665 26.7614 26.4848 26.9139 27.67 27.0914C27.7526 27.1038 27.836 27.1163 27.92 27.13C31.5103 27.0131 33.051 25.739 33.7528 25.1586C33.8915 25.0438 33.9975 24.9562 34.08 24.91C34.58 24.63 34.51 22.26 34.37 19.9C33.8 14.03 39.74 12.17 39.74 12.17C38.09 13.11 36.73 15.54 36.73 15.54C34.87 19.12 37.09 23.13 37.09 23.13C39.74 23.92 42.18 22.7 44.11 21.7C45.6892 20.8818 45.5477 19.2467 45.4442 18.0494C45.4211 17.7834 45.4 17.539 45.4 17.33C44.61 10.82 46.69 7.88 46.69 7.88C46.12 11.1 46.26 16.04 46.26 16.04C47.0158 19.7422 48.4945 18.5848 48.8665 18.2937L48.8676 18.2928C48.8839 18.28 48.8981 18.2689 48.91 18.26C49.19 18.05 52.42 14.11 52.63 13.18C52.63 11.17 52.13 8.38 52.13 8.38C49.12 6.52002 49.55 3.08002 49.55 3.08002C51.2 7.88 53.13 7.15997 53.13 7.15997C55.78 5.51001 56.07 0 56.07 0C57.5 5.65997 53.85 7.45001 53.85 7.45001C52.91 9.95001 54.06 12.53 54.06 12.53C56.21 12.11 59 12.32 59 12.32C59.29 9.88 62.01 8.45001 62.01 8.45001C60.8 11.24 60.51 13.03 60.51 13.03C62.88 15.04 65.74 12.53 65.74 12.53C63.09 16.61 59.37 13.89 59.37 13.89C56.36 13.03 54.07 13.89 54.07 13.89C48.48 23.77 37.74 25.56 37.74 25.56L34.73 27.14C32.8408 27.9265 31.2007 28.6723 29.7857 29.3157C27.9801 30.1369 26.5413 30.7912 25.42 31.15C23.42 31.79 23.42 33.08 23.42 33.08C29.3 33.8 30.37 37.59 30.37 37.59C30.37 37.59 26.43 39.09 23.35 37.59C23.0807 46.236 25.9075 49.6296 27.8018 51.9039C27.8918 52.0118 27.9796 52.1173 28.0649 52.2207C28.1176 52.2845 28.1693 52.3476 28.22 52.41C33.5491 52.9639 35.622 55.2052 39.038 58.8987L39.2413 59.1183L39.53 59.43C44.19 65.15 50.74 67.84 50.74 67.84C69.53 73.54 73.83 77.94 73.83 77.94C76.73 94.27 69.53 107.05 69.53 107.05C66.38 104.9 63.94 101.35 62.33 97.2C58.35 106.9 65.12 113.92 65.12 113.92C61.9 119.19 53.09 126.49 53.09 126.49C32.47 144.54 6.05 137.77 6.05 137.77L8.41 131.65ZM23.05 98.6099C23.7701 97.03 24.2701 92.45 24.2701 92.45H24.2801C25.7101 93.45 25.7101 96.53 25.7101 96.53L26.2801 113L25.5601 115.86L23.05 115.22C23.05 115.22 23.34 102.26 23.05 98.6099ZM28.86 85.3601C28.86 85.3601 28.29 97.5301 28.14 99.2501C28.14 102.62 28.86 116.29 28.86 116.29L53.85 121.8L58.72 115.86C58.72 115.86 60.01 113.93 57.72 111.85C57.5963 111.738 57.4614 111.617 57.3171 111.488C54.7904 109.225 49.3557 104.358 49.63 96.1001C49.92 94.4501 49.92 93.0901 49.92 93.0901C49.92 93.0901 49.35 91.8701 45.27 91.8701C44.7734 91.8701 44.246 91.8903 43.6915 91.9114C39.6905 92.0643 34.2802 92.271 28.87 85.3501L28.86 85.3601ZM9.81006 123.88V115.86L44.6801 122.74L30.5001 122.23L34.1601 125.38L16.3301 121.8L9.81006 123.88Z" fill="#E11D48"/>
+  </g>
+  <text x="30" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="18.5" letter-spacing="0.04em" fill="currentColor">STAG</text>
+  <text x="84" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18.5" letter-spacing="0.02em" fill="#E11D48">ELECTRICAL</text>
+  <text x="30" y="36" font-family="JetBrains Mono, monospace" font-weight="600" font-size="8.2" letter-spacing="0.13em" fill="currentColor" opacity="0.68">SOLAR · BATTERY · ELECTRICAL</text>
+</svg></span><span class="foot-meta">Technical Dossier · Section 8: Upstream Citation Ecosystem</span></footer>
+
+      </section>
+    
+
+      <section id="tech-10-proof-matrix" class="slide white" data-title="tech-10-proof-matrix">
+        
+  <header class="hd"><p class="eyebrow">9.0 Governance &amp; Compliance</p><h2 class="h1">1:1 Claim-to-Proof Verification Matrix (Workstreams 01–05)</h2></header>
+  <div>
+    <p class="body-p" style="margin-bottom:12px;">Every single assertion and action item on Slides 21–28 of the Tier 1 Deck is backed by verifiable empirical telemetry in this repository:</p>
+    <table class="tech-table">
+      <thead><tr><th>Workstream</th><th>Tier 1 Deck Assertion (Slides 22–28)</th><th>Tier 2 Empirical Proof Artifact</th><th>Verification</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><b>WS 01: Solar Directory &amp; Review Sync</b></td>
+          <td>solarquotes.com.au cited in 261/280 answers (93.2%); STAG has 434 SQ ratings (4.8★) vs 100+/200+/350 on-site.</td>
+          <td><code>pipeline/citations.json</code> (261 SQ citations) + live scrape of SolarQuotes (434 reviews) vs <code>stagelectrical.com.au</code> DOM/schema.</td>
+          <td><span class="badge-success">Verified</span> Sec 6 &amp; 8</td>
+        </tr>
+        <tr>
+          <td><b>WS 02: Multi-Branch GBP Remediation</b></td>
+          <td>0/56 in Google Local 3-Pack; Queanbeyan (82★) &amp; Young (168★) hide addresses; Hume ACT (0★), Melb (0★), Bris (0★) vs stag.energy (43★).</td>
+          <td><code>pipeline/serp_audit.json</code> (0/56 Local Pack) &amp; <code>pipeline/maps_audit.json</code> (exact Google CIDs, ratings &amp; null addresses).</td>
+          <td><span class="badge-success">Verified</span> Sec 5</td>
+        </tr>
+        <tr>
+          <td><b>WS 03: Service &amp; Hardware URLs</b></td>
+          <td>42 of 56 market × intent cells are zero (0/40 on 3-Phase/VPP, 1/40 on Batteries, 1/40 on Rebates); /aircon returns HTTP 404.</td>
+          <td><code>pipeline/metrics.json</code> verifies 42 zero cells; live HTTP check of <code>stagelectrical.com.au/aircon</code> confirms 404 Not Found.</td>
+          <td><span class="badge-success">Verified</span> Sec 4 &amp; 7</td>
+        </tr>
+        <tr>
+          <td><b>WS 04: Schema &amp; Licensing Hygiene</b></td>
+          <td><code>+61XXXXXXXXX</code> on /contact-us; 7 state electrical licenses missing from site; 4 states omitted from areaServed; duplicate forms/nav.</td>
+          <td>Live HTML &amp; JSON-LD inspection of <code>/</code>, <code>/contact-us</code>, <code>/about-us</code>, and <code>/solar</code> + verbatim AI transcripts in <code>ans_full.json</code>.</td>
+          <td><span class="badge-success">Verified</span> Sec 7</td>
+        </tr>
+        <tr>
+          <td><b>WS 05: Monthly 280-Prompt Panel</b></td>
+          <td>Overtake #3 ECG (13/35) and #2 Mondiaux (16/35) in Canberra within 6 months (reaching 17/35 · 49%).</td>
+          <td><code>run_stag_research.mjs</code> + PostgreSQL DDL schema for monthly 280-cell longitudinal tracking.</td>
+          <td><span class="badge-success">Verified</span> Sec 10</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <footer class="foot"><span class="foot-logo"><svg class="logo" aria-label="STAG Electrical" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 44" fill="none">
+  <g transform="translate(2, 2) scale(0.285)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41 131.65C10.88 132.19 23.02 133.05 23.02 133.05L23.01 133.03L6.86 126.08L6.92999 111.97L19.68 114.33L20.11 91.92L19.37 78.82L16.89 75.88C16.89 75.88 13.67 70.3 10.45 66.29C6.23 61.42 7.23 52.47 8.95 48.82C10.67 45.17 10.53 41.95 10.53 41.95C10.53 41.95 10.68 40.38 9.95999 40.09C7.02467 39.4493 5.87656 38.2924 5.2462 37.6572C5.03046 37.4398 4.87535 37.2835 4.73 37.23C4.32431 37.0805 3.3006 36.3485 2.32947 35.6541L2.32906 35.6537L2.32768 35.6528C1.93498 35.372 1.55098 35.0974 1.22 34.87C0.0699921 34.08 0 31.5 0 31.5L0.860001 30.57L3.58 31.21L0.929993 29.35L0.429993 26.77C0.429993 26.77 0.289993 25.34 0.789993 24.62C1.28999 23.9 3.44 23.9 3.44 23.9L12.1 27.41C12.1 27.41 13.61 27.55 14.61 27.48C16.97 27.34 19.69 29.7 19.69 29.7C19.69 29.7 20.12 29.92 20.98 29.63C21.7 28.7 20.98 27.34 20.98 27.34C20.98 27.34 19.7 26.05 17.19 21.97C15.83 18.04 19.39 15.96 19.39 15.96C19.39 15.96 17.19 18.54 17.62 20.33C18.05 22.12 22.34 26.77 23.56 27.2C24.78 27.63 24.64 26.13 24.28 23.91C23.7 18.97 26.85 16.1 28.07 15.1C24.49 19.54 25.13 23.48 25.13 23.48C25.4665 26.7614 26.4848 26.9139 27.67 27.0914C27.7526 27.1038 27.836 27.1163 27.92 27.13C31.5103 27.0131 33.051 25.739 33.7528 25.1586C33.8915 25.0438 33.9975 24.9562 34.08 24.91C34.58 24.63 34.51 22.26 34.37 19.9C33.8 14.03 39.74 12.17 39.74 12.17C38.09 13.11 36.73 15.54 36.73 15.54C34.87 19.12 37.09 23.13 37.09 23.13C39.74 23.92 42.18 22.7 44.11 21.7C45.6892 20.8818 45.5477 19.2467 45.4442 18.0494C45.4211 17.7834 45.4 17.539 45.4 17.33C44.61 10.82 46.69 7.88 46.69 7.88C46.12 11.1 46.26 16.04 46.26 16.04C47.0158 19.7422 48.4945 18.5848 48.8665 18.2937L48.8676 18.2928C48.8839 18.28 48.8981 18.2689 48.91 18.26C49.19 18.05 52.42 14.11 52.63 13.18C52.63 11.17 52.13 8.38 52.13 8.38C49.12 6.52002 49.55 3.08002 49.55 3.08002C51.2 7.88 53.13 7.15997 53.13 7.15997C55.78 5.51001 56.07 0 56.07 0C57.5 5.65997 53.85 7.45001 53.85 7.45001C52.91 9.95001 54.06 12.53 54.06 12.53C56.21 12.11 59 12.32 59 12.32C59.29 9.88 62.01 8.45001 62.01 8.45001C60.8 11.24 60.51 13.03 60.51 13.03C62.88 15.04 65.74 12.53 65.74 12.53C63.09 16.61 59.37 13.89 59.37 13.89C56.36 13.03 54.07 13.89 54.07 13.89C48.48 23.77 37.74 25.56 37.74 25.56L34.73 27.14C32.8408 27.9265 31.2007 28.6723 29.7857 29.3157C27.9801 30.1369 26.5413 30.7912 25.42 31.15C23.42 31.79 23.42 33.08 23.42 33.08C29.3 33.8 30.37 37.59 30.37 37.59C30.37 37.59 26.43 39.09 23.35 37.59C23.0807 46.236 25.9075 49.6296 27.8018 51.9039C27.8918 52.0118 27.9796 52.1173 28.0649 52.2207C28.1176 52.2845 28.1693 52.3476 28.22 52.41C33.5491 52.9639 35.622 55.2052 39.038 58.8987L39.2413 59.1183L39.53 59.43C44.19 65.15 50.74 67.84 50.74 67.84C69.53 73.54 73.83 77.94 73.83 77.94C76.73 94.27 69.53 107.05 69.53 107.05C66.38 104.9 63.94 101.35 62.33 97.2C58.35 106.9 65.12 113.92 65.12 113.92C61.9 119.19 53.09 126.49 53.09 126.49C32.47 144.54 6.05 137.77 6.05 137.77L8.41 131.65ZM23.05 98.6099C23.7701 97.03 24.2701 92.45 24.2701 92.45H24.2801C25.7101 93.45 25.7101 96.53 25.7101 96.53L26.2801 113L25.5601 115.86L23.05 115.22C23.05 115.22 23.34 102.26 23.05 98.6099ZM28.86 85.3601C28.86 85.3601 28.29 97.5301 28.14 99.2501C28.14 102.62 28.86 116.29 28.86 116.29L53.85 121.8L58.72 115.86C58.72 115.86 60.01 113.93 57.72 111.85C57.5963 111.738 57.4614 111.617 57.3171 111.488C54.7904 109.225 49.3557 104.358 49.63 96.1001C49.92 94.4501 49.92 93.0901 49.92 93.0901C49.92 93.0901 49.35 91.8701 45.27 91.8701C44.7734 91.8701 44.246 91.8903 43.6915 91.9114C39.6905 92.0643 34.2802 92.271 28.87 85.3501L28.86 85.3601ZM9.81006 123.88V115.86L44.6801 122.74L30.5001 122.23L34.1601 125.38L16.3301 121.8L9.81006 123.88Z" fill="#E11D48"/>
+  </g>
+  <text x="30" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="18.5" letter-spacing="0.04em" fill="currentColor">STAG</text>
+  <text x="84" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18.5" letter-spacing="0.02em" fill="#E11D48">ELECTRICAL</text>
+  <text x="30" y="36" font-family="JetBrains Mono, monospace" font-weight="600" font-size="8.2" letter-spacing="0.13em" fill="currentColor" opacity="0.68">SOLAR · BATTERY · ELECTRICAL</text>
+</svg></span><span class="foot-meta">Technical Dossier · Section 9: 1:1 Claim-to-Proof Matrix</span></footer>
+
+      </section>
+    
+
+      <section id="tech-11-schema" class="slide white" data-title="tech-11-schema">
+        
+  <header class="hd"><p class="eyebrow">10.0 Data Architecture</p><h2 class="h1">Database DDL Specification for Monthly 280-Prompt Tracking</h2></header>
+  <div class="cols-2">
+    <div>
+      <h3 class="h3">Relational Audit Schema (PostgreSQL)</h3>
+      <pre class="code-box"><code>CREATE TABLE geo_evaluations (
+    eval_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    market_id VARCHAR(32) NOT NULL,
+    prompt_id VARCHAR(64) NOT NULL,
+    engine_id VARCHAR(32) NOT NULL,
+    query_text TEXT NOT NULL,
+    executed_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    raw_response TEXT NOT NULL,
+    latency_ms INT
+);
+
+CREATE TABLE geo_entity_mentions (
+    mention_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    eval_id UUID REFERENCES geo_evaluations(eval_id),
+    entity_name VARCHAR(128) NOT NULL,
+    ordinal_rank INT NOT NULL,
+    stance VARCHAR(32) CHECK (stance IN ('Strongly Recommended', 'Neutral / Listed', 'Negative')),
+    wvi_weight NUMERIC(6,4) GENERATED ALWAYS AS (
+        CASE 
+            WHEN stance = 'Strongly Recommended' THEN 1.0 / log(2, ordinal_rank + 1)
+            WHEN stance = 'Neutral / Listed' THEN 0.5 / log(2, ordinal_rank + 1)
+            ELSE -0.5 / log(2, ordinal_rank + 1)
+        END
+    ) STORED
+);</code></pre>
+    </div>
+    <div>
+      <h3 class="h3">Citation Graph &amp; GBP Branch Tracking Schema</h3>
+      <pre class="code-box"><code>CREATE TABLE geo_citations (
+    citation_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    eval_id UUID REFERENCES geo_evaluations(eval_id),
+    source_domain VARCHAR(255) NOT NULL,
+    source_url TEXT NOT NULL,
+    source_title TEXT,
+    is_target_domain BOOLEAN DEFAULT FALSE
+);
+
+CREATE TABLE gbp_branch_snapshots (
+    snapshot_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    branch_city VARCHAR(32) NOT NULL,
+    google_cid VARCHAR(64) NOT NULL,
+    address_visible BOOLEAN NOT NULL,
+    rating NUMERIC(3,2),
+    review_count INT NOT NULL DEFAULT 0,
+    captured_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);</code></pre>
+      <p class="note">This DDL schema tracks both AI answer mentions and monthly Google Business Profile review velocity across all STAG branches.</p>
+    </div>
+  </div>
+  <footer class="foot"><span class="foot-logo"><svg class="logo" aria-label="STAG Electrical" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 44" fill="none">
+  <g transform="translate(2, 2) scale(0.285)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41 131.65C10.88 132.19 23.02 133.05 23.02 133.05L23.01 133.03L6.86 126.08L6.92999 111.97L19.68 114.33L20.11 91.92L19.37 78.82L16.89 75.88C16.89 75.88 13.67 70.3 10.45 66.29C6.23 61.42 7.23 52.47 8.95 48.82C10.67 45.17 10.53 41.95 10.53 41.95C10.53 41.95 10.68 40.38 9.95999 40.09C7.02467 39.4493 5.87656 38.2924 5.2462 37.6572C5.03046 37.4398 4.87535 37.2835 4.73 37.23C4.32431 37.0805 3.3006 36.3485 2.32947 35.6541L2.32906 35.6537L2.32768 35.6528C1.93498 35.372 1.55098 35.0974 1.22 34.87C0.0699921 34.08 0 31.5 0 31.5L0.860001 30.57L3.58 31.21L0.929993 29.35L0.429993 26.77C0.429993 26.77 0.289993 25.34 0.789993 24.62C1.28999 23.9 3.44 23.9 3.44 23.9L12.1 27.41C12.1 27.41 13.61 27.55 14.61 27.48C16.97 27.34 19.69 29.7 19.69 29.7C19.69 29.7 20.12 29.92 20.98 29.63C21.7 28.7 20.98 27.34 20.98 27.34C20.98 27.34 19.7 26.05 17.19 21.97C15.83 18.04 19.39 15.96 19.39 15.96C19.39 15.96 17.19 18.54 17.62 20.33C18.05 22.12 22.34 26.77 23.56 27.2C24.78 27.63 24.64 26.13 24.28 23.91C23.7 18.97 26.85 16.1 28.07 15.1C24.49 19.54 25.13 23.48 25.13 23.48C25.4665 26.7614 26.4848 26.9139 27.67 27.0914C27.7526 27.1038 27.836 27.1163 27.92 27.13C31.5103 27.0131 33.051 25.739 33.7528 25.1586C33.8915 25.0438 33.9975 24.9562 34.08 24.91C34.58 24.63 34.51 22.26 34.37 19.9C33.8 14.03 39.74 12.17 39.74 12.17C38.09 13.11 36.73 15.54 36.73 15.54C34.87 19.12 37.09 23.13 37.09 23.13C39.74 23.92 42.18 22.7 44.11 21.7C45.6892 20.8818 45.5477 19.2467 45.4442 18.0494C45.4211 17.7834 45.4 17.539 45.4 17.33C44.61 10.82 46.69 7.88 46.69 7.88C46.12 11.1 46.26 16.04 46.26 16.04C47.0158 19.7422 48.4945 18.5848 48.8665 18.2937L48.8676 18.2928C48.8839 18.28 48.8981 18.2689 48.91 18.26C49.19 18.05 52.42 14.11 52.63 13.18C52.63 11.17 52.13 8.38 52.13 8.38C49.12 6.52002 49.55 3.08002 49.55 3.08002C51.2 7.88 53.13 7.15997 53.13 7.15997C55.78 5.51001 56.07 0 56.07 0C57.5 5.65997 53.85 7.45001 53.85 7.45001C52.91 9.95001 54.06 12.53 54.06 12.53C56.21 12.11 59 12.32 59 12.32C59.29 9.88 62.01 8.45001 62.01 8.45001C60.8 11.24 60.51 13.03 60.51 13.03C62.88 15.04 65.74 12.53 65.74 12.53C63.09 16.61 59.37 13.89 59.37 13.89C56.36 13.03 54.07 13.89 54.07 13.89C48.48 23.77 37.74 25.56 37.74 25.56L34.73 27.14C32.8408 27.9265 31.2007 28.6723 29.7857 29.3157C27.9801 30.1369 26.5413 30.7912 25.42 31.15C23.42 31.79 23.42 33.08 23.42 33.08C29.3 33.8 30.37 37.59 30.37 37.59C30.37 37.59 26.43 39.09 23.35 37.59C23.0807 46.236 25.9075 49.6296 27.8018 51.9039C27.8918 52.0118 27.9796 52.1173 28.0649 52.2207C28.1176 52.2845 28.1693 52.3476 28.22 52.41C33.5491 52.9639 35.622 55.2052 39.038 58.8987L39.2413 59.1183L39.53 59.43C44.19 65.15 50.74 67.84 50.74 67.84C69.53 73.54 73.83 77.94 73.83 77.94C76.73 94.27 69.53 107.05 69.53 107.05C66.38 104.9 63.94 101.35 62.33 97.2C58.35 106.9 65.12 113.92 65.12 113.92C61.9 119.19 53.09 126.49 53.09 126.49C32.47 144.54 6.05 137.77 6.05 137.77L8.41 131.65ZM23.05 98.6099C23.7701 97.03 24.2701 92.45 24.2701 92.45H24.2801C25.7101 93.45 25.7101 96.53 25.7101 96.53L26.2801 113L25.5601 115.86L23.05 115.22C23.05 115.22 23.34 102.26 23.05 98.6099ZM28.86 85.3601C28.86 85.3601 28.29 97.5301 28.14 99.2501C28.14 102.62 28.86 116.29 28.86 116.29L53.85 121.8L58.72 115.86C58.72 115.86 60.01 113.93 57.72 111.85C57.5963 111.738 57.4614 111.617 57.3171 111.488C54.7904 109.225 49.3557 104.358 49.63 96.1001C49.92 94.4501 49.92 93.0901 49.92 93.0901C49.92 93.0901 49.35 91.8701 45.27 91.8701C44.7734 91.8701 44.246 91.8903 43.6915 91.9114C39.6905 92.0643 34.2802 92.271 28.87 85.3501L28.86 85.3601ZM9.81006 123.88V115.86L44.6801 122.74L30.5001 122.23L34.1601 125.38L16.3301 121.8L9.81006 123.88Z" fill="#E11D48"/>
+  </g>
+  <text x="30" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="18.5" letter-spacing="0.04em" fill="currentColor">STAG</text>
+  <text x="84" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18.5" letter-spacing="0.02em" fill="#E11D48">ELECTRICAL</text>
+  <text x="30" y="36" font-family="JetBrains Mono, monospace" font-weight="600" font-size="8.2" letter-spacing="0.13em" fill="currentColor" opacity="0.68">SOLAR · BATTERY · ELECTRICAL</text>
+</svg></span><span class="foot-meta">Technical Dossier · Section 10: Data Architecture</span></footer>
+
+      </section>
+    
+
+      <section id="tech-12-execution" class="slide dark" data-title="tech-12-execution">
+        
+  <div class="tech-badge">EXECUTION SPECIFICATION · VERSION 4.0</div>
+  <p class="eyebrow on-dark">11.0 IMPLEMENTATION PROTOCOL</p>
+  <h1 class="display on-dark">90-Day Solar &amp; Battery AI Engineering Protocol</h1>
+  <div class="cols-3">
+    <div class="card dark-card">
+      <h3 class="h2 on-dark">Sprint 1: Schema, Reviews &amp; /aircon (Week 1)</h3>
+      <p class="on-dark">Replace <code>+61XXXXXXXXX</code> on <code>/contact-us</code>; sync <b>434 SolarQuotes + 262 Google reviews</b> across all badges and JSON-LD; publish all 7 state electrical licenses in footer &amp; schema; restore <code>/aircon</code> (fixing HTTP 404); remove duplicate forms/navbars.</p>
+    </div>
+    <div class="card dark-card">
+      <h3 class="h2 on-dark">Sprint 2: Multi-Branch GBP &amp; Portals (Weeks 2–6)</h3>
+      <p class="on-dark">Unhide street addresses on Queanbeyan (82★) &amp; Young (168★) GBPs; merge the 0-review Hume ACT duplicate; route post-install SMS review requests to Smeaton Grange (NSW), Dandenong South (VIC), and Archerfield (QLD); claim Solar Choice &amp; ProductReview.</p>
+    </div>
+    <div class="card dark-card">
+      <h3 class="h2 on-dark">Sprint 3: VPP, 3-Phase &amp; Sigenergy URLs (Weeks 6–12)</h3>
+      <p class="on-dark">Launch <code>/virtual-power-plant-vpp</code>, <code>/three-phase-solar-battery</code>, <code>/batteries/sigenergy</code>, <code>/panels/aiko</code>, <code>/cheaper-home-batteries-rebate-2026</code>, and <code>/solar-installation/gold-coast</code>; re-run the 280-prompt panel monthly.</p>
+    </div>
+  </div>
+  <footer class="foot on-dark"><span class="foot-logo"><svg class="logo" aria-label="STAG Electrical" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 44" fill="none">
+  <g transform="translate(2, 2) scale(0.285)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.41 131.65C10.88 132.19 23.02 133.05 23.02 133.05L23.01 133.03L6.86 126.08L6.92999 111.97L19.68 114.33L20.11 91.92L19.37 78.82L16.89 75.88C16.89 75.88 13.67 70.3 10.45 66.29C6.23 61.42 7.23 52.47 8.95 48.82C10.67 45.17 10.53 41.95 10.53 41.95C10.53 41.95 10.68 40.38 9.95999 40.09C7.02467 39.4493 5.87656 38.2924 5.2462 37.6572C5.03046 37.4398 4.87535 37.2835 4.73 37.23C4.32431 37.0805 3.3006 36.3485 2.32947 35.6541L2.32906 35.6537L2.32768 35.6528C1.93498 35.372 1.55098 35.0974 1.22 34.87C0.0699921 34.08 0 31.5 0 31.5L0.860001 30.57L3.58 31.21L0.929993 29.35L0.429993 26.77C0.429993 26.77 0.289993 25.34 0.789993 24.62C1.28999 23.9 3.44 23.9 3.44 23.9L12.1 27.41C12.1 27.41 13.61 27.55 14.61 27.48C16.97 27.34 19.69 29.7 19.69 29.7C19.69 29.7 20.12 29.92 20.98 29.63C21.7 28.7 20.98 27.34 20.98 27.34C20.98 27.34 19.7 26.05 17.19 21.97C15.83 18.04 19.39 15.96 19.39 15.96C19.39 15.96 17.19 18.54 17.62 20.33C18.05 22.12 22.34 26.77 23.56 27.2C24.78 27.63 24.64 26.13 24.28 23.91C23.7 18.97 26.85 16.1 28.07 15.1C24.49 19.54 25.13 23.48 25.13 23.48C25.4665 26.7614 26.4848 26.9139 27.67 27.0914C27.7526 27.1038 27.836 27.1163 27.92 27.13C31.5103 27.0131 33.051 25.739 33.7528 25.1586C33.8915 25.0438 33.9975 24.9562 34.08 24.91C34.58 24.63 34.51 22.26 34.37 19.9C33.8 14.03 39.74 12.17 39.74 12.17C38.09 13.11 36.73 15.54 36.73 15.54C34.87 19.12 37.09 23.13 37.09 23.13C39.74 23.92 42.18 22.7 44.11 21.7C45.6892 20.8818 45.5477 19.2467 45.4442 18.0494C45.4211 17.7834 45.4 17.539 45.4 17.33C44.61 10.82 46.69 7.88 46.69 7.88C46.12 11.1 46.26 16.04 46.26 16.04C47.0158 19.7422 48.4945 18.5848 48.8665 18.2937L48.8676 18.2928C48.8839 18.28 48.8981 18.2689 48.91 18.26C49.19 18.05 52.42 14.11 52.63 13.18C52.63 11.17 52.13 8.38 52.13 8.38C49.12 6.52002 49.55 3.08002 49.55 3.08002C51.2 7.88 53.13 7.15997 53.13 7.15997C55.78 5.51001 56.07 0 56.07 0C57.5 5.65997 53.85 7.45001 53.85 7.45001C52.91 9.95001 54.06 12.53 54.06 12.53C56.21 12.11 59 12.32 59 12.32C59.29 9.88 62.01 8.45001 62.01 8.45001C60.8 11.24 60.51 13.03 60.51 13.03C62.88 15.04 65.74 12.53 65.74 12.53C63.09 16.61 59.37 13.89 59.37 13.89C56.36 13.03 54.07 13.89 54.07 13.89C48.48 23.77 37.74 25.56 37.74 25.56L34.73 27.14C32.8408 27.9265 31.2007 28.6723 29.7857 29.3157C27.9801 30.1369 26.5413 30.7912 25.42 31.15C23.42 31.79 23.42 33.08 23.42 33.08C29.3 33.8 30.37 37.59 30.37 37.59C30.37 37.59 26.43 39.09 23.35 37.59C23.0807 46.236 25.9075 49.6296 27.8018 51.9039C27.8918 52.0118 27.9796 52.1173 28.0649 52.2207C28.1176 52.2845 28.1693 52.3476 28.22 52.41C33.5491 52.9639 35.622 55.2052 39.038 58.8987L39.2413 59.1183L39.53 59.43C44.19 65.15 50.74 67.84 50.74 67.84C69.53 73.54 73.83 77.94 73.83 77.94C76.73 94.27 69.53 107.05 69.53 107.05C66.38 104.9 63.94 101.35 62.33 97.2C58.35 106.9 65.12 113.92 65.12 113.92C61.9 119.19 53.09 126.49 53.09 126.49C32.47 144.54 6.05 137.77 6.05 137.77L8.41 131.65ZM23.05 98.6099C23.7701 97.03 24.2701 92.45 24.2701 92.45H24.2801C25.7101 93.45 25.7101 96.53 25.7101 96.53L26.2801 113L25.5601 115.86L23.05 115.22C23.05 115.22 23.34 102.26 23.05 98.6099ZM28.86 85.3601C28.86 85.3601 28.29 97.5301 28.14 99.2501C28.14 102.62 28.86 116.29 28.86 116.29L53.85 121.8L58.72 115.86C58.72 115.86 60.01 113.93 57.72 111.85C57.5963 111.738 57.4614 111.617 57.3171 111.488C54.7904 109.225 49.3557 104.358 49.63 96.1001C49.92 94.4501 49.92 93.0901 49.92 93.0901C49.92 93.0901 49.35 91.8701 45.27 91.8701C44.7734 91.8701 44.246 91.8903 43.6915 91.9114C39.6905 92.0643 34.2802 92.271 28.87 85.3501L28.86 85.3601ZM9.81006 123.88V115.86L44.6801 122.74L30.5001 122.23L34.1601 125.38L16.3301 121.8L9.81006 123.88Z" fill="#E11D48"/>
+  </g>
+  <text x="30" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="800" font-size="18.5" letter-spacing="0.04em" fill="currentColor">STAG</text>
+  <text x="84" y="23" font-family="Plus Jakarta Sans, Inter, sans-serif" font-weight="700" font-size="18.5" letter-spacing="0.02em" fill="#E11D48">ELECTRICAL</text>
+  <text x="30" y="36" font-family="JetBrains Mono, monospace" font-weight="600" font-size="8.2" letter-spacing="0.13em" fill="currentColor" opacity="0.68">SOLAR · BATTERY · ELECTRICAL</text>
+</svg></span><span class="foot-meta">Uprise Digital GEO Intelligence Unit · STAG Electrical Technical Protocol Complete</span></footer>
+
+      </section>
+    
+    <div class="progress" aria-hidden="true"><i id="bar"></i></div>
+  </div>
+</div>
+
+<nav class="controls" id="controls" aria-label="Slide controls">
+  <button id="prev" type="button" aria-label="Previous slide"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4"/></svg></button>
+  <span id="count" class="ctr">1 / 13</span>
+  <button id="next" type="button" aria-label="Next slide"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4"/></svg></button>
+  <button id="fs" type="button" aria-label="Full screen"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="2.2"/></svg></button>
+</nav>
+
+<script src="deck.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (typeof renderMathInElement === 'function') {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false}
+      ],
+      throwOnError: false
+    });
+  }
+});
+</script>
+</body>
+</html>

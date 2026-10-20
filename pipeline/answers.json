@@ -1,0 +1,5588 @@
+[
+  {
+    "city": "canberra",
+    "prompt": "solar_installer",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "ECG Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "solar_installer",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      },
+      {
+        "name": "Canberra Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "solar_installer",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "ECG Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "solar_installer",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      },
+      {
+        "name": "ECG Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "solar_installer",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "battery_storage",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "battery_storage",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "battery_storage",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "ECG Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "battery_storage",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "battery_storage",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "rebates_2026",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "rebates_2026",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "rebates_2026",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "ECG Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "rebates_2026",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Canberra Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "rebates_2026",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "panels_efficiency",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      },
+      {
+        "name": "ECG Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "panels_efficiency",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "ECG Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "panels_efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "panels_efficiency",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "ECG Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "panels_efficiency",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "ECG Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "vpp_three_phase",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "ECG Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "vpp_three_phase",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "ActewAGL",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "vpp_three_phase",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "vpp_three_phase",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "ActewAGL",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "vpp_three_phase",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "ActewAGL",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "ev_aircon_elec",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "ECG Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "ev_aircon_elec",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "ActewAGL",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "ev_aircon_elec",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "ev_aircon_elec",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Mondiaux Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "ev_aircon_elec",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "platinum_reviews",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "ECG Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "platinum_reviews",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "platinum_reviews",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "platinum_reviews",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "ECG Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "canberra",
+    "prompt": "platinum_reviews",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "solar_installer",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "Solarpro",
+        "role": "recommended"
+      },
+      {
+        "name": "Arise Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "solar_installer",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "solar_installer",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "solar_installer",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "solar_installer",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "battery_storage",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Solar National",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Soltek Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "battery_storage",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "battery_storage",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "battery_storage",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "battery_storage",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar National",
+        "role": "recommended"
+      },
+      {
+        "name": "All Green Environmental Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "MPV Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "rebates_2026",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Solarpro",
+        "role": "recommended"
+      },
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "rebates_2026",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "rebates_2026",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "rebates_2026",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "Captain Green Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "rebates_2026",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Solarpro",
+        "role": "recommended"
+      },
+      {
+        "name": "Sydney Air & Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "panels_efficiency",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Solarpro",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar National",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "panels_efficiency",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "panels_efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "Solarpro",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "panels_efficiency",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Solarpro",
+        "role": "recommended"
+      },
+      {
+        "name": "ADS Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "panels_efficiency",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "Solarpro",
+        "role": "recommended"
+      },
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "vpp_three_phase",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "All Green Environmental Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "vpp_three_phase",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "ShineHub",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "vpp_three_phase",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Solarpro",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "vpp_three_phase",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Solarpro",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "vpp_three_phase",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "ShineHub",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "ev_aircon_elec",
+    "platform": "aimode",
+    "firms": []
+  },
+  {
+    "city": "sydney",
+    "prompt": "ev_aircon_elec",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Sydney Air & Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Solarpro",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "ev_aircon_elec",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Sydney Air & Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Solarpro",
+        "role": "recommended"
+      },
+      {
+        "name": "All Green Environmental Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "ev_aircon_elec",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "ev_aircon_elec",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "platinum_reviews",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "platinum_reviews",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "platinum_reviews",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "platinum_reviews",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "sydney",
+    "prompt": "platinum_reviews",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "solar_installer",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "RACV Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Total Solar Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "solar_installer",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Green Line Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "RACV Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "solar_installer",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Total Solar Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Green Line Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "solar_installer",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Green Line Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "solar_installer",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Green Line Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "battery_storage",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "G Store",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "battery_storage",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Total Solar Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "battery_storage",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Zap Tech Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "battery_storage",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "G Store",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "battery_storage",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "GI Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "rebates_2026",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Green Line Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "rebates_2026",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "rebates_2026",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Zap Tech Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "rebates_2026",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Total Solar Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "rebates_2026",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Green Line Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "panels_efficiency",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "panels_efficiency",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Green Line Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "panels_efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "G Store",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "panels_efficiency",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "panels_efficiency",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Green Line Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "vpp_three_phase",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Total Solar Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "vpp_three_phase",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "Green Line Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "vpp_three_phase",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Total Solar Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "vpp_three_phase",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Zap Tech Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "vpp_three_phase",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Total Solar Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "ev_aircon_elec",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "ev_aircon_elec",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Zap Tech Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Lectrical Services",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "ev_aircon_elec",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Lectrical Services",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "ev_aircon_elec",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Zap Tech Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Lectrical Services",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "ev_aircon_elec",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Total Solar Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "platinum_reviews",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Green Line Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Zap Tech Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "platinum_reviews",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Green Line Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "platinum_reviews",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Total Solar Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "platinum_reviews",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Green Line Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "melbourne",
+    "prompt": "platinum_reviews",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "solar_installer",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Positronic Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "solar_installer",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Positronic Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "solar_installer",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Positronic Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "solar_installer",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "GI Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "solar_installer",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "GI Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "battery_storage",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "GI Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Fallon Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "battery_storage",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Halcol Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "GI Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "battery_storage",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "GI Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Halcol Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "battery_storage",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Halcol Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "battery_storage",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "rebates_2026",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "rebates_2026",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Positronic Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "rebates_2026",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Positronic Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "rebates_2026",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "GI Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Halcol Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "rebates_2026",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      },
+      {
+        "name": "Halcol Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "panels_efficiency",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Halcol Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "panels_efficiency",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Positronic Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "panels_efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Halcol Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "panels_efficiency",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "GI Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Positronic Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Halcol Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "panels_efficiency",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Halcol Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "vpp_three_phase",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Positronic Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "vpp_three_phase",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "vpp_three_phase",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Positronic Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Halcol Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "vpp_three_phase",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "vpp_three_phase",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "ev_aircon_elec",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "ev_aircon_elec",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Solair Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "ev_aircon_elec",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Fallon Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "ev_aircon_elec",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Fallon Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "ev_aircon_elec",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Solair Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "platinum_reviews",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Reef Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "platinum_reviews",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Positronic Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "platinum_reviews",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "GI Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "platinum_reviews",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Halcol Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Reef Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "brisbane",
+    "prompt": "platinum_reviews",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "solar_installer",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Clean NRG Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "NRG Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "solar_installer",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Koala Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "solar_installer",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Koala Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "solar_installer",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "solar_installer",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Koala Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "battery_storage",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "battery_storage",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "battery_storage",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "battery_storage",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      },
+      {
+        "name": "Formula Sun Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "battery_storage",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "rebates_2026",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "Koala Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "rebates_2026",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Koala Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "rebates_2026",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Koala Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "rebates_2026",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "rebates_2026",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "panels_efficiency",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "panels_efficiency",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Koala Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "panels_efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Koala Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "panels_efficiency",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "panels_efficiency",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "vpp_three_phase",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "vpp_three_phase",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "vpp_three_phase",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "vpp_three_phase",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "vpp_three_phase",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "Plico Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "ev_aircon_elec",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Clean NRG Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "NRG Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "ev_aircon_elec",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Stinson Air & Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "ev_aircon_elec",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Stinson Air & Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "ev_aircon_elec",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Stinson Air & Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "ev_aircon_elec",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Stinson Air & Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "platinum_reviews",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Koala Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "platinum_reviews",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Koala Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "platinum_reviews",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Koala Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "platinum_reviews",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Koala Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "perth",
+    "prompt": "platinum_reviews",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Perth Solar Force",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Koala Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "solar_installer",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "NRG Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Wholesalers",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "solar_installer",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Wholesalers",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "solar_installer",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "solar_installer",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Wholesalers",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "solar_installer",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "battery_storage",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Wholesalers",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "battery_storage",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "NRG Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "battery_storage",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "battery_storage",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Generate Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "battery_storage",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Wholesalers",
+        "role": "recommended"
+      },
+      {
+        "name": "Generate Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "rebates_2026",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Generate Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Wholesalers",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "rebates_2026",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Generate Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "rebates_2026",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "rebates_2026",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "rebates_2026",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Generate Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Wholesalers",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "panels_efficiency",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "panels_efficiency",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Wholesalers",
+        "role": "recommended"
+      },
+      {
+        "name": "NRG Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "panels_efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "NRG Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "panels_efficiency",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Power Nation",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "panels_efficiency",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "NRG Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "vpp_three_phase",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "ShineHub",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "vpp_three_phase",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Generate Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "vpp_three_phase",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Wholesalers",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "NRG Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "vpp_three_phase",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Generate Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "vpp_three_phase",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Generate Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "ev_aircon_elec",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "ev_aircon_elec",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "ev_aircon_elec",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Generate Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Sharpe Services",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "ev_aircon_elec",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Sharpe Services",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "ev_aircon_elec",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Sharpe Services",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "platinum_reviews",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Wholesalers",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "platinum_reviews",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Wholesalers",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "platinum_reviews",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Wholesalers",
+        "role": "recommended"
+      },
+      {
+        "name": "NRG Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "platinum_reviews",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "NRG Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "adelaide",
+    "prompt": "platinum_reviews",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Thoroughtec Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Wholesalers",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "solar_installer",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Hinterland & Coast Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "solar_installer",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      },
+      {
+        "name": "Hinterland & Coast Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "solar_installer",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Hinterland & Coast Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "solar_installer",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "solar_installer",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "battery_storage",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Fallon Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "battery_storage",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "battery_storage",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "battery_storage",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "battery_storage",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "rebates_2026",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "rebates_2026",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Hinterland & Coast Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Surge Australia",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "rebates_2026",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "rebates_2026",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "rebates_2026",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "panels_efficiency",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Hinterland & Coast Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "panels_efficiency",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "panels_efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "panels_efficiency",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "panels_efficiency",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "vpp_three_phase",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Hinterland & Coast Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "vpp_three_phase",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Fallon Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "vpp_three_phase",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "vpp_three_phase",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Surge Australia",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "vpp_three_phase",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "ev_aircon_elec",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "ev_aircon_elec",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Hinterland & Coast Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "ev_aircon_elec",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Hinterland & Coast Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "ev_aircon_elec",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Hinterland & Coast Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      },
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "ev_aircon_elec",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Hinterland & Coast Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "platinum_reviews",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "platinum_reviews",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "platinum_reviews",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "platinum_reviews",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Energy Solution Centre",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Surge Australia",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "goldcoast",
+    "prompt": "platinum_reviews",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "solar_installer",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "SunPower",
+        "role": "recommended"
+      },
+      {
+        "name": "Positronic Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "solar_installer",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "solar_installer",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "solar_installer",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "solar_installer",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "RACV Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "battery_storage",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "All Green Environmental Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "battery_storage",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "battery_storage",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "battery_storage",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "All Green Environmental Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "AHE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "GI Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "battery_storage",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "All Green Environmental Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "GI Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "rebates_2026",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "rebates_2026",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "rebates_2026",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Solarpro",
+        "role": "recommended"
+      },
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "rebates_2026",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "SolarHub",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "Solar Run",
+        "role": "recommended"
+      },
+      {
+        "name": "Peninsula Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "rebates_2026",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Solahart",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "RACV Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "panels_efficiency",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "panels_efficiency",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "panels_efficiency",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "panels_efficiency",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "Regen Power",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "panels_efficiency",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Halcol Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "vpp_three_phase",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "vpp_three_phase",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "vpp_three_phase",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "Springers Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "vpp_three_phase",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "1KOMMA5°",
+        "role": "recommended"
+      },
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Solargain",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "vpp_three_phase",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "MC Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "PSC Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "ev_aircon_elec",
+    "platform": "aimode",
+    "firms": []
+  },
+  {
+    "city": "national",
+    "prompt": "ev_aircon_elec",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "Solar Air Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "ev_aircon_elec",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "G Store",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "ev_aircon_elec",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "Total Solar Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Essential Solar",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "ev_aircon_elec",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "platinum_reviews",
+    "platform": "aimode",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "platinum_reviews",
+    "platform": "gemini",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "platinum_reviews",
+    "platform": "chatgpt",
+    "firms": [
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "PSW Energy",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "platinum_reviews",
+    "platform": "perplexity",
+    "firms": [
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "role": "recommended"
+      },
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      }
+    ]
+  },
+  {
+    "city": "national",
+    "prompt": "platinum_reviews",
+    "platform": "claude",
+    "firms": [
+      {
+        "name": "SAE Group",
+        "role": "recommended"
+      },
+      {
+        "name": "Stag Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Smart Energy Answers",
+        "role": "recommended"
+      },
+      {
+        "name": "Reef Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "RESINC Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Brightworks Solar",
+        "role": "recommended"
+      },
+      {
+        "name": "Goliath Solar & Electrical",
+        "role": "recommended"
+      },
+      {
+        "name": "Jet Solar",
+        "role": "recommended"
+      }
+    ]
+  }
+]

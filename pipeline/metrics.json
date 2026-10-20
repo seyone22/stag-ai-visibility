@@ -1,0 +1,2715 @@
+{
+  "cities": {
+    "canberra": {
+      "answers": 35,
+      "lhdMentions": 11,
+      "somv": 31.4,
+      "ci95": [
+        18.6,
+        48
+      ],
+      "wvi": 0.2293,
+      "lhdRank": 4,
+      "firmsNamed": 9,
+      "totalMentions": 93,
+      "top": [
+        {
+          "name": "SolarHub",
+          "n": 33,
+          "rec": 33,
+          "avgPos": 1.2
+        },
+        {
+          "name": "Mondiaux Solar",
+          "n": 16,
+          "rec": 16,
+          "avgPos": 2.6
+        },
+        {
+          "name": "ECG Electrical",
+          "n": 13,
+          "rec": 13,
+          "avgPos": 2.2
+        },
+        {
+          "name": "Stag Electrical",
+          "n": 11,
+          "rec": 11,
+          "avgPos": 1.9
+        },
+        {
+          "name": "Solargain",
+          "n": 7,
+          "rec": 7,
+          "avgPos": 2.9
+        },
+        {
+          "name": "SunPower",
+          "n": 5,
+          "rec": 5,
+          "avgPos": 2.2
+        },
+        {
+          "name": "ActewAGL",
+          "n": 4,
+          "rec": 4,
+          "avgPos": 2
+        },
+        {
+          "name": "Canberra Solar",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 2.5
+        },
+        {
+          "name": "Solahart",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 4
+        }
+      ],
+      "lhd": {
+        "name": "Stag Electrical",
+        "n": 11,
+        "rec": 11,
+        "avgPos": 1.9
+      },
+      "byPlat": {
+        "aimode": {
+          "lhd": 3,
+          "n": 7,
+          "leader": "SolarHub",
+          "leaderN": 7
+        },
+        "chatgpt": {
+          "lhd": 1,
+          "n": 7,
+          "leader": "SolarHub",
+          "leaderN": 7
+        },
+        "perplexity": {
+          "lhd": 2,
+          "n": 7,
+          "leader": "SolarHub",
+          "leaderN": 7
+        },
+        "gemini": {
+          "lhd": 1,
+          "n": 7,
+          "leader": "SolarHub",
+          "leaderN": 6
+        },
+        "claude": {
+          "lhd": 4,
+          "n": 7,
+          "leader": "SolarHub",
+          "leaderN": 6
+        }
+      },
+      "byPrompt": {
+        "solar_installer": {
+          "lhd": 2,
+          "n": 5,
+          "leader": "SolarHub",
+          "leaderN": 5
+        },
+        "battery_storage": {
+          "lhd": 1,
+          "n": 5,
+          "leader": "SolarHub",
+          "leaderN": 5
+        },
+        "rebates_2026": {
+          "lhd": 1,
+          "n": 5,
+          "leader": "SolarHub",
+          "leaderN": 5
+        },
+        "panels_efficiency": {
+          "lhd": 2,
+          "n": 5,
+          "leader": "SolarHub",
+          "leaderN": 4
+        },
+        "vpp_three_phase": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "SolarHub",
+          "leaderN": 5
+        },
+        "ev_aircon_elec": {
+          "lhd": 2,
+          "n": 5,
+          "leader": "SolarHub",
+          "leaderN": 5
+        },
+        "platinum_reviews": {
+          "lhd": 3,
+          "n": 5,
+          "leader": "SolarHub",
+          "leaderN": 4
+        }
+      },
+      "matrix": {
+        "SolarHub": {
+          "aimode": 7,
+          "chatgpt": 7,
+          "perplexity": 7,
+          "gemini": 6,
+          "claude": 6
+        },
+        "Mondiaux Solar": {
+          "aimode": 2,
+          "chatgpt": 4,
+          "perplexity": 5,
+          "gemini": 3,
+          "claude": 2
+        },
+        "ECG Electrical": {
+          "aimode": 5,
+          "chatgpt": 3,
+          "perplexity": 3,
+          "gemini": 1,
+          "claude": 1
+        },
+        "Stag Electrical": {
+          "aimode": 3,
+          "chatgpt": 1,
+          "perplexity": 2,
+          "gemini": 1,
+          "claude": 4
+        },
+        "Solargain": {
+          "aimode": 1,
+          "chatgpt": 3,
+          "perplexity": 0,
+          "gemini": 2,
+          "claude": 1
+        },
+        "SunPower": {
+          "aimode": 2,
+          "chatgpt": 1,
+          "perplexity": 1,
+          "gemini": 1,
+          "claude": 0
+        }
+      },
+      "cited": 9,
+      "topSources": [
+        [
+          "solarquotes.com.au",
+          32
+        ],
+        [
+          "region.com.au",
+          27
+        ],
+        [
+          "facebook.com",
+          25
+        ],
+        [
+          "reddit.com",
+          24
+        ],
+        [
+          "solar4life.com.au",
+          24
+        ],
+        [
+          "solarchoice.net.au",
+          22
+        ],
+        [
+          "solarhub.net.au",
+          21
+        ],
+        [
+          "solarcobber.com",
+          21
+        ],
+        [
+          "sunstak.com.au",
+          21
+        ],
+        [
+          "sunbuiltsolar.com.au",
+          15
+        ],
+        [
+          "primesolarenergy.com.au",
+          14
+        ],
+        [
+          "solardirectory.com.au",
+          14
+        ]
+      ]
+    },
+    "sydney": {
+      "answers": 35,
+      "lhdMentions": 2,
+      "somv": 5.7,
+      "ci95": [
+        1.6,
+        18.6
+      ],
+      "wvi": 0.0204,
+      "lhdRank": 14,
+      "firmsNamed": 20,
+      "totalMentions": 112,
+      "top": [
+        {
+          "name": "PSC Energy",
+          "n": 19,
+          "rec": 19,
+          "avgPos": 1.7
+        },
+        {
+          "name": "1KOMMA5°",
+          "n": 16,
+          "rec": 16,
+          "avgPos": 2.6
+        },
+        {
+          "name": "RESINC Solar",
+          "n": 14,
+          "rec": 14,
+          "avgPos": 2.1
+        },
+        {
+          "name": "AHE Group",
+          "n": 14,
+          "rec": 14,
+          "avgPos": 2.1
+        },
+        {
+          "name": "Smart Energy Answers",
+          "n": 12,
+          "rec": 12,
+          "avgPos": 2.2
+        },
+        {
+          "name": "Solarpro",
+          "n": 11,
+          "rec": 11,
+          "avgPos": 2.3
+        },
+        {
+          "name": "Sydney Air & Solar",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 1.3
+        },
+        {
+          "name": "Solar National",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 2.3
+        },
+        {
+          "name": "Solahart",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 2.7
+        },
+        {
+          "name": "All Green Environmental Solutions",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 3.7
+        },
+        {
+          "name": "ShineHub",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 2
+        },
+        {
+          "name": "Solargain",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 3
+        }
+      ],
+      "lhd": {
+        "name": "Stag Electrical",
+        "n": 2,
+        "rec": 2,
+        "avgPos": 3.5
+      },
+      "byPlat": {
+        "aimode": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "AHE Group",
+          "leaderN": 5
+        },
+        "chatgpt": {
+          "lhd": 1,
+          "n": 7,
+          "leader": "PSC Energy",
+          "leaderN": 5
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "1KOMMA5°",
+          "leaderN": 5
+        },
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "PSC Energy",
+          "leaderN": 6
+        },
+        "claude": {
+          "lhd": 1,
+          "n": 7,
+          "leader": "PSC Energy",
+          "leaderN": 3
+        }
+      },
+      "byPrompt": {
+        "solar_installer": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Smart Energy Answers",
+          "leaderN": 4
+        },
+        "battery_storage": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "PSC Energy",
+          "leaderN": 5
+        },
+        "rebates_2026": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "PSC Energy",
+          "leaderN": 3
+        },
+        "panels_efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Solarpro",
+          "leaderN": 4
+        },
+        "vpp_three_phase": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "1KOMMA5°",
+          "leaderN": 3
+        },
+        "ev_aircon_elec": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "1KOMMA5°",
+          "leaderN": 3
+        },
+        "platinum_reviews": {
+          "lhd": 2,
+          "n": 5,
+          "leader": "RESINC Solar",
+          "leaderN": 5
+        }
+      },
+      "matrix": {
+        "PSC Energy": {
+          "aimode": 1,
+          "chatgpt": 5,
+          "perplexity": 4,
+          "gemini": 6,
+          "claude": 3
+        },
+        "1KOMMA5°": {
+          "aimode": 0,
+          "chatgpt": 5,
+          "perplexity": 5,
+          "gemini": 3,
+          "claude": 3
+        },
+        "RESINC Solar": {
+          "aimode": 3,
+          "chatgpt": 3,
+          "perplexity": 2,
+          "gemini": 3,
+          "claude": 3
+        },
+        "AHE Group": {
+          "aimode": 5,
+          "chatgpt": 2,
+          "perplexity": 4,
+          "gemini": 1,
+          "claude": 2
+        },
+        "Smart Energy Answers": {
+          "aimode": 1,
+          "chatgpt": 4,
+          "perplexity": 3,
+          "gemini": 3,
+          "claude": 1
+        },
+        "Solarpro": {
+          "aimode": 3,
+          "chatgpt": 3,
+          "perplexity": 2,
+          "gemini": 1,
+          "claude": 2
+        },
+        "Stag Electrical": {
+          "aimode": 0,
+          "chatgpt": 1,
+          "perplexity": 0,
+          "gemini": 0,
+          "claude": 1
+        }
+      },
+      "cited": 3,
+      "topSources": [
+        [
+          "solarquotes.com.au",
+          34
+        ],
+        [
+          "facebook.com",
+          21
+        ],
+        [
+          "energy.gov.au",
+          15
+        ],
+        [
+          "solarchoice.net.au",
+          15
+        ],
+        [
+          "ahegroup.com.au",
+          13
+        ],
+        [
+          "tallyenergygroup.com.au",
+          12
+        ],
+        [
+          "aussietoplist.com.au",
+          12
+        ],
+        [
+          "youtube.com",
+          12
+        ],
+        [
+          "pscenergy.com.au",
+          10
+        ],
+        [
+          "solarpro.com.au",
+          9
+        ],
+        [
+          "whysolar.com.au",
+          9
+        ],
+        [
+          "productreview.com.au",
+          9
+        ]
+      ]
+    },
+    "melbourne": {
+      "answers": 35,
+      "lhdMentions": 1,
+      "somv": 2.9,
+      "ci95": [
+        0.5,
+        14.5
+      ],
+      "wvi": 0.0061,
+      "lhdRank": 14,
+      "firmsNamed": 14,
+      "totalMentions": 110,
+      "top": [
+        {
+          "name": "Jet Solar",
+          "n": 30,
+          "rec": 30,
+          "avgPos": 1.3
+        },
+        {
+          "name": "Essential Solar",
+          "n": 18,
+          "rec": 18,
+          "avgPos": 2.7
+        },
+        {
+          "name": "Brightworks Solar",
+          "n": 12,
+          "rec": 12,
+          "avgPos": 2.3
+        },
+        {
+          "name": "Green Line Solar",
+          "n": 12,
+          "rec": 12,
+          "avgPos": 2.6
+        },
+        {
+          "name": "Total Solar Solutions",
+          "n": 9,
+          "rec": 9,
+          "avgPos": 1.9
+        },
+        {
+          "name": "1KOMMA5°",
+          "n": 7,
+          "rec": 7,
+          "avgPos": 3.1
+        },
+        {
+          "name": "Zap Tech Energy",
+          "n": 6,
+          "rec": 6,
+          "avgPos": 2.7
+        },
+        {
+          "name": "SunPower",
+          "n": 4,
+          "rec": 4,
+          "avgPos": 3.3
+        },
+        {
+          "name": "G Store",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 2
+        },
+        {
+          "name": "Lectrical Services",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 2
+        },
+        {
+          "name": "RACV Solar",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 3
+        },
+        {
+          "name": "Solargain",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 3.5
+        }
+      ],
+      "lhd": {
+        "name": "Stag Electrical",
+        "n": 1,
+        "rec": 1,
+        "avgPos": 4
+      },
+      "byPlat": {
+        "aimode": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Jet Solar",
+          "leaderN": 7
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Jet Solar",
+          "leaderN": 6
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Jet Solar",
+          "leaderN": 6
+        },
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Jet Solar",
+          "leaderN": 6
+        },
+        "claude": {
+          "lhd": 1,
+          "n": 7,
+          "leader": "Jet Solar",
+          "leaderN": 5
+        }
+      },
+      "byPrompt": {
+        "solar_installer": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Jet Solar",
+          "leaderN": 5
+        },
+        "battery_storage": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Jet Solar",
+          "leaderN": 5
+        },
+        "rebates_2026": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Jet Solar",
+          "leaderN": 5
+        },
+        "panels_efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Jet Solar",
+          "leaderN": 5
+        },
+        "vpp_three_phase": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Total Solar Solutions",
+          "leaderN": 3
+        },
+        "ev_aircon_elec": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Lectrical Services",
+          "leaderN": 3
+        },
+        "platinum_reviews": {
+          "lhd": 1,
+          "n": 5,
+          "leader": "Jet Solar",
+          "leaderN": 5
+        }
+      },
+      "matrix": {
+        "Jet Solar": {
+          "aimode": 7,
+          "chatgpt": 6,
+          "perplexity": 6,
+          "gemini": 6,
+          "claude": 5
+        },
+        "Essential Solar": {
+          "aimode": 5,
+          "chatgpt": 2,
+          "perplexity": 4,
+          "gemini": 2,
+          "claude": 5
+        },
+        "Brightworks Solar": {
+          "aimode": 2,
+          "chatgpt": 4,
+          "perplexity": 4,
+          "gemini": 1,
+          "claude": 1
+        },
+        "Green Line Solar": {
+          "aimode": 2,
+          "chatgpt": 1,
+          "perplexity": 2,
+          "gemini": 4,
+          "claude": 3
+        },
+        "Total Solar Solutions": {
+          "aimode": 2,
+          "chatgpt": 3,
+          "perplexity": 1,
+          "gemini": 1,
+          "claude": 2
+        },
+        "1KOMMA5°": {
+          "aimode": 1,
+          "chatgpt": 1,
+          "perplexity": 0,
+          "gemini": 3,
+          "claude": 2
+        },
+        "Stag Electrical": {
+          "aimode": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "gemini": 0,
+          "claude": 1
+        }
+      },
+      "cited": 3,
+      "topSources": [
+        [
+          "solarquotes.com.au",
+          34
+        ],
+        [
+          "essentialsolar.com.au",
+          17
+        ],
+        [
+          "jetsolar.com.au",
+          16
+        ],
+        [
+          "top10solarcompanies.com.au",
+          16
+        ],
+        [
+          "facebook.com",
+          16
+        ],
+        [
+          "whysolar.com.au",
+          15
+        ],
+        [
+          "energy.gov.au",
+          11
+        ],
+        [
+          "solardirectory.com.au",
+          10
+        ],
+        [
+          "solarchoice.net.au",
+          10
+        ],
+        [
+          "choice.com.au",
+          10
+        ],
+        [
+          "reddit.com",
+          9
+        ],
+        [
+          "youtube.com",
+          9
+        ]
+      ]
+    },
+    "brisbane": {
+      "answers": 35,
+      "lhdMentions": 0,
+      "somv": 0,
+      "ci95": [
+        0,
+        9.9
+      ],
+      "wvi": 0,
+      "lhdRank": 15,
+      "firmsNamed": 14,
+      "totalMentions": 117,
+      "top": [
+        {
+          "name": "Springers Solar",
+          "n": 26,
+          "rec": 26,
+          "avgPos": 1.3
+        },
+        {
+          "name": "MC Electrical",
+          "n": 23,
+          "rec": 23,
+          "avgPos": 1.9
+        },
+        {
+          "name": "Solar Air Energy",
+          "n": 16,
+          "rec": 16,
+          "avgPos": 2.4
+        },
+        {
+          "name": "Halcol Energy",
+          "n": 11,
+          "rec": 11,
+          "avgPos": 3.8
+        },
+        {
+          "name": "Positronic Solar",
+          "n": 10,
+          "rec": 10,
+          "avgPos": 3.1
+        },
+        {
+          "name": "GI Energy",
+          "n": 8,
+          "rec": 8,
+          "avgPos": 3.5
+        },
+        {
+          "name": "Energy Solution Centre",
+          "n": 6,
+          "rec": 6,
+          "avgPos": 3.5
+        },
+        {
+          "name": "SAE Group",
+          "n": 4,
+          "rec": 4,
+          "avgPos": 1.8
+        },
+        {
+          "name": "Fallon Solutions",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 3
+        },
+        {
+          "name": "Solargain",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 3
+        },
+        {
+          "name": "Solair Electrical",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 1
+        },
+        {
+          "name": "Solahart",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 2.5
+        }
+      ],
+      "lhd": {
+        "name": "Stag Electrical",
+        "n": 0,
+        "rec": 0,
+        "avgPos": 0
+      },
+      "byPlat": {
+        "aimode": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Solar Air Energy",
+          "leaderN": 4
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Springers Solar",
+          "leaderN": 6
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Springers Solar",
+          "leaderN": 7
+        },
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Springers Solar",
+          "leaderN": 5
+        },
+        "claude": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Springers Solar",
+          "leaderN": 5
+        }
+      },
+      "byPrompt": {
+        "solar_installer": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "MC Electrical",
+          "leaderN": 5
+        },
+        "battery_storage": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Springers Solar",
+          "leaderN": 4
+        },
+        "rebates_2026": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Springers Solar",
+          "leaderN": 3
+        },
+        "panels_efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Springers Solar",
+          "leaderN": 5
+        },
+        "vpp_three_phase": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Springers Solar",
+          "leaderN": 4
+        },
+        "ev_aircon_elec": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Solar Air Energy",
+          "leaderN": 4
+        },
+        "platinum_reviews": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Solar Air Energy",
+          "leaderN": 5
+        }
+      },
+      "matrix": {
+        "Springers Solar": {
+          "aimode": 3,
+          "chatgpt": 6,
+          "perplexity": 7,
+          "gemini": 5,
+          "claude": 5
+        },
+        "MC Electrical": {
+          "aimode": 2,
+          "chatgpt": 6,
+          "perplexity": 7,
+          "gemini": 5,
+          "claude": 3
+        },
+        "Solar Air Energy": {
+          "aimode": 4,
+          "chatgpt": 4,
+          "perplexity": 3,
+          "gemini": 4,
+          "claude": 1
+        },
+        "Halcol Energy": {
+          "aimode": 1,
+          "chatgpt": 3,
+          "perplexity": 4,
+          "gemini": 1,
+          "claude": 2
+        },
+        "Positronic Solar": {
+          "aimode": 2,
+          "chatgpt": 3,
+          "perplexity": 1,
+          "gemini": 4,
+          "claude": 0
+        },
+        "GI Energy": {
+          "aimode": 1,
+          "chatgpt": 2,
+          "perplexity": 3,
+          "gemini": 1,
+          "claude": 1
+        },
+        "Stag Electrical": {
+          "aimode": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "gemini": 0,
+          "claude": 0
+        }
+      },
+      "cited": 0,
+      "topSources": [
+        [
+          "solarquotes.com.au",
+          31
+        ],
+        [
+          "solarairenergy.com.au",
+          18
+        ],
+        [
+          "facebook.com",
+          17
+        ],
+        [
+          "reddit.com",
+          16
+        ],
+        [
+          "top10solarcompanies.com.au",
+          15
+        ],
+        [
+          "solarcobber.com",
+          13
+        ],
+        [
+          "springers.com.au",
+          13
+        ],
+        [
+          "halcolenergy.com.au",
+          12
+        ],
+        [
+          "mcelectrical.com.au",
+          11
+        ],
+        [
+          "solardirectory.com.au",
+          11
+        ],
+        [
+          "youtube.com",
+          11
+        ],
+        [
+          "whysolar.com.au",
+          10
+        ]
+      ]
+    },
+    "perth": {
+      "answers": 35,
+      "lhdMentions": 0,
+      "somv": 0,
+      "ci95": [
+        0,
+        9.9
+      ],
+      "wvi": 0,
+      "lhdRank": 14,
+      "firmsNamed": 13,
+      "totalMentions": 141,
+      "top": [
+        {
+          "name": "PSW Energy",
+          "n": 33,
+          "rec": 33,
+          "avgPos": 1.8
+        },
+        {
+          "name": "Positive Energy Solutions",
+          "n": 29,
+          "rec": 29,
+          "avgPos": 1.8
+        },
+        {
+          "name": "Perth Solar Force",
+          "n": 23,
+          "rec": 23,
+          "avgPos": 3.2
+        },
+        {
+          "name": "Regen Power",
+          "n": 15,
+          "rec": 15,
+          "avgPos": 3.4
+        },
+        {
+          "name": "Koala Solar",
+          "n": 13,
+          "rec": 13,
+          "avgPos": 3.8
+        },
+        {
+          "name": "Solargain",
+          "n": 13,
+          "rec": 13,
+          "avgPos": 4
+        },
+        {
+          "name": "Stinson Air & Solar",
+          "n": 4,
+          "rec": 4,
+          "avgPos": 1
+        },
+        {
+          "name": "SunPower",
+          "n": 4,
+          "rec": 4,
+          "avgPos": 2.8
+        },
+        {
+          "name": "Clean NRG Solar",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 3.5
+        },
+        {
+          "name": "NRG Solar",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 4.5
+        },
+        {
+          "name": "Plico Energy",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 5
+        },
+        {
+          "name": "SAE Group",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 5
+        }
+      ],
+      "lhd": {
+        "name": "Stag Electrical",
+        "n": 0,
+        "rec": 0,
+        "avgPos": 0
+      },
+      "byPlat": {
+        "aimode": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "PSW Energy",
+          "leaderN": 7
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "PSW Energy",
+          "leaderN": 7
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "PSW Energy",
+          "leaderN": 7
+        },
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "PSW Energy",
+          "leaderN": 6
+        },
+        "claude": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Positive Energy Solutions",
+          "leaderN": 6
+        }
+      },
+      "byPrompt": {
+        "solar_installer": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Positive Energy Solutions",
+          "leaderN": 5
+        },
+        "battery_storage": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "PSW Energy",
+          "leaderN": 5
+        },
+        "rebates_2026": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "PSW Energy",
+          "leaderN": 5
+        },
+        "panels_efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "PSW Energy",
+          "leaderN": 5
+        },
+        "vpp_three_phase": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Positive Energy Solutions",
+          "leaderN": 5
+        },
+        "ev_aircon_elec": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Stinson Air & Solar",
+          "leaderN": 4
+        },
+        "platinum_reviews": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Positive Energy Solutions",
+          "leaderN": 5
+        }
+      },
+      "matrix": {
+        "PSW Energy": {
+          "aimode": 7,
+          "chatgpt": 7,
+          "perplexity": 7,
+          "gemini": 6,
+          "claude": 6
+        },
+        "Positive Energy Solutions": {
+          "aimode": 6,
+          "chatgpt": 6,
+          "perplexity": 5,
+          "gemini": 6,
+          "claude": 6
+        },
+        "Perth Solar Force": {
+          "aimode": 4,
+          "chatgpt": 4,
+          "perplexity": 5,
+          "gemini": 4,
+          "claude": 6
+        },
+        "Regen Power": {
+          "aimode": 3,
+          "chatgpt": 6,
+          "perplexity": 3,
+          "gemini": 1,
+          "claude": 2
+        },
+        "Koala Solar": {
+          "aimode": 2,
+          "chatgpt": 4,
+          "perplexity": 1,
+          "gemini": 4,
+          "claude": 2
+        },
+        "Solargain": {
+          "aimode": 2,
+          "chatgpt": 2,
+          "perplexity": 6,
+          "gemini": 2,
+          "claude": 1
+        },
+        "Stag Electrical": {
+          "aimode": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "gemini": 0,
+          "claude": 0
+        }
+      },
+      "cited": 0,
+      "topSources": [
+        [
+          "solarquotes.com.au",
+          33
+        ],
+        [
+          "perthsolarwarehouse.com.au",
+          33
+        ],
+        [
+          "positiveenergy.com.au",
+          29
+        ],
+        [
+          "pswenergy.com.au",
+          28
+        ],
+        [
+          "perthsolarforce.com.au",
+          25
+        ],
+        [
+          "facebook.com",
+          15
+        ],
+        [
+          "solarchoice.net.au",
+          14
+        ],
+        [
+          "regenpower.com",
+          13
+        ],
+        [
+          "whysolar.com.au",
+          12
+        ],
+        [
+          "talkenergy.com.au",
+          11
+        ],
+        [
+          "solargain.com.au",
+          10
+        ],
+        [
+          "tallyenergygroup.com.au",
+          8
+        ]
+      ]
+    },
+    "adelaide": {
+      "answers": 35,
+      "lhdMentions": 1,
+      "somv": 2.9,
+      "ci95": [
+        0.5,
+        14.5
+      ],
+      "wvi": 0.018,
+      "lhdRank": 12,
+      "firmsNamed": 13,
+      "totalMentions": 86,
+      "top": [
+        {
+          "name": "Goliath Solar & Electrical",
+          "n": 27,
+          "rec": 27,
+          "avgPos": 1
+        },
+        {
+          "name": "Thoroughtec Solar & Electrical",
+          "n": 18,
+          "rec": 18,
+          "avgPos": 2.2
+        },
+        {
+          "name": "Solar Wholesalers",
+          "n": 13,
+          "rec": 13,
+          "avgPos": 2.7
+        },
+        {
+          "name": "Generate Energy",
+          "n": 9,
+          "rec": 9,
+          "avgPos": 1.9
+        },
+        {
+          "name": "NRG Solar",
+          "n": 8,
+          "rec": 8,
+          "avgPos": 2.8
+        },
+        {
+          "name": "Sharpe Services",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 1.7
+        },
+        {
+          "name": "SunPower",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 2
+        },
+        {
+          "name": "ShineHub",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 1
+        },
+        {
+          "name": "Solargain",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 2
+        },
+        {
+          "name": "Solahart",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 2
+        },
+        {
+          "name": "Solar Power Nation",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 2
+        },
+        {
+          "name": "Stag Electrical",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 2
+        }
+      ],
+      "lhd": {
+        "name": "Stag Electrical",
+        "n": 1,
+        "rec": 1,
+        "avgPos": 2
+      },
+      "byPlat": {
+        "aimode": {
+          "lhd": 1,
+          "n": 7,
+          "leader": "Goliath Solar & Electrical",
+          "leaderN": 5
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Goliath Solar & Electrical",
+          "leaderN": 6
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Goliath Solar & Electrical",
+          "leaderN": 5
+        },
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Goliath Solar & Electrical",
+          "leaderN": 5
+        },
+        "claude": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Goliath Solar & Electrical",
+          "leaderN": 6
+        }
+      },
+      "byPrompt": {
+        "solar_installer": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Goliath Solar & Electrical",
+          "leaderN": 5
+        },
+        "battery_storage": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Goliath Solar & Electrical",
+          "leaderN": 4
+        },
+        "rebates_2026": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Goliath Solar & Electrical",
+          "leaderN": 5
+        },
+        "panels_efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Goliath Solar & Electrical",
+          "leaderN": 5
+        },
+        "vpp_three_phase": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Goliath Solar & Electrical",
+          "leaderN": 3
+        },
+        "ev_aircon_elec": {
+          "lhd": 1,
+          "n": 5,
+          "leader": "Thoroughtec Solar & Electrical",
+          "leaderN": 5
+        },
+        "platinum_reviews": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Goliath Solar & Electrical",
+          "leaderN": 5
+        }
+      },
+      "matrix": {
+        "Goliath Solar & Electrical": {
+          "aimode": 5,
+          "chatgpt": 6,
+          "perplexity": 5,
+          "gemini": 5,
+          "claude": 6
+        },
+        "Thoroughtec Solar & Electrical": {
+          "aimode": 3,
+          "chatgpt": 5,
+          "perplexity": 3,
+          "gemini": 3,
+          "claude": 4
+        },
+        "Solar Wholesalers": {
+          "aimode": 4,
+          "chatgpt": 2,
+          "perplexity": 1,
+          "gemini": 3,
+          "claude": 3
+        },
+        "Generate Energy": {
+          "aimode": 1,
+          "chatgpt": 1,
+          "perplexity": 2,
+          "gemini": 2,
+          "claude": 3
+        },
+        "NRG Solar": {
+          "aimode": 1,
+          "chatgpt": 3,
+          "perplexity": 1,
+          "gemini": 2,
+          "claude": 1
+        },
+        "Sharpe Services": {
+          "aimode": 0,
+          "chatgpt": 1,
+          "perplexity": 1,
+          "gemini": 0,
+          "claude": 1
+        },
+        "Stag Electrical": {
+          "aimode": 1,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "gemini": 0,
+          "claude": 0
+        }
+      },
+      "cited": 1,
+      "topSources": [
+        [
+          "solarquotes.com.au",
+          34
+        ],
+        [
+          "solarcobber.com",
+          23
+        ],
+        [
+          "solarchoice.net.au",
+          18
+        ],
+        [
+          "facebook.com",
+          18
+        ],
+        [
+          "reddit.com",
+          15
+        ],
+        [
+          "solardirectory.com.au",
+          12
+        ],
+        [
+          "adelaidesolarsafe.com.au",
+          12
+        ],
+        [
+          "goliathelectrical.com.au",
+          11
+        ],
+        [
+          "whysolar.com.au",
+          11
+        ],
+        [
+          "productreview.com.au",
+          11
+        ],
+        [
+          "peaceelectrical.com.au",
+          11
+        ],
+        [
+          "energy.gov.au",
+          10
+        ]
+      ]
+    },
+    "goldcoast": {
+      "answers": 35,
+      "lhdMentions": 0,
+      "somv": 0,
+      "ci95": [
+        0,
+        9.9
+      ],
+      "wvi": 0,
+      "lhdRank": 14,
+      "firmsNamed": 13,
+      "totalMentions": 101,
+      "top": [
+        {
+          "name": "Energy Solution Centre",
+          "n": 27,
+          "rec": 27,
+          "avgPos": 1.7
+        },
+        {
+          "name": "Gold Coast Solar Power Solutions",
+          "n": 25,
+          "rec": 25,
+          "avgPos": 1.7
+        },
+        {
+          "name": "Springers Solar",
+          "n": 11,
+          "rec": 11,
+          "avgPos": 2.4
+        },
+        {
+          "name": "Hinterland & Coast Electrical",
+          "n": 10,
+          "rec": 10,
+          "avgPos": 2.2
+        },
+        {
+          "name": "SAE Group",
+          "n": 8,
+          "rec": 8,
+          "avgPos": 2.6
+        },
+        {
+          "name": "MC Electrical",
+          "n": 5,
+          "rec": 5,
+          "avgPos": 2.4
+        },
+        {
+          "name": "1KOMMA5°",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 3
+        },
+        {
+          "name": "Solahart",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 3
+        },
+        {
+          "name": "Solar Surge Australia",
+          "n": 3,
+          "rec": 3,
+          "avgPos": 3.7
+        },
+        {
+          "name": "RESINC Solar",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 3
+        },
+        {
+          "name": "Fallon Solutions",
+          "n": 2,
+          "rec": 2,
+          "avgPos": 3
+        },
+        {
+          "name": "Solar Air Energy",
+          "n": 1,
+          "rec": 1,
+          "avgPos": 4
+        }
+      ],
+      "lhd": {
+        "name": "Stag Electrical",
+        "n": 0,
+        "rec": 0,
+        "avgPos": 0
+      },
+      "byPlat": {
+        "aimode": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Gold Coast Solar Power Solutions",
+          "leaderN": 6
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Gold Coast Solar Power Solutions",
+          "leaderN": 6
+        },
+        "perplexity": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Energy Solution Centre",
+          "leaderN": 6
+        },
+        "gemini": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Gold Coast Solar Power Solutions",
+          "leaderN": 4
+        },
+        "claude": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Energy Solution Centre",
+          "leaderN": 5
+        }
+      },
+      "byPrompt": {
+        "solar_installer": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Gold Coast Solar Power Solutions",
+          "leaderN": 5
+        },
+        "battery_storage": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Gold Coast Solar Power Solutions",
+          "leaderN": 4
+        },
+        "rebates_2026": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Energy Solution Centre",
+          "leaderN": 5
+        },
+        "panels_efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Gold Coast Solar Power Solutions",
+          "leaderN": 4
+        },
+        "vpp_three_phase": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Gold Coast Solar Power Solutions",
+          "leaderN": 5
+        },
+        "ev_aircon_elec": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Hinterland & Coast Electrical",
+          "leaderN": 4
+        },
+        "platinum_reviews": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Energy Solution Centre",
+          "leaderN": 4
+        }
+      },
+      "matrix": {
+        "Energy Solution Centre": {
+          "aimode": 6,
+          "chatgpt": 6,
+          "perplexity": 6,
+          "gemini": 4,
+          "claude": 5
+        },
+        "Gold Coast Solar Power Solutions": {
+          "aimode": 6,
+          "chatgpt": 6,
+          "perplexity": 6,
+          "gemini": 4,
+          "claude": 3
+        },
+        "Springers Solar": {
+          "aimode": 1,
+          "chatgpt": 5,
+          "perplexity": 3,
+          "gemini": 1,
+          "claude": 1
+        },
+        "Hinterland & Coast Electrical": {
+          "aimode": 3,
+          "chatgpt": 2,
+          "perplexity": 1,
+          "gemini": 3,
+          "claude": 1
+        },
+        "SAE Group": {
+          "aimode": 1,
+          "chatgpt": 2,
+          "perplexity": 3,
+          "gemini": 0,
+          "claude": 2
+        },
+        "MC Electrical": {
+          "aimode": 0,
+          "chatgpt": 2,
+          "perplexity": 1,
+          "gemini": 1,
+          "claude": 1
+        },
+        "Stag Electrical": {
+          "aimode": 0,
+          "chatgpt": 0,
+          "perplexity": 0,
+          "gemini": 0,
+          "claude": 0
+        }
+      },
+      "cited": 0,
+      "topSources": [
+        [
+          "solarquotes.com.au",
+          31
+        ],
+        [
+          "energysolutioncentre.com.au",
+          27
+        ],
+        [
+          "facebook.com",
+          20
+        ],
+        [
+          "gold-coast-solar-power-solutions.com.au",
+          18
+        ],
+        [
+          "solarchoice.net.au",
+          17
+        ],
+        [
+          "reddit.com",
+          15
+        ],
+        [
+          "solarmasters.com.au",
+          15
+        ],
+        [
+          "yoursolarquotes.com.au",
+          13
+        ],
+        [
+          "youtube.com",
+          13
+        ],
+        [
+          "energy.gov.au",
+          11
+        ],
+        [
+          "productreview.com.au",
+          10
+        ],
+        [
+          "solardirectory.com.au",
+          10
+        ]
+      ]
+    },
+    "national": {
+      "answers": 35,
+      "lhdMentions": 4,
+      "somv": 11.4,
+      "ci95": [
+        4.5,
+        25.9
+      ],
+      "wvi": 0.0333,
+      "lhdRank": 15,
+      "firmsNamed": 32,
+      "totalMentions": 147,
+      "top": [
+        {
+          "name": "PSC Energy",
+          "n": 14,
+          "rec": 14,
+          "avgPos": 1.9
+        },
+        {
+          "name": "1KOMMA5°",
+          "n": 12,
+          "rec": 12,
+          "avgPos": 2.3
+        },
+        {
+          "name": "PSW Energy",
+          "n": 11,
+          "rec": 11,
+          "avgPos": 3.1
+        },
+        {
+          "name": "Solargain",
+          "n": 10,
+          "rec": 10,
+          "avgPos": 2.8
+        },
+        {
+          "name": "Goliath Solar & Electrical",
+          "n": 10,
+          "rec": 10,
+          "avgPos": 3.6
+        },
+        {
+          "name": "RESINC Solar",
+          "n": 9,
+          "rec": 9,
+          "avgPos": 2.1
+        },
+        {
+          "name": "Springers Solar",
+          "n": 9,
+          "rec": 9,
+          "avgPos": 2.4
+        },
+        {
+          "name": "SAE Group",
+          "n": 8,
+          "rec": 8,
+          "avgPos": 3.3
+        },
+        {
+          "name": "Positive Energy Solutions",
+          "n": 7,
+          "rec": 7,
+          "avgPos": 3.1
+        },
+        {
+          "name": "Jet Solar",
+          "n": 7,
+          "rec": 7,
+          "avgPos": 3.9
+        },
+        {
+          "name": "MC Electrical",
+          "n": 6,
+          "rec": 6,
+          "avgPos": 2.7
+        },
+        {
+          "name": "Smart Energy Answers",
+          "n": 6,
+          "rec": 6,
+          "avgPos": 3.7
+        }
+      ],
+      "lhd": {
+        "name": "Stag Electrical",
+        "n": 4,
+        "rec": 4,
+        "avgPos": 5
+      },
+      "byPlat": {
+        "aimode": {
+          "lhd": 1,
+          "n": 7,
+          "leader": "RESINC Solar",
+          "leaderN": 3
+        },
+        "chatgpt": {
+          "lhd": 0,
+          "n": 7,
+          "leader": "Goliath Solar & Electrical",
+          "leaderN": 5
+        },
+        "perplexity": {
+          "lhd": 1,
+          "n": 7,
+          "leader": "PSC Energy",
+          "leaderN": 3
+        },
+        "gemini": {
+          "lhd": 1,
+          "n": 7,
+          "leader": "1KOMMA5°",
+          "leaderN": 4
+        },
+        "claude": {
+          "lhd": 1,
+          "n": 7,
+          "leader": "PSC Energy",
+          "leaderN": 4
+        }
+      },
+      "byPrompt": {
+        "solar_installer": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "1KOMMA5°",
+          "leaderN": 3
+        },
+        "battery_storage": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "PSW Energy",
+          "leaderN": 4
+        },
+        "rebates_2026": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Solargain",
+          "leaderN": 3
+        },
+        "panels_efficiency": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "Springers Solar",
+          "leaderN": 5
+        },
+        "vpp_three_phase": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "PSC Energy",
+          "leaderN": 5
+        },
+        "ev_aircon_elec": {
+          "lhd": 0,
+          "n": 5,
+          "leader": "SAE Group",
+          "leaderN": 2
+        },
+        "platinum_reviews": {
+          "lhd": 4,
+          "n": 5,
+          "leader": "Goliath Solar & Electrical",
+          "leaderN": 5
+        }
+      },
+      "matrix": {
+        "PSC Energy": {
+          "aimode": 2,
+          "chatgpt": 2,
+          "perplexity": 3,
+          "gemini": 3,
+          "claude": 4
+        },
+        "1KOMMA5°": {
+          "aimode": 2,
+          "chatgpt": 1,
+          "perplexity": 3,
+          "gemini": 4,
+          "claude": 2
+        },
+        "PSW Energy": {
+          "aimode": 1,
+          "chatgpt": 4,
+          "perplexity": 1,
+          "gemini": 3,
+          "claude": 2
+        },
+        "Solargain": {
+          "aimode": 1,
+          "chatgpt": 1,
+          "perplexity": 3,
+          "gemini": 3,
+          "claude": 2
+        },
+        "Goliath Solar & Electrical": {
+          "aimode": 1,
+          "chatgpt": 5,
+          "perplexity": 1,
+          "gemini": 2,
+          "claude": 1
+        },
+        "RESINC Solar": {
+          "aimode": 3,
+          "chatgpt": 2,
+          "perplexity": 1,
+          "gemini": 2,
+          "claude": 1
+        },
+        "Stag Electrical": {
+          "aimode": 1,
+          "chatgpt": 0,
+          "perplexity": 1,
+          "gemini": 1,
+          "claude": 1
+        }
+      },
+      "cited": 0,
+      "topSources": [
+        [
+          "solarquotes.com.au",
+          32
+        ],
+        [
+          "facebook.com",
+          16
+        ],
+        [
+          "youtube.com",
+          14
+        ],
+        [
+          "solarcobber.com",
+          13
+        ],
+        [
+          "solarchoice.net.au",
+          13
+        ],
+        [
+          "choice.com.au",
+          11
+        ],
+        [
+          "productreview.com.au",
+          11
+        ],
+        [
+          "reddit.com",
+          9
+        ],
+        [
+          "energy.gov.au",
+          9
+        ],
+        [
+          "solardirectory.com.au",
+          8
+        ],
+        [
+          "solarcalculator.com.au",
+          7
+        ],
+        [
+          "cleanenergycouncil.org.au",
+          7
+        ]
+      ]
+    }
+  },
+  "national": {
+    "answers": 280,
+    "top": [
+      {
+        "name": "Springers Solar",
+        "n": 46,
+        "rec": 46,
+        "avgPos": 1.8
+      },
+      {
+        "name": "PSW Energy",
+        "n": 44,
+        "rec": 44,
+        "avgPos": 2.1
+      },
+      {
+        "name": "1KOMMA5°",
+        "n": 39,
+        "rec": 39,
+        "avgPos": 2.6
+      },
+      {
+        "name": "Solargain",
+        "n": 38,
+        "rec": 38,
+        "avgPos": 3.3
+      },
+      {
+        "name": "Goliath Solar & Electrical",
+        "n": 37,
+        "rec": 37,
+        "avgPos": 1.7
+      },
+      {
+        "name": "Jet Solar",
+        "n": 37,
+        "rec": 37,
+        "avgPos": 1.8
+      },
+      {
+        "name": "Positive Energy Solutions",
+        "n": 36,
+        "rec": 36,
+        "avgPos": 2.1
+      },
+      {
+        "name": "SolarHub",
+        "n": 35,
+        "rec": 35,
+        "avgPos": 1.2
+      },
+      {
+        "name": "MC Electrical",
+        "n": 34,
+        "rec": 34,
+        "avgPos": 2.1
+      },
+      {
+        "name": "PSC Energy",
+        "n": 33,
+        "rec": 33,
+        "avgPos": 1.8
+      },
+      {
+        "name": "Energy Solution Centre",
+        "n": 33,
+        "rec": 33,
+        "avgPos": 2.1
+      },
+      {
+        "name": "Gold Coast Solar Power Solutions",
+        "n": 25,
+        "rec": 25,
+        "avgPos": 1.7
+      },
+      {
+        "name": "RESINC Solar",
+        "n": 25,
+        "rec": 25,
+        "avgPos": 2.2
+      },
+      {
+        "name": "SAE Group",
+        "n": 23,
+        "rec": 23,
+        "avgPos": 2.9
+      },
+      {
+        "name": "Perth Solar Force",
+        "n": 23,
+        "rec": 23,
+        "avgPos": 3.2
+      }
+    ],
+    "lhdMentions": 19,
+    "somv": 6.8,
+    "ci95": [
+      4.4,
+      10.3
+    ],
+    "wvi": 0.0384,
+    "cited": 16,
+    "byPlat": {
+      "aimode": {
+        "lhd": 5,
+        "n": 56,
+        "somv": 8.9,
+        "top": [
+          {
+            "name": "Positive Energy Solutions",
+            "n": 9,
+            "rec": 9,
+            "avgPos": 2.4
+          },
+          {
+            "name": "PSW Energy",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 1.8
+          },
+          {
+            "name": "Jet Solar",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 1.9
+          },
+          {
+            "name": "Solargain",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 3.3
+          },
+          {
+            "name": "SolarHub",
+            "n": 7,
+            "rec": 7,
+            "avgPos": 1.3
+          }
+        ]
+      },
+      "chatgpt": {
+        "lhd": 2,
+        "n": 56,
+        "somv": 3.6,
+        "top": [
+          {
+            "name": "Springers Solar",
+            "n": 13,
+            "rec": 13,
+            "avgPos": 1.9
+          },
+          {
+            "name": "Goliath Solar & Electrical",
+            "n": 11,
+            "rec": 11,
+            "avgPos": 1.9
+          },
+          {
+            "name": "PSW Energy",
+            "n": 11,
+            "rec": 11,
+            "avgPos": 2.9
+          },
+          {
+            "name": "MC Electrical",
+            "n": 10,
+            "rec": 10,
+            "avgPos": 2.1
+          },
+          {
+            "name": "Jet Solar",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 1.8
+          }
+        ]
+      },
+      "perplexity": {
+        "lhd": 3,
+        "n": 56,
+        "somv": 5.4,
+        "top": [
+          {
+            "name": "Springers Solar",
+            "n": 13,
+            "rec": 13,
+            "avgPos": 2.1
+          },
+          {
+            "name": "MC Electrical",
+            "n": 9,
+            "rec": 9,
+            "avgPos": 2.2
+          },
+          {
+            "name": "Solargain",
+            "n": 9,
+            "rec": 9,
+            "avgPos": 4.1
+          },
+          {
+            "name": "SolarHub",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 1.3
+          },
+          {
+            "name": "PSW Energy",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 1.9
+          }
+        ]
+      },
+      "gemini": {
+        "lhd": 2,
+        "n": 56,
+        "somv": 3.6,
+        "top": [
+          {
+            "name": "1KOMMA5°",
+            "n": 12,
+            "rec": 12,
+            "avgPos": 2.4
+          },
+          {
+            "name": "PSW Energy",
+            "n": 9,
+            "rec": 9,
+            "avgPos": 2
+          },
+          {
+            "name": "PSC Energy",
+            "n": 9,
+            "rec": 9,
+            "avgPos": 2.2
+          },
+          {
+            "name": "Springers Solar",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 1.5
+          },
+          {
+            "name": "Jet Solar",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 1.6
+          }
+        ]
+      },
+      "claude": {
+        "lhd": 7,
+        "n": 56,
+        "somv": 12.5,
+        "top": [
+          {
+            "name": "PSW Energy",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 1.9
+          },
+          {
+            "name": "Springers Solar",
+            "n": 7,
+            "rec": 7,
+            "avgPos": 1.1
+          },
+          {
+            "name": "PSC Energy",
+            "n": 7,
+            "rec": 7,
+            "avgPos": 1.6
+          },
+          {
+            "name": "Goliath Solar & Electrical",
+            "n": 7,
+            "rec": 7,
+            "avgPos": 2
+          },
+          {
+            "name": "Stag Electrical",
+            "n": 7,
+            "rec": 7,
+            "avgPos": 2.4
+          }
+        ]
+      }
+    },
+    "byPrompt": {
+      "solar_installer": {
+        "lhd": 2,
+        "n": 40,
+        "somv": 5,
+        "top": [
+          {
+            "name": "MC Electrical",
+            "n": 9,
+            "rec": 9,
+            "avgPos": 2.2
+          },
+          {
+            "name": "1KOMMA5°",
+            "n": 9,
+            "rec": 9,
+            "avgPos": 3.4
+          },
+          {
+            "name": "Springers Solar",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 2.1
+          },
+          {
+            "name": "Goliath Solar & Electrical",
+            "n": 6,
+            "rec": 6,
+            "avgPos": 1.2
+          },
+          {
+            "name": "RESINC Solar",
+            "n": 6,
+            "rec": 6,
+            "avgPos": 1.8
+          }
+        ]
+      },
+      "battery_storage": {
+        "lhd": 1,
+        "n": 40,
+        "somv": 2.5,
+        "top": [
+          {
+            "name": "PSW Energy",
+            "n": 9,
+            "rec": 9,
+            "avgPos": 1.7
+          },
+          {
+            "name": "Positive Energy Solutions",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 2.4
+          },
+          {
+            "name": "PSC Energy",
+            "n": 7,
+            "rec": 7,
+            "avgPos": 1.1
+          },
+          {
+            "name": "Jet Solar",
+            "n": 6,
+            "rec": 6,
+            "avgPos": 1.5
+          },
+          {
+            "name": "Springers Solar",
+            "n": 6,
+            "rec": 6,
+            "avgPos": 1.5
+          }
+        ]
+      },
+      "rebates_2026": {
+        "lhd": 1,
+        "n": 40,
+        "somv": 2.5,
+        "top": [
+          {
+            "name": "Solahart",
+            "n": 10,
+            "rec": 10,
+            "avgPos": 2.9
+          },
+          {
+            "name": "Solargain",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 2.5
+          },
+          {
+            "name": "1KOMMA5°",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 3.4
+          },
+          {
+            "name": "SolarHub",
+            "n": 6,
+            "rec": 6,
+            "avgPos": 1
+          },
+          {
+            "name": "Jet Solar",
+            "n": 5,
+            "rec": 5,
+            "avgPos": 1
+          }
+        ]
+      },
+      "panels_efficiency": {
+        "lhd": 2,
+        "n": 40,
+        "somv": 5,
+        "top": [
+          {
+            "name": "Springers Solar",
+            "n": 11,
+            "rec": 11,
+            "avgPos": 1.6
+          },
+          {
+            "name": "PSW Energy",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 2
+          },
+          {
+            "name": "Goliath Solar & Electrical",
+            "n": 7,
+            "rec": 7,
+            "avgPos": 2.4
+          },
+          {
+            "name": "Jet Solar",
+            "n": 6,
+            "rec": 6,
+            "avgPos": 1.3
+          },
+          {
+            "name": "PSC Energy",
+            "n": 6,
+            "rec": 6,
+            "avgPos": 2.2
+          }
+        ]
+      },
+      "vpp_three_phase": {
+        "lhd": 0,
+        "n": 40,
+        "somv": 0,
+        "top": [
+          {
+            "name": "1KOMMA5°",
+            "n": 10,
+            "rec": 10,
+            "avgPos": 1.9
+          },
+          {
+            "name": "Solargain",
+            "n": 9,
+            "rec": 9,
+            "avgPos": 3.4
+          },
+          {
+            "name": "PSC Energy",
+            "n": 7,
+            "rec": 7,
+            "avgPos": 1.6
+          },
+          {
+            "name": "Springers Solar",
+            "n": 7,
+            "rec": 7,
+            "avgPos": 2.1
+          },
+          {
+            "name": "SolarHub",
+            "n": 5,
+            "rec": 5,
+            "avgPos": 1
+          }
+        ]
+      },
+      "ev_aircon_elec": {
+        "lhd": 3,
+        "n": 40,
+        "somv": 7.5,
+        "top": [
+          {
+            "name": "SolarHub",
+            "n": 5,
+            "rec": 5,
+            "avgPos": 1
+          },
+          {
+            "name": "Thoroughtec Solar & Electrical",
+            "n": 5,
+            "rec": 5,
+            "avgPos": 1.4
+          },
+          {
+            "name": "Solar Air Energy",
+            "n": 5,
+            "rec": 5,
+            "avgPos": 1.6
+          },
+          {
+            "name": "Solargain",
+            "n": 5,
+            "rec": 5,
+            "avgPos": 3
+          },
+          {
+            "name": "Stinson Air & Solar",
+            "n": 4,
+            "rec": 4,
+            "avgPos": 1
+          }
+        ]
+      },
+      "platinum_reviews": {
+        "lhd": 10,
+        "n": 40,
+        "somv": 25,
+        "top": [
+          {
+            "name": "Goliath Solar & Electrical",
+            "n": 10,
+            "rec": 10,
+            "avgPos": 2.1
+          },
+          {
+            "name": "Stag Electrical",
+            "n": 10,
+            "rec": 10,
+            "avgPos": 3.5
+          },
+          {
+            "name": "RESINC Solar",
+            "n": 9,
+            "rec": 9,
+            "avgPos": 1.7
+          },
+          {
+            "name": "Jet Solar",
+            "n": 9,
+            "rec": 9,
+            "avgPos": 2.9
+          },
+          {
+            "name": "Springers Solar",
+            "n": 8,
+            "rec": 8,
+            "avgPos": 1.8
+          }
+        ]
+      }
+    }
+  },
+  "platforms": [
+    "aimode",
+    "chatgpt",
+    "perplexity",
+    "gemini",
+    "claude"
+  ],
+  "prompts": [
+    "solar_installer",
+    "battery_storage",
+    "rebates_2026",
+    "panels_efficiency",
+    "vpp_three_phase",
+    "ev_aircon_elec",
+    "platinum_reviews"
+  ],
+  "totalSample": 280
+}

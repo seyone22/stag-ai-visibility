@@ -1,0 +1,1498 @@
+{
+  "canberra": [
+    {
+      "title": "Polygon Energy",
+      "address": "1 Moore St, Canberra ACT 2601",
+      "rating": 4.7,
+      "reviews": 53,
+      "cid": "7269522487666537961",
+      "place_id": "ChIJq6qqAWhNFmsR6fUT3C-I4mQ",
+      "domain": "polygonenergy.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Affordable Solar ACT",
+      "address": "level 9/2 Phillip Law St, Acton ACT 2601",
+      "rating": 5,
+      "reviews": 11,
+      "cid": "6436072593580672384",
+      "place_id": "ChIJuWF5m3BNFmsRgMUAkeyFUVk",
+      "domain": "affordablesolaract.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Econnect Solar",
+      "address": "3/60 Marcus Clarke St, Canberra ACT 2601",
+      "rating": 4.9,
+      "reviews": 16,
+      "cid": "16188783663118946325",
+      "place_id": "ChIJKakYi0pNFmsRFRDaQfgcquA",
+      "domain": "",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Select Electrical and Solar Solutions",
+      "address": "Shop 1/42 Wollongong St, Fyshwick ACT 2609",
+      "rating": 4.8,
+      "reviews": 136,
+      "cid": "9966923260893225647",
+      "place_id": "ChIJy8rlZZlNFmsRr2IeFeafUYo",
+      "domain": "selectelectricalonline.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Mondiaux Solar",
+      "address": "32 Kembla St, Fyshwick ACT 2609",
+      "rating": 4.6,
+      "reviews": 171,
+      "cid": "2548478439809384982",
+      "place_id": "ChIJ_3VajgtTFmsRFoKUeqMDXiM",
+      "domain": "mondiaux.solar",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solar Forever Canberra",
+      "address": "Unit 4/42-44 Essington St, Mitchell ACT 2911",
+      "rating": 4.8,
+      "reviews": 91,
+      "cid": "2365448603005120048",
+      "place_id": "ChIJXQMMBC9TFmsRMG6QxPjC0yA",
+      "domain": "solarforevercanberra.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Equal Energy Solutions",
+      "address": null,
+      "rating": 5,
+      "reviews": 130,
+      "cid": "12015331292188159411",
+      "place_id": "ChIJSTrUCsVp86IRs62CeSYIv6Y",
+      "domain": "equalenergysolutions.com.au",
+      "category": "Electrician"
+    },
+    {
+      "title": "Solar4Life",
+      "address": "4/66 Heffernan St, Mitchell ACT 2911",
+      "rating": 4.8,
+      "reviews": 133,
+      "cid": "11474305264303147198",
+      "place_id": "ChIJcXC9L2KtF2sRvggvK9jrPJ8",
+      "domain": "solar4life.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solar Run Canberra",
+      "address": "490 Northbourne Ave, Dickson ACT 2602",
+      "rating": 5,
+      "reviews": 14,
+      "cid": "17576116714204890431",
+      "place_id": "ChIJ1waQzwpTFmsRPwX9gAfp6vM",
+      "domain": "solarrun.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "SolarHub",
+      "address": "2/157 Flemington Rd, Mitchell ACT 2911",
+      "rating": 4.8,
+      "reviews": 385,
+      "cid": "13640714852644897503",
+      "place_id": "ChIJvVyktRJTFmsR30JLCuONTb0",
+      "domain": "solarhub.net.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Aussie Solar Tech",
+      "address": "Unit 5/173 Flemington Rd, Mitchell ACT 2911",
+      "rating": 4.9,
+      "reviews": 73,
+      "cid": "14194940612659239656",
+      "place_id": "ChIJXztCsqS1F2sR6NpReUeP_sQ",
+      "domain": "aussiesolartech.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Astra Solar",
+      "address": "32 Tantalum St, Beard ACT 2620",
+      "rating": 4.8,
+      "reviews": 137,
+      "cid": "17884463273468564736",
+      "place_id": "ChIJtxwM3Pu1F2sRABWdXZdgMvg",
+      "domain": "astrasolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "SunBuilt Solar",
+      "address": "15 Copper Cl, Beard ACT 2620",
+      "rating": 4.9,
+      "reviews": 126,
+      "cid": "15910053115815557996",
+      "place_id": "ChIJ1TDh9kxTFmsRbHvIhQPdy9w",
+      "domain": "sunbuiltsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Pure Electric",
+      "address": "Unit 14/22 David St, Turner ACT 2612",
+      "rating": 5,
+      "reviews": 3,
+      "cid": "2849543929375676016",
+      "place_id": "ChIJI_pkfpxTFmsRcNZOMhudiyc",
+      "domain": "pure-electric.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Canberra Solar Shine",
+      "address": "5( B/173 Flemington Rd, Mitchell ACT 2911",
+      "rating": 4.3,
+      "reviews": 142,
+      "cid": "14428310407080206327",
+      "place_id": "ChIJ6SIZrcitF2sR918W696nO8g",
+      "domain": "canberrasolarshine.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solargain Canberra",
+      "address": "Unit 3/57 Tennant St, Fyshwick ACT 2609",
+      "rating": 4.3,
+      "reviews": 52,
+      "cid": "5628198925718828840",
+      "place_id": "ChIJ5-88TWdNFmsRKLe0fBphG04",
+      "domain": "solargain.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Prime Solar Energy",
+      "address": "5/44-46 Grimwade St, Mitchell ACT 2911",
+      "rating": 4.6,
+      "reviews": 57,
+      "cid": "16127737421039018495",
+      "place_id": "ChIJx3IrkJu1F2sR_yHOa7w70d8",
+      "domain": "primesolarenergy.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "IMS ENERGY",
+      "address": null,
+      "rating": 5,
+      "reviews": 5,
+      "cid": "6570596433211080554",
+      "place_id": "ChIJsbpMzrxlL0IRar_-u6RyL1s",
+      "domain": "imsenergy.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Daddy Sun Solar & Insulation",
+      "address": "117 Flemington Rd, Mitchell ACT 2911",
+      "rating": 4.9,
+      "reviews": 58,
+      "cid": "14636505049146794963",
+      "place_id": "ChIJ8c7yA99VFmsR0yObb8tPH8s",
+      "domain": "daddysunsolar.com.au",
+      "category": "Solar energy system service"
+    },
+    {
+      "title": "Ausgreen Solar Solutions",
+      "address": null,
+      "rating": 4.6,
+      "reviews": 101,
+      "cid": "255872700053740964",
+      "place_id": "ChIJkWgwZvq5EmsRpF1sct0KjQM",
+      "domain": "ausgreensolarsolutions.com.au",
+      "category": "Solar energy company"
+    }
+  ],
+  "sydney": [
+    {
+      "title": "Solar Galaxy",
+      "address": "Level 57/19-29 Martin Pl, Sydney NSW 2000",
+      "rating": 4.7,
+      "reviews": 997,
+      "cid": "12735730175430642747",
+      "place_id": "ChIJJdMRdoevEmsRO0zEJR5nvrA",
+      "domain": "solargalaxy.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Green Heart Australia",
+      "address": "476 George St, Sydney NSW 2000",
+      "rating": 4.8,
+      "reviews": 24,
+      "cid": "12483748828468889538",
+      "place_id": "ChIJm6dhDu2vEmsRwkcW8movP60",
+      "domain": "",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Apollo Energy Group",
+      "address": "5 Martin Pl, Sydney NSW 2000",
+      "rating": 4.9,
+      "reviews": 19,
+      "cid": "12969120549155855005",
+      "place_id": "ChIJ_e0VlIavEmsRnVqnFW2S-7M",
+      "domain": "apolloenergygroup.com.au",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Sun Max Solar",
+      "address": "903/50 Clarence St, Sydney NSW 2000",
+      "rating": 4.1,
+      "reviews": 72,
+      "cid": "355527259161431282",
+      "place_id": "ChIJsX798eGvEmsR8gxJligW7wQ",
+      "domain": "sunmaxsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Sydney Solar Group",
+      "address": "Sydney NSW 2000",
+      "rating": 3,
+      "reviews": 2,
+      "cid": "6213074267813095388",
+      "place_id": "ChIJo2TCm0mwEmsR3Kce2CBGOVY",
+      "domain": "sydneysolargroup.com",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Regen Power",
+      "address": "level 17/123 Pitt St, Sydney NSW 2000",
+      "rating": 5,
+      "reviews": 20,
+      "cid": "18364099724187112707",
+      "place_id": "ChIJhVnU4l2vEmsRA5UF6GZj2v4",
+      "domain": "regenpower.com",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "AusDesign Solar Batteries",
+      "address": "81-83 Campbell St, Surry Hills NSW 2010",
+      "rating": 4.8,
+      "reviews": 90,
+      "cid": "6336473381986086444",
+      "place_id": "ChIJFTMhNtGvEmsRLK7_Bfis71c",
+      "domain": "ausdesignsolarbatteries.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solar Energy Enterprises",
+      "address": "103/1 Sussex St, Barangaroo NSW 2000",
+      "rating": 4.6,
+      "reviews": 33,
+      "cid": "4789807449527604242",
+      "place_id": "ChIJbeUfLryxEmsREtScc3_QeEI",
+      "domain": "solarenergyenterprises.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Green Solar Energy Solutions",
+      "address": "Level 1/459 Elizabeth St, Surry Hills NSW 2010",
+      "rating": 4.4,
+      "reviews": 25,
+      "cid": "15392064987709151478",
+      "place_id": "ChIJx3k1VPSvEmsR9pghQI6Zm9U",
+      "domain": "greensolarenergysolutions.com.au",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Solarhunters",
+      "address": "405 Level 4/74 Pitt St, Sydney NSW 2000",
+      "rating": 5,
+      "reviews": 1,
+      "cid": "18421807642892925656",
+      "place_id": "ChIJAQCMNUCuEmsR2Ho1w3Jop_8",
+      "domain": "solarhunters.com.au",
+      "category": "Solar energy system service"
+    },
+    {
+      "title": "SPEEDY SOLAR SOLUTIONS",
+      "address": "Level 24 Tower 3/300 Barangaroo Ave, Barangaroo NSW 2000",
+      "rating": 4.2,
+      "reviews": 105,
+      "cid": "2342882933619850776",
+      "place_id": "ChIJsW8fX4CvEmsRGH68cJ2XgyA",
+      "domain": "speedysolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "AusBrite Solar",
+      "address": "50 Clarence St, Sydney NSW 2000",
+      "rating": 3.4,
+      "reviews": 102,
+      "cid": "10391210793882370509",
+      "place_id": "ChIJ_-R-_KSvEmsRzUGQeyn_NJA",
+      "domain": "ausbrite.com.au",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Solar Energy NSW Sydney",
+      "address": "1 Farrer Pl, Sydney NSW 2000",
+      "rating": null,
+      "reviews": 0,
+      "cid": "10536542960983432435",
+      "place_id": "ChIJ-5ND5TyuEmsR81wPfv9ROZI",
+      "domain": "solarenergynsw.com.au",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Think Renewable",
+      "address": "Level 2/80-84 Wentworth Ave, Surry Hills NSW 2010",
+      "rating": 4.7,
+      "reviews": 515,
+      "cid": "18078082640552475277",
+      "place_id": "ChIJh-MVTVivEmsRjTpJOmFA4vo",
+      "domain": "thinkrenewable.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Ashour Electrical & Solar",
+      "address": "Level 57/25 Martin Pl, Sydney NSW 2000",
+      "rating": 4.9,
+      "reviews": 42,
+      "cid": "15580075097722884440",
+      "place_id": "ChIJAxDjJ5i4Qm8RWJGuLcGLN9g",
+      "domain": "ashourelectrical.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "MY ENERGY CO",
+      "address": "International Tower One, Level 35/100 Barangaroo Ave, Barangaroo NSW 2000",
+      "rating": 5,
+      "reviews": 129,
+      "cid": "8742763198219807610",
+      "place_id": "ChIJS5I4B-yeEmsReus_wc6IVHk",
+      "domain": "myenergyco.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "SUPERB SOLAR",
+      "address": "Suite 2, Level 4 Culwulla Chambers, 67 Castlereagh St, Sydney NSW 2000",
+      "rating": 5,
+      "reviews": 44,
+      "cid": "6793785167510463626",
+      "place_id": "ChIJETJufGavEmsRimTHZZ1fSF4",
+      "domain": "superbsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Energy At Home",
+      "address": "2 Elizabeth Plaza, North Sydney NSW 2060",
+      "rating": 5,
+      "reviews": 14,
+      "cid": "8074957733094435313",
+      "place_id": "ChIJh5XxzE-vEmsR8SljeUYDEHA",
+      "domain": "energyathome.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Ur Local Solar Sydney",
+      "address": "Three International Towers, level 24/300 Barangaroo Ave, Barangaroo NSW 2000",
+      "rating": 5,
+      "reviews": 6,
+      "cid": "8991883185249048963",
+      "place_id": "ChIJBfGhumavEmsRg9mTrh2WyXw",
+      "domain": "urlocalsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "SUNMATE SOLAR PTY LTD",
+      "address": "Ste 4741/903 / 50 Clarence St, Sydney NSW 2000",
+      "rating": 4.2,
+      "reviews": 86,
+      "cid": "10030025046000288859",
+      "place_id": "ChIJVVUFQQ6mEmsRW0QeU6POMYs",
+      "domain": "sunmatesolar.com.au",
+      "category": "Solar energy company"
+    }
+  ],
+  "melbourne": [
+    {
+      "title": "Life Solar",
+      "address": "117/530 Little Collins St, Melbourne VIC 3000",
+      "rating": 5,
+      "reviews": 155,
+      "cid": "12043885050769791608",
+      "place_id": "ChIJVVWVhUxd1moReFrFdqR5JKc",
+      "domain": "lifesolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Discover Solar",
+      "address": "805/220 Collins St, Melbourne VIC 3004",
+      "rating": 5,
+      "reviews": 46,
+      "cid": "8312100175251981797",
+      "place_id": "ChIJ4VWcRlld1moR5UVb6xGDWnM",
+      "domain": "discoversolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solar Masters",
+      "address": "Level 8/220 Collins St, Melbourne VIC 3000",
+      "rating": 4.7,
+      "reviews": 183,
+      "cid": "5151018496795964197",
+      "place_id": "ChIJl25kCQBD1moRJXP9FAgYfEc",
+      "domain": "solarmasters.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Variety Solar",
+      "address": "Ste 1272 level 13/114 William St, Melbourne VIC 3000",
+      "rating": 4.9,
+      "reviews": 77,
+      "cid": "3264856427719992002",
+      "place_id": "ChIJN9D0kPyVKWsRwqLmgJ8ZTy0",
+      "domain": "varietysolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Incredible Solar and Energy Solutions",
+      "address": "Ste 109/139 Cardigan St, Carlton VIC 3053",
+      "rating": 4.9,
+      "reviews": 101,
+      "cid": "18429332320069601088",
+      "place_id": "ChIJTSu-UIFD1moRQMdfMRokwv8",
+      "domain": "incrediblesolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Gnowee Solar Pty Ltd",
+      "address": "Level 9/440 Collins St, Melbourne VIC 3000",
+      "rating": 5,
+      "reviews": 13,
+      "cid": "14363501691397119406",
+      "place_id": "ChIJtdrloe1d1moRrp1y7q9oVcc",
+      "domain": "gnoweesolar.com.au",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Energy Saviours",
+      "address": "Ste 4 Level 5/365 Little Collins St, Melbourne VIC 3000",
+      "rating": 4.9,
+      "reviews": 124,
+      "cid": "2806169805900325971",
+      "place_id": "ChIJpXLbJ4sV1moRU6QdHJKE8SY",
+      "domain": "energysaviours.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Direct NRG",
+      "address": "L26/360 Collins St, Melbourne VIC 3000",
+      "rating": 4.9,
+      "reviews": 59,
+      "cid": "6452227414584055745",
+      "place_id": "ChIJZcGGvWxD1moRwddR8KXqilk",
+      "domain": "directnrg.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Melsun Solar",
+      "address": "805/220 Collins St, Melbourne VIC 3000",
+      "rating": 5,
+      "reviews": 11,
+      "cid": "4121832148007927430",
+      "place_id": "ChIJRZn32rVC1moRhj7MDYCwMzk",
+      "domain": "melsunsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "The Solar Power Co.",
+      "address": "Level 2/696 Bourke St, Melbourne VIC 3000",
+      "rating": 4.9,
+      "reviews": 145,
+      "cid": "5046085381723721402",
+      "place_id": "ChIJ4yxsbhFd1moRug7vW-tLB0Y",
+      "domain": "",
+      "category": "Energy equipment and solutions"
+    },
+    {
+      "title": "Solaring",
+      "address": "Suite 5.12, Level 5/365 Little Collins St, Melbourne VIC 3000",
+      "rating": 4.6,
+      "reviews": 22,
+      "cid": "8918533522413387280",
+      "place_id": "ChIJCemR3CFD1moREP7cePz-xHs",
+      "domain": "solaring.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Australian Eco Energy",
+      "address": "530 Collins St, Melbourne VIC 3000",
+      "rating": 5,
+      "reviews": 48,
+      "cid": "15631240077209730830",
+      "place_id": "ChIJ9YK6AVtd1moRDn_vSAhS7dg",
+      "domain": "australianecoenergy.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Countryman Solar",
+      "address": "Ste 329/98/100 Elizabeth St, Melbourne VIC 3000",
+      "rating": 4.9,
+      "reviews": 18,
+      "cid": "9194492070005830682",
+      "place_id": "ChIJNW7VG0A3zyoRGvTXutJlmX8",
+      "domain": "countrymansolar.com.au",
+      "category": "Solar energy system service"
+    },
+    {
+      "title": "Sun Solar and Electricals",
+      "address": "280 Spencer St, Melbourne VIC 3000",
+      "rating": 5,
+      "reviews": 26,
+      "cid": "10930362369493792757",
+      "place_id": "ChIJo59QS2dd1moR9Xf526lysJc",
+      "domain": "sunsolarandelectrical.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "RACV Solar",
+      "address": "473 Bourke St, Melbourne VIC 3000",
+      "rating": 4.1,
+      "reviews": 88,
+      "cid": "15324923855208289031",
+      "place_id": "ChIJPU3zirVd1moRB5OZJw0RrdQ",
+      "domain": "racv.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Helcro Solar",
+      "address": "1 Craine St, South Melbourne VIC 3205",
+      "rating": 5,
+      "reviews": 90,
+      "cid": "10589440427064084173",
+      "place_id": "ChIJ6VWmQzhf1moRzcZQkfY_9ZI",
+      "domain": "helcrosolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Sunrise Innovations",
+      "address": "Level 2/24 Drummond St, Carlton VIC 3053",
+      "rating": 4.8,
+      "reviews": 557,
+      "cid": "2641373504617682110",
+      "place_id": "ChIJyUSc1DZD1moRvpTdNTULqCQ",
+      "domain": "sunriseinnovations.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "SolarPlus Energy",
+      "address": "220 Spencer St, Melbourne VIC 3004",
+      "rating": 4.7,
+      "reviews": 40,
+      "cid": "7097915820221184609",
+      "place_id": "ChIJb08KAk9d1moRYbroBdXcgGI",
+      "domain": "solarplusenergy.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Accel Energy Technologies Pty Ltd",
+      "address": "220, Level 8/305 Collins St, Melbourne VIC 3000",
+      "rating": 5,
+      "reviews": 14,
+      "cid": "2596371546092397310",
+      "place_id": "ChIJQR7se-hD1moR_uLEPSoqCCQ",
+      "domain": "",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Krypton Group",
+      "address": "Level 24/570 Bourke St, Melbourne VIC 3000",
+      "rating": 4.9,
+      "reviews": 62,
+      "cid": "7803944123096251059",
+      "place_id": "ChIJq1bvethd1moRszomONUtTWw",
+      "domain": "kryptongroup.au",
+      "category": "Solar energy company"
+    }
+  ],
+  "brisbane": [
+    {
+      "title": "Sunny Sky Solar",
+      "address": "34/1 Eagle St, Brisbane City QLD 4000",
+      "rating": 5,
+      "reviews": 95,
+      "cid": "16326940740452394078",
+      "place_id": "ChIJh_NlPx1akWsRXqSEfxnylOI",
+      "domain": "sunnyskysolar.com.au",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Top Value Solar",
+      "address": "Ste 121 Level 18/324 Queen St, Brisbane City QLD 4000",
+      "rating": 4.9,
+      "reviews": 65,
+      "cid": "8806537466051164748",
+      "place_id": "ChIJo3ZYwN43kWsRTPollSobN3o",
+      "domain": "topvaluesolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "SolarThoughts® - Expert Solar and Battery Installation Company in Brisbane",
+      "address": "South Tower, Suite 4.50, Level 4/339 Coronation Dr, Milton QLD 4064",
+      "rating": 4.9,
+      "reviews": 131,
+      "cid": "833159628639997463",
+      "place_id": "ChIJKzHtGwrM404RF45ImkT6jws",
+      "domain": "solarthoughts.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Smart House Solar | Solar Panels, Batteries & Solar Systems in Brisbane",
+      "address": "Level 38/71 Eagle St, Brisbane City QLD 4000",
+      "rating": 4.3,
+      "reviews": 302,
+      "cid": "9820334758728279901",
+      "place_id": "ChIJ0eI00OZbkWsRXadrxW7WSIg",
+      "domain": "smarthousesolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solar Masters - Solar Panels Brisbane",
+      "address": "Suit 406/16 McDougall St, Milton QLD 4064",
+      "rating": 4.8,
+      "reviews": 373,
+      "cid": "17922958154878024948",
+      "place_id": "ChIJqXDvXK9QkWsR9PyxYXsju_g",
+      "domain": "solarmasters.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solar Output",
+      "address": "Level 19/10 Eagle St, Brisbane City QLD 4000",
+      "rating": 5,
+      "reviews": 62,
+      "cid": "18089320792880966363",
+      "place_id": "ChIJI0zahkdbkWsR2-rBd2stCvs",
+      "domain": "solaroutput.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Your Solar Quotes",
+      "address": "Level 6/100 Creek St, Brisbane City QLD 4000",
+      "rating": 4.8,
+      "reviews": 38,
+      "cid": "13557779944429199585",
+      "place_id": "ChIJ8yPwKBlakWsR4SCe-gbpJrw",
+      "domain": "yoursolarquotes.com.au",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "iDeal Solar",
+      "address": "Level 19/10 Eagle St, Brisbane City QLD 4000",
+      "rating": 4.6,
+      "reviews": 77,
+      "cid": "2338979700376657035",
+      "place_id": "ChIJfRx_6t7vk2sRi9zMIaW5dSA",
+      "domain": "idealsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solar Tech Systems",
+      "address": "9A/204 Alice St, Brisbane City QLD 4000",
+      "rating": 4.8,
+      "reviews": 21,
+      "cid": "12003684726754579877",
+      "place_id": "ChIJR-T1VnRbkWsRpRX9JamnlaY",
+      "domain": "solartechsystems.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Quick Solar",
+      "address": "level-1/16 McDougall St, Milton QLD 4064",
+      "rating": 4.8,
+      "reviews": 130,
+      "cid": "2827532193860531086",
+      "place_id": "ChIJr0ECxcZRkWsRjrMJpoxpPSc",
+      "domain": "quicksolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Reliance Solar - Most Affordable & Reliable Solar Power Company",
+      "address": "CORPORATE, level-1/16 McDougall St, Milton QLD 4064",
+      "rating": 4.8,
+      "reviews": 105,
+      "cid": "13216539173899188347",
+      "place_id": "ChIJq6r6XK9QkWsRe7hLvFqUarc",
+      "domain": "reliancesolar.com.au",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Think Renewable",
+      "address": "FA1/143 Wickham St, Fortitude Valley QLD 4006",
+      "rating": 4.8,
+      "reviews": 307,
+      "cid": "9897976346362803508",
+      "place_id": "ChIJc_stv7hZkWsRNHUsmAutXIk",
+      "domain": "thinkrenewable.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "ECOSOLARPOWER",
+      "address": "Ste 126/42 Manilla St, East Brisbane QLD 4169",
+      "rating": 4.9,
+      "reviews": 98,
+      "cid": "16406758874771441256",
+      "place_id": "ChIJhRCH7vJbkWsRaEY9FkWEsOM",
+      "domain": "ecosolarpower.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "HYBRID SOLAR ENERGY SOLUTIONS",
+      "address": "Level1/16 McDougall St, Milton QLD 4064",
+      "rating": 4.8,
+      "reviews": 148,
+      "cid": "13089321037032524898",
+      "place_id": "ChIJI-RZX5xFkWsRYgxfCyKcprU",
+      "domain": "hybridsolarenergy.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "BESS Australia (Battery Energy Storage Systems Australia)",
+      "address": null,
+      "rating": 4.8,
+      "reviews": 22,
+      "cid": "7142991449194595213",
+      "place_id": "ChIJFWv8Iwd6vCERjYPluuAAIWM",
+      "domain": "bessaustralia.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "GPower Energy",
+      "address": "Level 19/10 Eagle St, Brisbane City QLD 4000",
+      "rating": 4.6,
+      "reviews": 9,
+      "cid": "7593821845741669051",
+      "place_id": "ChIJcwIDrnlEkWsRu4oII7ysYmk",
+      "domain": "gpowerenergy.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solar Panel Installers Brisbane Circuit Alert Solar",
+      "address": "125 Colchester St, South Brisbane QLD 4101",
+      "rating": 5,
+      "reviews": 1,
+      "cid": "8263878689143263012",
+      "place_id": "ChIJ17nwm-JbkWsRJA9OReIxr3I",
+      "domain": "circuitalert.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Local Power",
+      "address": "75 Vulture St, West End QLD 4101",
+      "rating": 5,
+      "reviews": 38,
+      "cid": "11496277001460185847",
+      "place_id": "ChIJ3wL-mglakWsR9_qG3wX7ip8",
+      "domain": "localpower.net.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solar Harbour | Solar Panel Installers in Brisbane",
+      "address": "Ste 3 level 1/23-25 Railway Ter, Milton QLD 4064",
+      "rating": 4.4,
+      "reviews": 240,
+      "cid": "5177469216876599700",
+      "place_id": "ChIJKaUyB_hFkWsRlBlzQ9IQ2kc",
+      "domain": "solarharbour.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "EnergyPoint Plus | Smart Energy Solutions",
+      "address": "Shop 2/290 Boundary St, Spring Hill QLD 4000",
+      "rating": 5,
+      "reviews": 11,
+      "cid": "2081315423716187365",
+      "place_id": "ChIJwyE2HTlZkWsR5RwlwFlR4hw",
+      "domain": "energypointplus.com.au",
+      "category": "Solar energy company"
+    }
+  ],
+  "perth": [
+    {
+      "title": "Fritts Solar",
+      "address": "Level 25/108 St Georges Terrace, Perth WA 6000",
+      "rating": 5,
+      "reviews": 332,
+      "cid": "11686573183862981788",
+      "place_id": "ChIJ__-_xtW6MioRnETCgWQML6I",
+      "domain": "frittssolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Raf Power",
+      "address": "Level 25/108 St Georges Terrace, Perth WA 6000",
+      "rating": 5,
+      "reviews": 44,
+      "cid": "8151981941515715168",
+      "place_id": "ChIJR_ld2By7MioRYIJxf2KoIXE",
+      "domain": "rafpower.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "SolarGrid Perth",
+      "address": "Level 1/231 Bulwer St, Perth WA 6000",
+      "rating": 4.7,
+      "reviews": 74,
+      "cid": "84770419646414425",
+      "place_id": "ChIJT-ICelSiMioRWT58Xj8qLQE",
+      "domain": "solargridperth.com.au",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Solar Harvest",
+      "address": "Capital Square Tower, Level 25, 3/1 Spring St, Perth WA 6000",
+      "rating": 5,
+      "reviews": 30,
+      "cid": "11180616507630801241",
+      "place_id": "ChIJJTEwXlalMioRWdEz63mHKZs",
+      "domain": "solarharvestwa.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Mt Solar WA Pty Ltd",
+      "address": "West Perth WA 6005",
+      "rating": 5,
+      "reviews": 39,
+      "cid": "11506014913775909160",
+      "place_id": "ChIJVxHobPehMioRKLn1Q5qTrZ8",
+      "domain": "mtsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Ampere Solar",
+      "address": "Level 32/152 St Georges Terrace, Perth WA 6000",
+      "rating": 5,
+      "reviews": 26,
+      "cid": "13038112366831692429",
+      "place_id": "ChIJAQAAANe6MioRjWqhZh6u8LQ",
+      "domain": "amperesolar.com.au",
+      "category": "Solar energy system service"
+    },
+    {
+      "title": "Think Renewable",
+      "address": "Ste 14, Level 3/326 Hay St, Perth WA 6000",
+      "rating": 4.7,
+      "reviews": 463,
+      "cid": "12353248087366553773",
+      "place_id": "ChIJd4yBtpO7MioRrdDBZa-Nb6s",
+      "domain": "thinkrenewable.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Perth Solar Power Installations",
+      "address": null,
+      "rating": 5,
+      "reviews": 33,
+      "cid": "4081401968999171303",
+      "place_id": "ChIJEYa5HNa6MioR54TGc3cNpDg",
+      "domain": "perthsolarpowerinstallations.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Green Choice Electrical",
+      "address": "50 St Georges Terrace, Perth WA 6000",
+      "rating": 4.3,
+      "reviews": 6,
+      "cid": "17332676042116572569",
+      "place_id": "ChIJVVVFGta6MioRmSVIIQcJivA",
+      "domain": "greenchoiceelectrical.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Just Solar Co",
+      "address": "15/326 Hay St, Perth WA 6000",
+      "rating": 5,
+      "reviews": 24,
+      "cid": "10285206133591490634",
+      "place_id": "ChIJz0l7Lyi7MioRSsBjMnxkvI4",
+      "domain": "justsolarco.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Sun Max Solar",
+      "address": "37 Barrack St, Perth WA 6000",
+      "rating": 3.7,
+      "reviews": 6,
+      "cid": "11904877424573647093",
+      "place_id": "ChIJYVRU3B67MioR9YhHYvGeNqU",
+      "domain": "sunmaxsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "MJM Solar",
+      "address": "Suite 4353/37 Barrack St, Perth WA 6000",
+      "rating": 5,
+      "reviews": 43,
+      "cid": "12395465166921351062",
+      "place_id": "ChIJ-6Cx55q7MioRlj8TNOWJBaw",
+      "domain": "mjmsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "AJR Energy Solutions",
+      "address": "Level 1/926 Hay St, Perth WA 6000",
+      "rating": 4.9,
+      "reviews": 10,
+      "cid": "15870237921924183086",
+      "place_id": "ChIJW2PdCFACyEkRLnQ5TU5pPtw",
+      "domain": "ajrenergysolutions.com.au",
+      "category": "Electrician"
+    },
+    {
+      "title": "Technaus",
+      "address": "239 Adelaide Terrace, Perth WA 6004",
+      "rating": 4.5,
+      "reviews": 363,
+      "cid": "17570282535338460140",
+      "place_id": "ChIJuQ1EoX69MioR7EMZ4t8u1vM",
+      "domain": "technaus.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Positive Energy Solutions",
+      "address": "1/59 Howe St, Osborne Park WA 6017",
+      "rating": 4.9,
+      "reviews": 451,
+      "cid": "18162363530336328233",
+      "place_id": "ChIJkeQTpQKvMioRKdo0C2etDfw",
+      "domain": "positiveenergy.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "PV POINT",
+      "address": "Level 3/1060 Hay St, West Perth WA 6005",
+      "rating": 5,
+      "reviews": 48,
+      "cid": "5069792230204185054",
+      "place_id": "ChIJ1TpNm4jUxmwR3hlbJiyFW0Y",
+      "domain": "pvpoint.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Lux",
+      "address": "Level 1/100 Havelock St, West Perth WA 6005",
+      "rating": 4,
+      "reviews": 230,
+      "cid": "10584514040589711553",
+      "place_id": "ChIJ9aAyzj-7MioRwfh71XC_45I",
+      "domain": "",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Naked Energy Pty Ltd",
+      "address": "Level 12/197 St Georges Terrace, Perth WA 6000",
+      "rating": 4.2,
+      "reviews": 30,
+      "cid": "12019038315678556255",
+      "place_id": "ChIJIXIsKge_MioRX2DUI6szzKY",
+      "domain": "nakedenergy.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solar Panels And Battery Package Perth",
+      "address": null,
+      "rating": 5,
+      "reviews": 2,
+      "cid": "8889780121422426950",
+      "place_id": "ChIJyS6ZT8DX1EkRRnO2nOvXXns",
+      "domain": "solarpanelsandbatterypackage.com",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Clean NRG Solar | Solar Panels, Batteries and Inverters",
+      "address": "1/7 Leeway Ct, Osborne Park WA 6017",
+      "rating": 4.8,
+      "reviews": 90,
+      "cid": "5009856247804770004",
+      "place_id": "ChIJF-VFlJ-vMioR1LYsyraVhkU",
+      "domain": "cleannrg.com.au",
+      "category": "Solar energy company"
+    }
+  ],
+  "adelaide": [
+    {
+      "title": "Energy Buster",
+      "address": "Unit 1 8/289 Angas St, Adelaide SA 5000",
+      "rating": 4.9,
+      "reviews": 160,
+      "cid": "2648178251416468026",
+      "place_id": "ChIJ0RTqXUTJsGoROvqXyRY4wCQ",
+      "domain": "energybuster.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Spark Energy",
+      "address": "60 Halifax St, Adelaide SA 5000",
+      "rating": 5,
+      "reviews": 62,
+      "cid": "1316787307493278725",
+      "place_id": "ChIJwQrR4RvJsGoRBUThWxQrRhI",
+      "domain": "sparkenergyaustralia.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solaring",
+      "address": "38 Currie St, Adelaide SA 5000",
+      "rating": 5,
+      "reviews": 257,
+      "cid": "3511590355328473130",
+      "place_id": "ChIJawX59IfPsGoRKpgKrtKsuzA",
+      "domain": "solaring.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Adam Solar",
+      "address": "RAA Place, Level 30/91 King William St, Adelaide SA 5000",
+      "rating": 5,
+      "reviews": 528,
+      "cid": "17301896910292073372",
+      "place_id": "ChIJk31-w9fOsGoRnDtjDpKvHPA",
+      "domain": "adamsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Best Solar & Batteries",
+      "address": "320 Port Rd, Hindmarsh SA 5007",
+      "rating": 4.9,
+      "reviews": 840,
+      "cid": "3043624626620063527",
+      "place_id": "ChIJgSa8UrT_uWoRJ99R23ggPSo",
+      "domain": "bestsolarandbatteries.com",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Clean and Green Solutions",
+      "address": "Level 2/70 Hindmarsh Sq, Adelaide SA 5000",
+      "rating": 4.9,
+      "reviews": 219,
+      "cid": "15594516929010457023",
+      "place_id": "ChIJEy55QYLFsGoRv9l7DYbaatg",
+      "domain": "cleanandgreensolutions.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Clayton Solar and Electrical",
+      "address": "level 2/422 King William St, Adelaide SA 5032",
+      "rating": 5,
+      "reviews": 74,
+      "cid": "18239982611168355346",
+      "place_id": "ChIJ51MI8VPRsGoREuT9l4tvIf0",
+      "domain": "claytonelectrical.com.au",
+      "category": "Electrician"
+    },
+    {
+      "title": "Next Generation Solar",
+      "address": "217 Flinders St, Adelaide SA 5000",
+      "rating": 5,
+      "reviews": 44,
+      "cid": "468163661879000141",
+      "place_id": "ChIJaYIhDysN9iMRTTwLu15AfwY",
+      "domain": "nextgenerationsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "PowerLi",
+      "address": "Suite 3286/55 Gawler Pl, Adelaide SA 5000",
+      "rating": 5,
+      "reviews": 8,
+      "cid": "3823881061002030007",
+      "place_id": "ChIJ7c1itPfPsGoRt6tesJAnETU",
+      "domain": "powerli.com.au",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Adelaide Solar Panels",
+      "address": "288 Carrington St, Adelaide SA 5000",
+      "rating": 5,
+      "reviews": 3,
+      "cid": "4873289061158838027",
+      "place_id": "ChIJO7LiSb7PsGoRC18r0pRmoUM",
+      "domain": "solarpanelsadelaide.com",
+      "category": "Solar energy system service"
+    },
+    {
+      "title": "SunBoost",
+      "address": "F30/91 King William St, Adelaide SA 5000",
+      "rating": 1.5,
+      "reviews": 36,
+      "cid": "12500246757285311053",
+      "place_id": "ChIJDf7-ICjPsGoRTTK4VDLMea0",
+      "domain": "sunboost.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Adelaide Solar Systems",
+      "address": "226 Grange Rd, Flinders Park SA 5025",
+      "rating": 4.6,
+      "reviews": 54,
+      "cid": "5009983894012958777",
+      "place_id": "ChIJ21Pf4ejFsGoRORgSvc4Jh0U",
+      "domain": "adelaidesolarsystems.com.au",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "HE Solar",
+      "address": "156 Wright St, Adelaide SA 5000",
+      "rating": 5,
+      "reviews": 1,
+      "cid": "2179070639763469115",
+      "place_id": "ChIJI8SuWwvZsGoRO7OVnzOdPR4",
+      "domain": "hesolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Samar Tech Pty LTD",
+      "address": "17/22 Greenhill Rd, Wayville SA 5034",
+      "rating": 4.9,
+      "reviews": 51,
+      "cid": "15803261310086136460",
+      "place_id": "ChIJ6U7e-VjPsGoRjMJbqG52UNs",
+      "domain": "samartech.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "SunEnergy",
+      "address": "88 Fullarton Rd, Norwood SA 5067",
+      "rating": 4.6,
+      "reviews": 558,
+      "cid": "11880454148978552187",
+      "place_id": "ChIJweqpB9fOsGoRe60uaBra36Q",
+      "domain": "sunenergy.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "eHomes Australia",
+      "address": null,
+      "rating": 4.5,
+      "reviews": 121,
+      "cid": "16610276847832452106",
+      "place_id": "ChIJFbN1wJryPSYRCszyv8mOg-Y",
+      "domain": "ehomes.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Sunlands Solar",
+      "address": "75A Angas St, Adelaide SA 5000",
+      "rating": 5,
+      "reviews": 7,
+      "cid": "4069502738825078637",
+      "place_id": "ChIJj2MmVSbPsGoRbeclCC7HeTg",
+      "domain": "sunlandssolar.com",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Ur Local Solar",
+      "address": "213 Greenhill Rd, Eastwood SA 5063",
+      "rating": 4.9,
+      "reviews": 52,
+      "cid": "11233976002658835385",
+      "place_id": "ChIJHWNLjfqFS4gRuRu-facZ55s",
+      "domain": "urlocalsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Westside Energy",
+      "address": "Unit 12/15 Fullarton Rd, Kent Town SA 5067",
+      "rating": 4.3,
+      "reviews": 82,
+      "cid": "18099403975315931366",
+      "place_id": "ChIJCxpnnE_PsGoR5sD_UgUALvs",
+      "domain": "westsideenergy.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solar Power Direct",
+      "address": "314 Torrens Rd, Croydon Park SA 5008",
+      "rating": 4.9,
+      "reviews": 337,
+      "cid": "14467835750769890765",
+      "place_id": "ChIJe08ZJI3FsGoRzRVWIfYTyMg",
+      "domain": "solarpowerdirect.com.au",
+      "category": "Solar energy company"
+    }
+  ],
+  "goldcoast": [
+    {
+      "title": "Supreme Solar Power",
+      "address": "level 15/2 Corporate Ct, Bundall QLD 4217",
+      "rating": 5,
+      "reviews": 147,
+      "cid": "12275941836420352612",
+      "place_id": "ChIJq_eKoH8EkWsRZAoxOw_oXKo",
+      "domain": "supremesolarpower.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Gold Coast Solar Power Solutions",
+      "address": "19/30 Mudgeeraba Rd, Worongary QLD 4213",
+      "rating": 4.9,
+      "reviews": 171,
+      "cid": "5979540139458498989",
+      "place_id": "ChIJ1aGb6EUCkWsRrRGdbBOY-1I",
+      "domain": "gold-coast-solar-power-solutions.com.au",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Universe Solar",
+      "address": "Ashmore Plaza, shop 4/160 Cotlew St, Ashmore QLD 4214",
+      "rating": 4.7,
+      "reviews": 69,
+      "cid": "12490603830643788902",
+      "place_id": "ChIJcZopqJoakWsRZgyogwGKV60",
+      "domain": "universesolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Green Spark Electrical & Solar AUS",
+      "address": "3 Wildwood Ct, Surfers Paradise QLD 4217",
+      "rating": 4.8,
+      "reviews": 46,
+      "cid": "2234667574743507056",
+      "place_id": "ChIJnxjuej0FkWsRcKCrx1EiAx8",
+      "domain": "greensparkelectrical.com.au",
+      "category": "Electrician"
+    },
+    {
+      "title": "Gold Coast Solar Systems",
+      "address": "59c Paradise Ave, Miami QLD 4220",
+      "rating": 4.9,
+      "reviews": 22,
+      "cid": "15420164216818480353",
+      "place_id": "ChIJFV9QNoEEkWsR4bSn2adt_9U",
+      "domain": "goldcoastsolarsystems.com.au",
+      "category": "Solar energy equipment supplier"
+    },
+    {
+      "title": "Energy Solution Centre",
+      "address": "19 Price St, Nerang QLD 4211",
+      "rating": 4.9,
+      "reviews": 323,
+      "cid": "17977366870092902925",
+      "place_id": "ChIJY8ga3CkbkWsRDXLDkOtvfPk",
+      "domain": "energysolutioncentre.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Central Solar Systems",
+      "address": "54 Glenmore Dr, Ashmore QLD 4214",
+      "rating": 4.8,
+      "reviews": 68,
+      "cid": "10137383841385699091",
+      "place_id": "ChIJi50nLTwFkWsRE1eUweQ4r4w",
+      "domain": "centralsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solarcell - Solar Repairs Gold Coast",
+      "address": "1/18 Paradise Island, Surfers Paradise QLD 4217",
+      "rating": 4.7,
+      "reviews": 12,
+      "cid": "947500983894171032",
+      "place_id": "ChIJIXKns24FkWsRmF1Y8R8zJg0",
+      "domain": "solarcell.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Your Choice Solar",
+      "address": "L3/146 Bundall Rd, Bundall QLD 4217",
+      "rating": 4.5,
+      "reviews": 103,
+      "cid": "11682042034346533498",
+      "place_id": "ChIJ40MEjT8FkWsReiJoDFbzHqI",
+      "domain": "yourchoicesolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solargain",
+      "address": "4 Central Park Ave, Ashmore QLD 4214",
+      "rating": 5,
+      "reviews": 46,
+      "cid": "12067497667698139643",
+      "place_id": "ChIJH2lJtrkbkWsR-6EAQzFdeKc",
+      "domain": "solargain.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Omega Solar and Batteries",
+      "address": "5A Appaloosa Ct, Mudgeeraba QLD 4213",
+      "rating": 4.9,
+      "reviews": 175,
+      "cid": "6934374788368488740",
+      "place_id": "ChIJlxDOZvkdkWsRJNkgUCHZO2A",
+      "domain": "omegasolarandbatteries.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Green Coast Solar and Electrical",
+      "address": "2/10-12 Ivan St, Arundel QLD 4214",
+      "rating": 4.9,
+      "reviews": 124,
+      "cid": "789291323715613712",
+      "place_id": "ChIJ6bH6r_hDkWsREPRd7kYg9Ao",
+      "domain": "greencoastsolar.com",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solahart Gold Coast",
+      "address": "1/5 Brendan Dr, Nerang QLD 4211",
+      "rating": 4.8,
+      "reviews": 879,
+      "cid": "10181717803690096108",
+      "place_id": "ChIJ38yPFKEDkWsR7PU3vGW6TI0",
+      "domain": "solahartgoldcoast.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "EFS Solar",
+      "address": "Unit 3/15 Lawrence Dr, Nerang QLD 4211",
+      "rating": 4.7,
+      "reviews": 462,
+      "cid": "5407441424385719299",
+      "place_id": "ChIJq6qaf6gakWsRAzw-XFMXC0s",
+      "domain": "efssolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Solar Uptime",
+      "address": "38 Activity Cres, Molendinar QLD 4214",
+      "rating": 4.7,
+      "reviews": 187,
+      "cid": "7253682596240692328",
+      "place_id": "ChIJQxjP03QQkWsRaBRcvuNBqmQ",
+      "domain": "solaruptime.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Australian National Solar",
+      "address": "7502/26 Crombie Ave, Bundall QLD 4217",
+      "rating": 4.8,
+      "reviews": 32,
+      "cid": "166815813550680305",
+      "place_id": "ChIJb0tnxaQFkWsR8SibPRmmUAI",
+      "domain": "austnatsolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Eco Elite",
+      "address": "3/10 Albert Ave, Broadbeach QLD 4218",
+      "rating": 4.9,
+      "reviews": 239,
+      "cid": "1145987696368491789",
+      "place_id": "ChIJOecHo3sFkWsRDR0D97xd5w8",
+      "domain": "eco-elite.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Forever Solar",
+      "address": "6/19 Upton St, Bundall QLD 4217",
+      "rating": 4.7,
+      "reviews": 70,
+      "cid": "4219970737306548389",
+      "place_id": "ChIJ54hi_XiHVK4RpTiz9wZZkDo",
+      "domain": "foreversolar.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "SGS Electrical Solar & Air Conditioning",
+      "address": "9/4 Corporation Dr, Ashmore QLD 4214",
+      "rating": 5,
+      "reviews": 103,
+      "cid": "16309139877889466872",
+      "place_id": "ChIJn037VK4akWsR-GHCNU-0VeI",
+      "domain": "sgselectrical.com.au",
+      "category": "Solar energy system service"
+    },
+    {
+      "title": "Hinterland & Coast Electrical",
+      "address": "Unit 4/18 Export Dr, Molendinar QLD 4214",
+      "rating": 4.9,
+      "reviews": 135,
+      "cid": "4609385942800514445",
+      "place_id": "ChIJxRnrXXXAZQwRjb1N6RfU9z8",
+      "domain": "hinterlandcoastelectrical.com.au",
+      "category": "Solar energy company"
+    }
+  ],
+  "national": [
+    {
+      "title": "Stag Electrical, Solar & Refrigeration - Australia",
+      "address": null,
+      "rating": 4.8,
+      "reviews": 168,
+      "cid": "13028632929548237826",
+      "place_id": "ChIJZURXs6r-GWsRAvyt6p4Az7Q",
+      "domain": "stagelectrical.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Stag Electrical, Solar & Refrigeration - Australia",
+      "address": "30d Kerry Rd, Archerfield QLD 4108",
+      "rating": null,
+      "reviews": 0,
+      "cid": "675553339755521946",
+      "place_id": "ChIJ0fOGKtZFkWsRmuf06i4MYAk",
+      "domain": "stagelectrical.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Stag Electrical, Solar & Refrigeration - Australia",
+      "address": "5 Lone Pine Pl, Smeaton Grange NSW 2567",
+      "rating": 5,
+      "reviews": 12,
+      "cid": "7965264698756422651",
+      "place_id": "ChIJCWVsp8TxEmsR-9tVrwpOim4",
+      "domain": "stagelectrical.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Stag Electrical, Solar & Refrigeration - Australia",
+      "address": null,
+      "rating": 4.5,
+      "reviews": 82,
+      "cid": "840063358789951524",
+      "place_id": "ChIJg_qqMFRLFmsRJCB_iSyBqAs",
+      "domain": "stagelectrical.com.au",
+      "category": "Solar energy system service"
+    },
+    {
+      "title": "Stag Electrical, Solar & Refrigeration - Australia",
+      "address": "182 Monash Dr, Dandenong South VIC 3175",
+      "rating": null,
+      "reviews": 0,
+      "cid": "4654607141300129618",
+      "place_id": "ChIJbS3LpSgR1moRUs8wqoh8mEA",
+      "domain": "stagelectrical.com.au",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Stag Electrical Contractors",
+      "address": null,
+      "rating": 5,
+      "reviews": 12,
+      "cid": "2456918552918288148",
+      "place_id": "ChIJmRRpDGIK_gYRFOfCFGi6GCI",
+      "domain": "",
+      "category": "Electrician"
+    },
+    {
+      "title": "Stag Solar and Electrical",
+      "address": null,
+      "rating": 5,
+      "reviews": 43,
+      "cid": "10365759840758848192",
+      "place_id": "ChIJ5dfwoGYDkWsRwNpwr6eT2o8",
+      "domain": "stag.energy",
+      "category": "Solar energy company"
+    },
+    {
+      "title": "Stag Electrical Solar And Refrigeration",
+      "address": "Unit 1/1 Sawmill Cct, Hume ACT 2620",
+      "rating": null,
+      "reviews": 0,
+      "cid": "9860764133579467617",
+      "place_id": "ChIJq6p-vVNKFmsRYavqI7x42Ig",
+      "domain": "",
+      "category": null
+    }
+  ]
+}
